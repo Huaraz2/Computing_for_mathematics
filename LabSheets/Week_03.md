@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 3 - Functions and Data Structures
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znxclcsx-JIwgFqGTXMdItOH
 comments    : true
 ---
 
@@ -13,8 +12,6 @@ This lab sheet will introduce various data structures and also an important conc
 + Write data to a file using the `write` and `read` functions;
 + Use the csv python module to read and write csv files;
 + Program some basic algorithms using recurrence.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znxclcsx-JIwgFqGTXMdItOH).
 
 **Functions**
 

@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 2 - Conditional Statements and Flow Control
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znwZCtyKG1UQASpZ9mRkEIJo
 comments    : true
 ---
 
@@ -13,8 +12,6 @@ This lab sheet will serve as a basic introduction to programming. After this ses
 + Write while and for loops (so call: 'flow control');
 + Define functions;
 + Write clear and consistent code.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znwZCtyKG1UQASpZ9mRkEIJo).
 
 **Programming in Python**
 

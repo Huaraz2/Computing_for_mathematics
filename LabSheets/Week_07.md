@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 7 - Symbolic Calculus
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znz1cih4_2b7QvVZaqPnE7m4
 comments    : true
 ---
 
@@ -11,8 +10,6 @@ Using Sage we can carry out various operations from Calculus. This week we will 
 - Carry out limits in Sage;
 - Carry out differentiation in Sage;
 - Carry out integration in Sage.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znz1cih4_2b7QvVZaqPnE7m4).
 
 01. Last week we saw how to define a function in Sage:
 

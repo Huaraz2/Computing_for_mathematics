@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 4 - Writing and Reading Files, Recursion and Algorithms
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znyEYYOnDbQHq1PUuNgbhdD3
 comments    : true
 ---
 
@@ -10,8 +9,6 @@ This lab sheet will introduce two algorithms from computer science. After this s
 
 + Insertion and Bubble sort algorithm;
 + Binary search.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znyEYYOnDbQHq1PUuNgbhdD3).
 
 **Writing data to files**
 

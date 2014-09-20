@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 6 - Algebra
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znyytHl2YQjE41o-TdfewmKr
 comments    : true
 ---
 
@@ -15,8 +14,6 @@ Sage being an open-source program means that it is being developed by other math
 Sage allows us to solves equations, differentiate expressions, plot graphs and do various other mathematical operations.
 
 **Sage is based on Python so you can use all the general programming techniques you have learnt up until now in Sage.** Sage has all of the commands and functions you are used to in Python although some might do a bit more. Sage also has a lot of built in objects for specific mathematical operations.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znyytHl2YQjE41o-TdfewmKr).
 
 01. **TICKABLE** Open Sage
 

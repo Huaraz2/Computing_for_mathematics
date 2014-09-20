@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 10 - LaTeX
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znygZ2rYNaX7_8j2Duwh58cK
 comments    : true
 ---
 Mathematicians, Computer Scientists, Physicists and others all need to present their research and this is usually through the written medium. Common word processors can be used for this but most prefer to use the typesetting language LaTeX (pronounced Lay-tech).
@@ -10,8 +9,6 @@ Mathematicians, Computer Scientists, Physicists and others all need to present t
 A typesetting language is a language that requires the user to write code that is then 'translated' to a form that is nice to read.
 
 ![]({{site.baseurl}}/assets/Images/W10-img01.png)
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znygZ2rYNaX7_8j2Duwh58cK).
 
 01. **TICKABLE**  Open up TeXworks which should open a blank document. Write the following LaTeX code:
 

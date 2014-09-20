@@ -2,7 +2,6 @@
 layout      : post
 categories  : labsheets
 title       : Week 5 - Object Orientated Programming
-playlisturl : http://www.youtube.com/playlist?list=PLnC5h3PY-znwesme9fiK-kZZ-DUOJF9l_
 comments    : true
 ---
 
@@ -12,8 +11,6 @@ This lab sheet will introduce a very important concept of computer science: obje
 + Attributes;
 + Methods;
 + Inheritance.
-
-A YouTube playlist with all the videos for this lab sheet can be found [here](http://www.youtube.com/playlist?list=PLnC5h3PY-znwesme9fiK-kZZ-DUOJF9l_).
 
 **Classes**
 
