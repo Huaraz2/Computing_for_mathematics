@@ -10,6 +10,6 @@ plus_username    : "+VincentKnight"
 blogurl          : "http://drvinceknight.github.io/unpeudemath/"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
-highlighter: pygments
+markdown    : kramdown
+permalink   : pretty
+highlighter : pygments

@@ -19,4 +19,4 @@ The tutor has 4 main roles:
     - The wiki;
     - Other resources.
 
-04. Attendance will be taken in tutorials. However if you have completed all your tickables you will not need to attend the second lab session. Your attendance will also be noted if you do not complete any ticks
+04. If you attend a lab session but do not complete any tickables, the tutor will still mark your attendance.
