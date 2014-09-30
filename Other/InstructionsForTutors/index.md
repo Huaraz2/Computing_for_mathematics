@@ -15,5 +15,6 @@ The tutor has 3 main roles:
 03. Time permitting, the tutor will possibly give some more help. This role is secondary to the first two and if further help is required tutors are to point you towards:
 
     - Vince's office hours;
+    - Jason's office hours : 14:00 - 16:00 Wednesday;
     - The wiki;
     - Other resources.
