@@ -3,7 +3,7 @@ layout : page
 title  : Instructions for Tutors
 ---
 
-The tutor has 3 main roles:
+The tutor has 4 main roles:
 
 01. The role of the tutor is to give immediate feedback with regards to progress for tickables:
 
@@ -19,4 +19,4 @@ The tutor has 3 main roles:
     - The wiki;
     - Other resources.
 
-04. Attendance will be taken in tutorials. However if you have completed all your tickables you will not need to attend the second lab session. Your attendance will also be noted if you do not complete anyticks
+04. Attendance will be taken in tutorials. However if you have completed all your tickables you will not need to attend the second lab session. Your attendance will also be noted if you do not complete any ticks
