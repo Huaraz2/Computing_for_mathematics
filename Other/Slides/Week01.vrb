@@ -1,0 +1,10 @@
+\frametitle{Everyday mathematics}
+    Everyday mathematicians might need to calculate an integral for a bigger project. This is some Sage code to calculate an integral:
+
+    \begin{lstlisting}[language=python]
+    integrate(x ^ 3, x)
+    \end{lstlisting}
+
+    which returns:
+
+    $$\frac{x^4}{4}$$
