@@ -47,98 +47,104 @@
         \end{pmatrix}$$}
     }
 
-    \frame{
-        \frametitle{Programming and Mathematics}
-
-        There are various areas in which computers are of major importance to Mathematicians:
-
-        \begin{itemize}
-            \item Computer assisted proofs;
-            \item Implementation of mathematics;
-            \item Computer generated proofs;
-            \item Everyday mathematics.
-        \end{itemize}
-
-    }
-
-    \frame{
-        \frametitle{Computer assisted proofs}
-
-        \begin{center}
-
-            \begin{tikzpicture}
-
-                \only<1>{
-                    \node (A) [circle, draw] at (-.5,2) {0};
-                    \node (B) [circle, draw] at (0,1) {1};
-                    \node (C) [circle, draw] at (1.5,2) {2};
-                    \node (D) [circle, draw] at (-.5,0) {3};
-                    \node (E) [circle, draw] at (2,.7) {4};
-                }
-
-                \only<2>{
-                    \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
-                    \node (B) [circle, draw] at (0,1) {1};
-                    \node (C) [circle, draw] at (1.5,2) {2};
-                    \node (D) [circle, draw] at (-.5,0) {3};
-                    \node (E) [circle, draw] at (2,.7) {4};
-                }
-
-                \only<3>{
-                    \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
-                    \node (B) [circle, draw, fill=green] at (0,1) {1};
-                    \node (C) [circle, draw] at (1.5,2) {2};
-                    \node (D) [circle, draw] at (-.5,0) {3};
-                    \node (E) [circle, draw] at (2,.7) {4};
-                }
-
-                \only<4>{
-                    \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
-                    \node (B) [circle, draw, fill=green] at (0,1) {1};
-                    \node (C) [circle, draw, fill=red] at (1.5,2) {2};
-                    \node (D) [circle, draw, fill=red] at (-.5,0) {3};
-                    \node (E) [circle, draw] at (2,.7) {4};
-                }
-
-                \only<5-6>{
-                    \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
-                    \node (B) [circle, draw, fill=green] at (0,1) {1};
-                    \node (C) [circle, draw, fill=red] at (1.5,2) {2};
-                    \node (D) [circle, draw, fill=red] at (-.5,0) {3};
-                    \node (E) [circle, draw, fill=gray] at (2,.7) {4};
-                }
-                \draw (A) -- (C);
-                \draw (A) -- (B);
-                \draw (A) -- (D);
-                \draw (A) -- (E);
-                \draw (B) -- (C);
-                \draw (B) -- (E);
-                \draw (B) -- (D);
-                \draw (E) -- (D);
-                \draw (E) -- (C);
-            \end{tikzpicture}
-        \end{center}
-
-        \begin{itemize}
-                \onslide<5-6>{
-                \item `4 colour theorem': \textbf{Any map can be coloured using 4 colours.\\}
-                }
-
-                \onslide<6>{
-
-                \item Proved in 1976 by Kenneth Appel and Wolfgang Haken:
-                    \begin{center}
-                        \framebox{Used computers to check 1936 particular cases.}
-                    \end{center}
-
-                }
-        \end{itemize}
-    }
-
-    \frame{\frametitle{Risk boards}
+\frame{
     \begin{center}
-        \includegraphics[width=10cm]{./images/W01-img03.png}
+        \url{http://thefightclub.herokuapp.com/}
     \end{center}
+}
+
+\frame{
+    \frametitle{Programming and Mathematics}
+
+    There are various areas in which computers are of major importance to Mathematicians:
+
+    \begin{itemize}
+        \item Computer assisted proofs;
+        \item Implementation of mathematics;
+        \item Computer generated proofs;
+        \item Everyday mathematics.
+    \end{itemize}
+
+}
+
+\frame{
+    \frametitle{Computer assisted proofs}
+
+    \begin{center}
+
+        \begin{tikzpicture}
+
+            \only<1>{
+                \node (A) [circle, draw] at (-.5,2) {0};
+                \node (B) [circle, draw] at (0,1) {1};
+                \node (C) [circle, draw] at (1.5,2) {2};
+                \node (D) [circle, draw] at (-.5,0) {3};
+                \node (E) [circle, draw] at (2,.7) {4};
+            }
+
+            \only<2>{
+                \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
+                \node (B) [circle, draw] at (0,1) {1};
+                \node (C) [circle, draw] at (1.5,2) {2};
+                \node (D) [circle, draw] at (-.5,0) {3};
+                \node (E) [circle, draw] at (2,.7) {4};
+            }
+
+            \only<3>{
+                \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
+                \node (B) [circle, draw, fill=green] at (0,1) {1};
+                \node (C) [circle, draw] at (1.5,2) {2};
+                \node (D) [circle, draw] at (-.5,0) {3};
+                \node (E) [circle, draw] at (2,.7) {4};
+            }
+
+            \only<4>{
+                \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
+                \node (B) [circle, draw, fill=green] at (0,1) {1};
+                \node (C) [circle, draw, fill=red] at (1.5,2) {2};
+                \node (D) [circle, draw, fill=red] at (-.5,0) {3};
+                \node (E) [circle, draw] at (2,.7) {4};
+            }
+
+            \only<5-6>{
+                \node (A) [circle, draw, fill=blue] at (-.5,2) {0};
+                \node (B) [circle, draw, fill=green] at (0,1) {1};
+                \node (C) [circle, draw, fill=red] at (1.5,2) {2};
+                \node (D) [circle, draw, fill=red] at (-.5,0) {3};
+                \node (E) [circle, draw, fill=gray] at (2,.7) {4};
+            }
+            \draw (A) -- (C);
+            \draw (A) -- (B);
+            \draw (A) -- (D);
+            \draw (A) -- (E);
+            \draw (B) -- (C);
+            \draw (B) -- (E);
+            \draw (B) -- (D);
+            \draw (E) -- (D);
+            \draw (E) -- (C);
+        \end{tikzpicture}
+    \end{center}
+
+    \begin{itemize}
+            \onslide<5-6>{
+            \item `4 colour theorem': \textbf{Any map can be coloured using 4 colours.\\}
+            }
+
+            \onslide<6>{
+
+            \item Proved in 1976 by Kenneth Appel and Wolfgang Haken:
+                \begin{center}
+                    \framebox{Used computers to check 1936 particular cases.}
+                \end{center}
+
+            }
+    \end{itemize}
+}
+
+\frame{\frametitle{Risk boards}
+\begin{center}
+    \includegraphics[width=10cm]{./images/W01-img03.png}
+\end{center}
 }
 
 \frame{
