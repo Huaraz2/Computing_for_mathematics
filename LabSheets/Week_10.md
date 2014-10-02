@@ -32,7 +32,7 @@ A typesetting language is a language that requires the user to write code that i
     2. Often possible to have multiple authors collaborating on a document **at the same time**;
     3. Your files are always available to you.
 
-    The main disadvantage is that you need an internet collection to use it. A good such site is [https://www.writelatex.com/](https://www.writelatex.com/). Feel free to either use TeXworks or writelatex throughout your learning of LaTeX.
+    The main disadvantage is that you need an internet collection to use it. A good such site is [www.writelatex.com/](https://www.writelatex.com/). Feel free to either use TeXworks or writelatex throughout your learning of LaTeX.
 
     [Video hint](http://youtu.be/4B8Cmm9scmU)
 
