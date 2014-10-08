@@ -1,7 +1,7 @@
 ---
 layout     : post
 categories : handouts
-title      : Handout 1 - What you need to know
+title      : Handout 2 - Indexing a string, if statements and an algorithm for a sqaure root.
 comments   : false
 ---
 
@@ -72,3 +72,25 @@ else:
 Understanding how indexing work is an important part of this course as the same approach is used with `lists` (something in the next lab sheet).
 
 ## If statements as gates
+
+`if` statements allow us to check certain conditions and execute commands according to the value of a boolean.
+
+{% highlight python %}
+mood = 'Happy'
+
+if mood == 'Happy':
+    print 'Tick all the tickables!'
+{% endhighlight %}
+
+We can use `if` statements in conjunction with the `elif` and `else` command to evaluate alternatives:
+
+{% highlight python %}
+mood = 'Grumpy'
+
+if mood == 'Happy':
+    print 'Tick all the tickables!'
+elif mood == 'Grumpy':
+    print 'No ticks...'
+else:
+    print 'Who knows...'
+{% endhighlight %}
