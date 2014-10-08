@@ -25,6 +25,10 @@ email: knightva@cf.ac.uk
 
 When you save a python script make sure to include the `.py` extension. This ensures that IDLE will be able to open it.
 
+## Running files
+
+Script/idle/terminal etc...
+
 ## Finding things in strings
 
 In question 6 on the lab sheet the last 3 lines of code used the `index` method on a string.
@@ -72,3 +76,7 @@ else:
 Understanding how indexing work is an important part of this course as the same approach is used with `lists` (something in the next lab sheet).
 
 ## If statements as gates
+
+(elif)
+
+## Square root question
