@@ -5,9 +5,8 @@ title       : Week 2 - Conditional Statements and Flow Control
 comments    : false
 ---
 
-# Python scripts from Week2/
 
-## Script from Week2/q01.py
+## Q1
 
 {% highlight python %}
 """
@@ -19,7 +18,7 @@ Solution to question 1 of week 2 lab sheet.
 print "Hello world"
 {% endhighlight %}
 
-## Script from Week2/q02.py
+## Q2
 
 {% highlight python %}
 """
@@ -29,7 +28,7 @@ Solution to question 2 of week 2 lab sheet.
 print "Hello world"
 {% endhighlight %}
 
-## Script from Week2/q03.py
+## Q3
 
 {% highlight python %}
 """
@@ -52,7 +51,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q04.py
+## Q4
 
 {% highlight python %}
 """
@@ -75,7 +74,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q05.py
+## Q5
 
 {% highlight python %}
 """
@@ -96,7 +95,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q06.py
+## Q6
 
 {% highlight python %}
 """
@@ -123,7 +122,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q07.py
+## Q7
 
 {% highlight python %}
 """
@@ -160,7 +159,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q08.py
+## Q8
 
 {% highlight python %}
 """
@@ -185,7 +184,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q09.py
+## Q9
 
 {% highlight python %}
 """
@@ -205,7 +204,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q10.py
+## Q10
 
 {% highlight python %}
 """
@@ -235,7 +234,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q11.py
+## Q11
 
 {% highlight python %}
 """
@@ -255,7 +254,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q12.py
+## Q12
 
 {% highlight python %}
 """
@@ -272,7 +271,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q13.py
+## Q13
 
 {% highlight python %}
 """
@@ -294,7 +293,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q14.py
+## Q14
 
 {% highlight python %}
 """
@@ -313,7 +312,7 @@ Ensure that students are able to write those statements (check that they have a 
 """
 {% endhighlight %}
 
-## Script from Week2/q15.py
+## Q15
 
 {% highlight python %}
 """
