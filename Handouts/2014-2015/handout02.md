@@ -2,7 +2,7 @@
 layout     : post
 categories : handouts
 title      : Handout 2 - Indexing a string, if statements and an algorithm for a sqaure root.
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight

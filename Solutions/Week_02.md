@@ -2,7 +2,7 @@
 layout      : post
 categories  : solutions
 title       : Week 2 - Conditional Statements and Flow Control
-comments    : false
+comments    : true
 ---
 
 
