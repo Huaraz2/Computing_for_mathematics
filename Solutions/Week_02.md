@@ -1,7 +1,7 @@
 ---
 layout      : post
 categories  : solutions
-title       : Week 2 - Conditional Statements and Flow Control
+title       : Week 2 - Solutions - Conditional Statements and Flow Control
 comments    : true
 ---
 
