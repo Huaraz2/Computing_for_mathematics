@@ -101,17 +101,17 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
       Yes:
 
-              myvariable
-              sqrtvar
-              var
-              myfunction
+          myvariable
+          sqrtvar
+          var
+          myfunction
 
       No:
 
-              my_variable
-              SqrtVAR
-              MyFunction
-              MYFUNCTION
+          my_variable
+          SqrtVAR
+          MyFunction
+          MYFUNCTION
 
 
       On some occasions it might be appropriate to make some exceptions (for example using a single letter for a very simple variable).
