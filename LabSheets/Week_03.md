@@ -97,7 +97,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
     - Variable and function names
 
-          Use a descriptive `lowercase` (all lowercase characters) for variable and function names.
+      Use a descriptive `lowercase` (all lowercase characters) for variable and function names.
 
       Yes:
 
