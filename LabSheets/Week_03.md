@@ -122,54 +122,54 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
       Yes:
 
-            print 2 + 2
-            myfunc(3, 4)
+          print 2 + 2
+          myfunc(3, 4)
 
       No:
 
-            print 2+2
-            myfunc(3,4)
+          print 2+2
+          myfunc(3,4)
 
       Include 2 whitespaces before an inline comment `#` at the end of a line of code.
 
       Yes:
 
-            # Just leave a space after the comment symbol if on a single line
-            print 2 + 2  # but if you comment at the end of a line leave 2 whitespaces.
+          # Just leave a space after the comment symbol if on a single line
+          print 2 + 2  # but if you comment at the end of a line leave 2 whitespaces.
 
       No:
 
-            print 2 + 2 # So this is not enough space.
+          print 2 + 2 # So this is not enough space.
 
       Also include two blank lines before the definition of a function.
 
       Yes:
 
-            print 2 + 2
+          print 2 + 2
 
 
-            def myfunc():
-                print 2 + 2
+          def myfunc():
+              print 2 + 2
 
       No:
 
-            print 2 + 2
+          print 2 + 2
 
-            def myfunc():
-                print 2 + 2
+          def myfunc():
+              print 2 + 2
 
     - Comments
 
       Comment well and comment often. In particular use the following convention for functions:
 
-            afunc():
-                """
-                Always start a function with a multiline comment to describe what it does.
+          afunc():
+              """
+              Always start a function with a multiline comment to describe what it does.
 
-                Arguments: List the arguments and what format they should be in.
+              Arguments: List the arguments and what format they should be in.
 
-                Output: List the expected output of the function.
-                """
+              Output: List the expected output of the function.
+              """
 
       As and when we see new topics on this course we will also discuss the corresponding conventions.
 
