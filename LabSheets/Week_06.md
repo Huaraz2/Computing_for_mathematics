@@ -17,17 +17,17 @@ Sage allows us to solves equations, differentiate expressions, plot graphs and d
 
 01. **TICKABLE** Open Sage
 
-    Navigate to [sage.maths.cf.ac.uk](https://sage.maths.cf.ac.uk/) where you can setup a user account following these instructions:
+    Create an account on [cloud.sagemath.com](https://cloud.sagemath.com). Here is a video by the creator of Sage showing how to do that:
 
-    1. Click on 'Sign up for a new Sage Notebook account';
-    2. **Use your cardiff university username as the username for Sage**;
-    3. This will create an account, you will be taken to the login screen again, use the above login details to login.
+    [Video Hint](https://www.youtube.com/watch?v=QJBo5f7aeTU)
 
-    Take a look at the following video that goes through this process as well as shows you how to create your first Sage worksheet.
+    Once you have created an account, create your first Sage worksheet and try and evaluate some simple calculations:
 
-    [Video hint](http://www.youtube.com/watch?v=3E9LvXV_zrA&feature=youtu.be)
+        2 + 2
 
-    **If you forget your password DO NOT CREATE ANOTHER ACCOUNT: come and see me (Vince Knight) and I can reset your password.**
+    [Video Hint]()
+
+    **Note that the next videos in this lab sheet were made using a slightly different version of the notebook server, but all code works in the same way.**
 
 02. **TICKABLE** It is very easy to get help in Sage. Simply type any command followed by a `?` to get a help file for it:
 
