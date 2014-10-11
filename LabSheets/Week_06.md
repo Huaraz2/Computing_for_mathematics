@@ -25,7 +25,7 @@ Sage allows us to solves equations, differentiate expressions, plot graphs and d
 
         2 + 2
 
-    [Video Hint]()
+    [Video Hint](https://www.youtube.com/watch?v=ahW9-4evfFE&feature=youtu.be)
 
     **Note that the next videos in this lab sheet were made using a slightly different version of the notebook server, but all code works in the same way.**
 
