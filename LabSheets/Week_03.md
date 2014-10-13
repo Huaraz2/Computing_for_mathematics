@@ -40,7 +40,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 02. The following function makes use of the `return` call to actually return a result of the function:
 
         def mydiv(a, b):
-            return a/b
+            return a / b
 
     [Video hint](http://www.youtube.com/watch?v=0cA2VNcc54A)
 
@@ -52,7 +52,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
     [Video hint](http://www.youtube.com/watch?v=hjv8sAlYPDw&feature=youtu.be)
 
-05. Create a function that return the square root of a number using the algorithm suggested in question 14. Write some code that compares the output of this algorithm to the actual square root for the first 10000 digits.
+05. Create a function that returns the square root of a number using the algorithm suggested in question 14 of the week 2 lab sheet. Write some code that compares the output of this algorithm to the actual square root for the first 10000 digits.
 
 06. **TICKABLE**: Write a function `Fibonacci` that uses loops to calculate the \\(n\\)th number of the Fibonacci sequence:
 
