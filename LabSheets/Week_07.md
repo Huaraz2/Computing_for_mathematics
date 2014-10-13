@@ -190,4 +190,6 @@ Using Sage we can carry out various operations from Calculus. This week we will 
     2. The mean value of all integrals that are positive
     3. The mean value of all integrals that are negative
 
-    To carry this out you will need to load a data file as before (see Python lab sheets) but to do so in the notebook you need to 'attach' a data file.
+    To carry this out you will need to load a data file in to SageMathCloud.
+
+    [Video hint](https://www.youtube.com/watch?v=DDwU2THweEE&feature=youtu.be)
