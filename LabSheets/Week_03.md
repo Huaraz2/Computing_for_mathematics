@@ -48,7 +48,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
     [Video hint](http://www.youtube.com/watch?v=KxdJVw-06KE)
 
-04. **TICKABLE**: Create a function that returns the sum of the first $K$ integers not divisiable by $B$. Investigate "using optional arguments" and set $K$ and $B$ to have default values 10000 and 3 respectively.
+04. **TICKABLE**: Create a function that returns the sum of the first \\(K\\) integers not divisiable by \\(B\\). Investigate "using optional arguments" and set \\(K\\) and \\(B\\) to have default values 10000 and 3 respectively.
 
     [Video hint](http://www.youtube.com/watch?v=hjv8sAlYPDw&feature=youtu.be)
 
