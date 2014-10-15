@@ -114,10 +114,39 @@ a = b
 b = old_a + b
 {% endhighlight %}
 
-## Len of list question
+## Adding particular elements to a list
+
+Here is a way of obtaining the first 10 integers divisible by 4:
+
+{% highlight python %}
+mylist = []  # Initiate an empty list that will hold all the number divisible by 4
+count = 0  # Initiate a variable that will keep track of the count of numbers divisible by 4 we have
+nbr = 0  # Initiate a variable that we will increment and check
+while count < 10:  # Keep looping until we have enough numbers divisible by 4
+    nbr += 1  # This increments the number we are checking
+    if nbr % 4 == 0:  # Checks if the number is divisible by 4
+        mylist.append(nbr)  # If it is divisible by 4 we append to our list
+        count += 1  # If it is divisible by 4 we increment the counter
+{% endhighlight %}
+
+We can equivalently do this this way:
+
+{% highlight python %}
+mylist = []   # Initiate an empty list that will hold all the number divisible by 4
+nbr = 0  # Initiate a variable that will keep track of the count of numbers divisible by 4 we have
+while len(nbr) < 10:  # Keep looping until we have enough numbers in our list
+    if nbr % 4 == 0:  # Checks if the number is divisible by 4
+        mylist.append(nbr)  # If it is divisible by 4 we append to our list
+{% endhighlight %}
 
 ## Functions (defining and calling)
 
-## List comprehensions
+There is a difference between **defining** and **using** a function.
+Be sure to understand that difference (relevant to question 14 of [week 3]({{site.baseurl}}/LabSheets/Week_03/)
 
-## Dictionaries
+## What you should do next:
+
+- **Get started on the third sheet!**
+- **I DO NOT RECOMMEND YOU ONLY APPEAR TO THE SECOND LAB SESSION!**
+- Start revising for the class test.
+- Come and see Jason (Wed 1300-1500) and/or I (Thu 1300-1500) during office hours.
