@@ -32,4 +32,8 @@ email: knightva@cf.ac.uk
 
 ## Len of list question
 
+## Functions (defining and calling)
+
 ## List comprehensions
+
+## Dictionaries
