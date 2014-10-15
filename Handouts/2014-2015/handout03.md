@@ -1,7 +1,7 @@
 ---
 layout     : post
 categories : handouts
-title      : Handout 3 - Attitude, division, functions, while loops.
+title      : Handout 3 - Attitude, division, indices, functions, while loops.
 comments   : false
 ---
 
@@ -80,6 +80,39 @@ the above gives:
 {% endhighlight %}
 
 **Be careful with this as it's very easy to make a mistake as a result of this.**
+
+## Indices of lists
+
+Indices with lists work in the exact same way as they do for strings.
+
+{% highlight python %}
+myfavouritenumbers = [12, 5, 8, 41, 13, 7]
+{% endhighlight %}
+
+To get the first element:
+
+{% highlight python %}
+print myfavouritenumbers[0]
+{% endhighlight %}
+
+To get the second element:
+
+{% highlight python %}
+print myfavouritenumbers[1]
+{% endhighlight %}
+
+To get the 3rd till the 5th element:
+
+{% highlight python %}
+print myfavouritenumbers[2:5]
+{% endhighlight %}
+
+We can also use negative numbers to 'count from the end'.
+This gives us the 2nd from last element:
+
+{% highlight python %}
+print myfavouritenumbers[-2]
+{% endhighlight %}
 
 ## Simultaneous assignment
 
