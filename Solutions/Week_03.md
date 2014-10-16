@@ -355,3 +355,37 @@ goodphonebook = {"Vince": 3,
 for e in goodphonebook: # When iterating over a dictionary we iterate over the keys (but these are not necessarily in order).
     print goodphonebook[e]
 {% endhighlight %}
+
+## Challenge
+
+{% highlight python %}
+"""
+This was an extra challenge given out in the week 2 lecture:
+
+Write a function that returns a list with the indices of all occurrences of a substring in a given string.
+
+Example of how it should work:
+
+>>> string = 'Here is a sentence with the letter e appearing on multiple occasions.'
+>>> print index_finder(string)
+[1, 3, 11, 14, 17, 26, 29, 32, 35, 40, 57]
+"""
+def index_finder(string, substring):
+    """
+    Function that returns indices of all occurrences of a substring in a given string.
+
+    Arguments:
+        - string: a string that we want to search
+        - substring: a string that we want to find
+
+    Outputs:
+        - A list of all indices
+    """
+    listofindices = []
+    indx = 0
+    while indx < len(string):
+        if string[indx: indx + len(substring)] == substring:
+            listofindices.append(indx)
+        indx += 1
+    return listofindices
+{% endhighlight %}
