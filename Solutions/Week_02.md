@@ -86,7 +86,7 @@ Solution to question 5 of week 2 lab sheet.
 num = 5.2  # Assigning the value 5.2 to the variable num
 num += 7   # Adding 7 to num
 num *= 300   # Multiplying num by 300
-num /= 4  # Dividing num by 3
+num /= 4  # Dividing num by 4
 num **= 3  # Raising num to the power of 3
 print num  # Printing num
 
