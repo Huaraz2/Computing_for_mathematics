@@ -2,7 +2,7 @@
 layout      : post
 categories  : solutions
 title       : Week 3 - Solutions - Functions and Data Structures
-comments    : false
+comments    : true
 ---
 
 
