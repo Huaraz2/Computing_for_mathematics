@@ -2,7 +2,7 @@
 layout     : post
 categories : handouts
 title      : Handout 3 - Attitude, division, indices, functions, while loops.
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
