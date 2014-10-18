@@ -54,7 +54,7 @@ Consider the square on a grid with dimensions as shown:
 
 ![\text{A grid}](./Images/grid.png)
 
-On this grid, consider the graph of $f(x) = 1 - x ^ 2$.
+On this grid, consider the graph of \\(f(x) = 1 - x ^ 2\\).
 
 ![\text{A grid with $f(x)$}](./Images/gridwithplot.png)
 
