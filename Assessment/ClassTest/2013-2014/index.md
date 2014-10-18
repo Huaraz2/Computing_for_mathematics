@@ -58,7 +58,7 @@ On this grid, consider the graph of \\(f(x) = 1 - x ^ 2\\).
 
 ![\text{A grid with $f(x)$}](./Images/gridwithplot.png)
 
-If we draw points of random coordinates in this square, the probability $P$ of a point landing under the graph would be:
+If we draw points of random coordinates in this square, the probability \\(P\\) of a point landing under the graph would be:
 
 $$P=\frac{\text{Area under the graph}}{\text{Total area of square}}=\frac{\text{Area under the graph}}{1}$$
 
