@@ -10,8 +10,6 @@ This lab sheet will serve as a basic introduction to programming. After this ses
 + Set up basic variables;
 + Write if statements (so called: 'Conditional statements');
 + Write while and for loops (so call: 'flow control');
-+ Define functions;
-+ Write clear and consistent code.
 
 **Programming in Python**
 

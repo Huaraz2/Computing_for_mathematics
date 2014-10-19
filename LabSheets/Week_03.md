@@ -5,13 +5,12 @@ title       : Week 3 - Functions and Data Structures
 comments    : true
 ---
 
-This lab sheet will introduce various data structures and also an important concept called 'recurrence'. After this session you will know how to:
+This lab sheet will introduce the important concept of a function and various data structures. After this session you will know how to:
 
++ Define functions;
++ Write clear and consistent code.
 + Create and manipulate lists;
 + Create and manipulate dictionaries (hash tables);
-+ Write data to a file using the `write` and `read` functions;
-+ Use the csv python module to read and write csv files;
-+ Program some basic algorithms using recurrence.
 
 **Functions**
 

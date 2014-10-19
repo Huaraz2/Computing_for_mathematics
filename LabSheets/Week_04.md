@@ -5,8 +5,12 @@ title       : Week 4 - Writing and Reading Files, Recursion and Algorithms
 comments    : true
 ---
 
-This lab sheet will introduce two algorithms from computer science. After this session you will be able to sort and search lists using the two following algorithms:
+This lab sheet will explain the process of reading and writing to file as well as the very important concept of recurrence and two algorithms from computer science.
+After this session you will know how to:
 
++ Write data to a file using the `write` and `read` functions;
++ Use the csv python module to read and write csv files;
++ Program some basic algorithms using recurrence.
 + Insertion and Bubble sort algorithm;
 + Binary search.
 
