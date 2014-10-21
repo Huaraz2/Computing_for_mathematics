@@ -90,7 +90,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
 04. **TICKABLE** A quadratic is a mathematical expression of the form: \\(a x ^ 2 + b x + c\\). The following code creates a Quadratic class:
 
-        class Quadratic()
+        class Quadratic():
             a = 0
             b = 0
             c = 0
@@ -109,7 +109,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     Let us revisit the Student class but we now include a method `haveabirthday` which increments the age:
 
-        class Student()
+        class Student():
             courses = ["Biology", "Mathematics", "English"]
             age = 12
             sex = 'Male'
@@ -128,7 +128,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     We can include other arguments in a method definition (just like for a normal python function):
 
-        class Student()
+        class Student():
             courses = ["Biology", "Mathematics", "English"]
             age = 12
             sex = 'Male'
