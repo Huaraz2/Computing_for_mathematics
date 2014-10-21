@@ -150,7 +150,7 @@ After this session you will know how to:
     Here is some **pseudo code** that describes this:
 
         INITIATE NEWLIST
-        WHILE MORE ELEMENTS IN NEWLIST THAN IN OLDLIST:
+        WHILE THERE ARE ELEMENTS IN OLDLIST:
             FIND SMALLEST ELEMENT IN OLDLIST
             MOVE THAT ELEMENT TO NEWLIST
 
