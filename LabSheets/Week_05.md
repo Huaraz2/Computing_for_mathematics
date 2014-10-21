@@ -26,7 +26,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     Here we will see how to create our own **class** (a type of object). The following code creates a class called `Student`:
 
-        class Student()
+        class Student():
             pass
 
     The `pass` command is just a line of code to say that this class does not actually do anything (we'll see much more exciting things soon). **Importantly**, this does not create an actual object. To create an **instance** of a class we assign it to a variable name:
