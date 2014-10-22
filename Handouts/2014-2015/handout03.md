@@ -24,7 +24,7 @@ email: knightva@cf.ac.uk
 
 **The class test counts for 40% of your mark for this module (that is a lot!).**
 
-It will be a 50 minute test taking place between 1400 and 1500 on November the 7th.
+It will be a 50 minute test taking place between 1400 and 1600 on November the 7th.
 
 ## Books in the library
 
