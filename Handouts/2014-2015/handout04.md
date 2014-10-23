@@ -150,7 +150,7 @@ print divisiblefunction(20, 2, 5)
 
 Compare this to the solution of question 8 and make sure you're comfortable with functions.
 
-## Searchin algorithms
+## Searching algorithms
 
 We saw binary search this week which relies on constantly ‘dividing’ a list in to two smaller lists:
 
