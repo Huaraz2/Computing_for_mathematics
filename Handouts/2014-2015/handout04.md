@@ -60,7 +60,31 @@ print mylist  # print the list
 
 {% endhighlight %}
 
-You should hopefully be able to see that the two are very similar approaches and in fact are similar to Q3 of week 4's lab sheet.
+You should hopefully be able to see that the two are very similar and in fact are similar to Q3 of week 4's lab sheet.
+
+**Note** that we can do the above using list comprehensions as well:
+
+{% highlight python %}
+mylist = [k for k in givenlist]
+{% endhighlight %}
+
+The above just 'copies' every element from `givenlist` in to a new list called `mylist`.
+That's not quite what we want.
+We can use python syntax that is very similar to the mathematical convention:
+
+$$
+\{x\in S\;|\text{ some condition on x}\}
+$$
+
+{% highlight python %}
+mylist = [k for k in givenlist if biggerthanfive(x)]
+{% endhighlight %}
+
+Of course, because our `biggerthanfive` function is very very simple we would probably just write:
+
+{% highlight python %}
+mylist = [k for k in givenlist if x > 5]
+{% endhighlight %}
 
 ## Dummy variables
 
