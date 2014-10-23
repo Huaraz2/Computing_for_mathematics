@@ -2,7 +2,7 @@
 layout     : post
 categories : handouts
 title      : Handout 4 - Functions, dummy variables and building lists from other lists
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
