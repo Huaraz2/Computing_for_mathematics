@@ -6,6 +6,8 @@ title  : Alternative Resources
 ## Other online resources
 
 - [Official python beginner guide](https://wiki.python.org/moin/BeginnersGuide)
+- [Think Python (a great book)](http://www.greenteapress.com/thinkpython/thinkpython.pdf)
+- [Learn Python the hard way](http://learnpythonthehardway.org/book/)
 - [Code academy](http://www.codecademy.com/tracks/python)
 - [Learning to program: the fundamentals](https://www.coursera.org/course/programming1) (This is a free coursera MOOC)
 - [An introduction to interactive programming in Python](https://www.coursera.org/course/interactivepython) (This is a free coursera MOOC)
