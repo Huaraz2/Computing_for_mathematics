@@ -11,6 +11,7 @@ title  : Alternative Resources
 - [Code academy](http://www.codecademy.com/tracks/python)
 - [Learning to program: the fundamentals](https://www.coursera.org/course/programming1) (This is a free coursera MOOC)
 - [An introduction to interactive programming in Python](https://www.coursera.org/course/interactivepython) (This is a free coursera MOOC)
+- [Learn X in Y Minutes](http://learnxinyminutes.com/)
 - [Introduction to Computer Science](https://www.udacity.com/course/cs101) (This is a free udacity MOOC)
 - [Scratch](http://scratch.mit.edu/) (This has nothing to do with Python but is a resource for kids to learn programming)
 
