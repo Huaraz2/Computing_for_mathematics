@@ -115,12 +115,12 @@ def whowins(warrior1, warrior2):
     """
 
 
-    while warrior1.HP > 0 and warrior2.HP >0:
+    while warrior1.HP > 0 and warrior2.HP > 0:
         warrior1.attack(warrior2)
         warrior2.attack(warrior1)
     if warrior1.HP > 0:
         return warrior1.name
-    if warrior2.HP >0:
+    if warrior2.HP > 0:
         return warrior2.name
     return 'Tie'
 {% endhighlight %}
