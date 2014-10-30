@@ -2,7 +2,7 @@
 layout      : post
 categories  : solutions
 title       : Week 5 - Solutions - Object Orientated Programming
-comments    : false
+comments    : true
 ---
 
 
