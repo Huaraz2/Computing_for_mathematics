@@ -2,7 +2,7 @@
 layout     : post
 categories : handouts
 title      : Handout 5 - Some revision and classes and methods
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
