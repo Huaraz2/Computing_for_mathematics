@@ -245,8 +245,8 @@ Solution to question 11 of week 2 lab sheet.
 
 s = 0
 for i in range(1001):
-    if i % 3 == 0:  # Note the double level of indentation (again this is important)
-        s += i  # Add all integers if they are divisible by 3
+    if i % 3 != 0:  # Note the double level of indentation (again this is important)
+        s += i  # Add all integers if they are not divisible by 3
 print s
 
 """
