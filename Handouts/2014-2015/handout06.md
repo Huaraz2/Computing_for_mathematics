@@ -47,6 +47,7 @@ email: knightva@cf.ac.uk
 - Sage is a tool available to you to help you through your time at Cardiff.
 - Sage allows you to share files with particular people (if you know their username) and also allows you to publish it.
 
+## Solving equations
 ## Typeset mode
 ## Markdown
 ## Installing Sage locally
@@ -54,7 +55,7 @@ email: knightva@cf.ac.uk
 
 - The class test will be 3 questions with 30 marks for each question and 10 marks for correct conventions, commenting and documentation.
 - You will submit your work using a folder on the Shared drive: *you won't have read or write rights to that folder* so you will only be able to submit once!
-- The class test is at 1400 for some of you (it will start at 1410) and 1500 for others (it will start at 1510). I have spoken to your Calculus lecturer and told him that some of you might be late. He has been very understanding but has asked you to please not waste any time after the class test.
+- You will also submit by emailing me: please get the subject of the email and the names of the files correct.
 
 ## What you should do next:
 
