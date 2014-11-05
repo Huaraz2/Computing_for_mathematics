@@ -1,7 +1,7 @@
 ---
 layout     : post
-categories : [pasthandouts, 2013-2014]
-title      : '2014-2015: handout 6 - Sage and the Class test'
+categories : [handouts, 2014-2015]
+title      : 'Handout 6 - Sage and the Class test'
 comments   : false
 ---
 
@@ -20,13 +20,12 @@ email: knightva@cf.ac.uk
 ## What is Sage?
 
 - Sage is a mathematics package built on Python. This implies that you can use the Python code you learnt in the first weeks of this class in Sage.
-- Sage can be used to check formulae. For example: what is the formula for \\(\sum_{i=a}^bx^{i}\\)?
+- Sage can be used to check formulae. For example: what is the formula for \\(\sum_{i=0}^{\infty}ix^{i-1}\\)?
 
-        a = var('a')
-        b = var('b')
+        {% raw %}
         i = var('i')
-        x = var('x')
-        sum(x^i,i,a,b)
+        sum(i * x ^ (i - 1), i, 0, infinity)
+        {% endraw %}
 
 - Sage can also be used to plot functions (this could help when attempting to visualise a particular theorem):
 
@@ -45,12 +44,77 @@ email: knightva@cf.ac.uk
         sum(plot(sin(i*x)*i,color=rb[k-i], legend_label=r"${0}\sin({0}x)$".format(i)) for i in [0..k])
 
 - Sage is a tool available to you to help you through your time at Cardiff.
-- Sage allows you to share files with particular people (if you know their username) and also allows you to publish it.
 
 ## Solving equations
+
+A variety of equations exist that cannot be solved algebraically.
+Here is one example of this:
+
+$$
+x + \log(x) = 6
+$$
+
+Here is how we'd ask sage to solve it:
+
+{% highlight python %}
+solve(x + log(x) == 6, x)
+{% endhighlight %}
+
+We get nothing helpful:
+
+{% highlight python %}
+[x == -log(x) + 6]
+{% endhighlight %}
+
+Finding a solution to this equation is equivalent to finding a 'root' (also called: a 'zero') of the function \\(f(x)=x+\log(x)-6\\).
+Let's take a look at this function:
+
+{% highlight python %}
+f(x) = x + log(x) - 6
+plot(f,x,0,100)
+{% endhighlight %}
+
+We get:
+
+![]({{site.baseurl}}/assets/Images/plot_of_non_algebraically_solvable_equation.svg)
+
+which obviously has a root, which looks to be for \\(5<x<15\\), so here's how we can get sage to find it numerically:
+
+{% highlight python %}
+find_root(f,5,15)
+{% endhighlight %}
+
 ## Typeset mode
+
+You can turn on the 'nicer' display of mathematics using:
+
+{% highlight python %}
+typeset_mode(true)
+{% endhighlight %}
+
+Note that this displays the mathematical output using something called LaTeX which you will learn in Week 10.
+It is nice to look at but isn't terribly useful: know when and when not to use it (simply replace `true` by `false`).
+
 ## Markdown
+
+You can include the tag `%md` to write in a language called __markdown__ in a cell.
+This allows you to make your worksheets look a bit nicer.
+Here is an example:
+
+{% highlight html %}
+%md
+# Q1
+This is where I will write my answer to Q1 of [this lab sheet](http://vincent-knight.com/Computing_for_mathematics/LabSheets/Week_07/).
+{% endhighlight %}
+
+If you would like to learn more markdown take a look at this video: [https://www.youtube.com/watch?v=6A5EpqqDOdk](https://www.youtube.com/watch?v=6A5EpqqDOdk).
+
 ## Installing Sage locally
+
+Some of you have asked to install sage on your own machine, here is a video showing how to do this on Mac OS: [https://www.youtube.com/watch?v=Z_gWgCoChC8](https://www.youtube.com/watch?v=Z_gWgCoChC8).
+
+The process on Linux is very similar (feel free to ask me), I'm afraid that I've never done it on Windows but it is possible.
+
 ## Class test
 
 - The class test will be 3 questions with 30 marks for each question and 10 marks for correct conventions, commenting and documentation.
