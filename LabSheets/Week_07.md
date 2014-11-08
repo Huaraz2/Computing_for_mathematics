@@ -65,7 +65,7 @@ Using Sage we can carry out various operations from Calculus. This week we will 
         type(p)
         p.show()
 
-    Identify (use the `solve` function or the `roots` method, and maybe the `denominator` method on $f$) \\(\alpha\\): the root of the denominator of \\(f\\).
+    Identify (use the `solve` function or the `roots` method, and maybe the `denominator` method on \\(f\\)) \\(\alpha\\): the root of the denominator of \\(f\\).
     Obtain the **right** and **left** limits of \\(\lim_{x\to\alpha}f(x)\\).
     Directions of limits can be obtained using the following code:
 
