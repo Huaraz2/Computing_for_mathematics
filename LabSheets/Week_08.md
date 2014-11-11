@@ -39,7 +39,7 @@ comments    : true
 
     The following defines `b` as a vector:
 
-        b = vector(0,154)
+        b = vector([0,154])
 
     The representation of coefficients is a well defined mathematical object called a `matrix`. The following code defines `A` as a matrix:
 
