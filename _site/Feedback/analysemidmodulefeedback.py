@@ -23,7 +23,7 @@ print "Authenticating"
 # Download data
 username = "vincent.knight"  # My gmail username
 password = "mxsvlamsbbrepuqy"  # App specific password
-docid = "0Ah_zrw5uAafbdDVSMGVONTZiRkkwNzJEeDhrMnNVR3c"  # The id for the spreadheet
+docid = "0Ah_zrw5uAafbdG43TkR0OVJ3M3dqa21EUFU0ZHQxQWc"  # The id for the spreadheet
 
 client = gspread.login(username, password)
 spreadsheet = client.open_by_key(docid)  # Create a client object
@@ -75,7 +75,7 @@ def plot(dictionary, title, filetitle, color='cyan', maxx=False):
     plt.xlabel('Frequency')
     plt.savefig(filetitle, bbox_inches='tight')
 
-opinion_dict = {o.label:o.mentions for o in opinions if o.positive and o.mentions >= 10}
-plot(opinion_dict, 'Positive Comments', 'positive_2013-2014.png', maxx=max([o.mentions for o in opinions]))
-opinion_dict = {o.label:o.mentions for o in opinions if not o.positive and o.mentions >= 10}
-plot(opinion_dict, 'Negative Comments', 'negative-2013-2014.png', color='red', maxx=max([o.mentions for o in opinions]))
+opinion_dict = {o.label:o.mentions for o in opinions if o.positive and o.mentions >= 5}
+plot(opinion_dict, 'Positive Comments', 'positive_2014-2015.png', maxx=max([o.mentions for o in opinions]))
+opinion_dict = {o.label:o.mentions for o in opinions if not o.positive and o.mentions >= 5}
+plot(opinion_dict, 'Negative Comments', 'negative-2014-2015.png', color='red', maxx=max([o.mentions for o in opinions]))
