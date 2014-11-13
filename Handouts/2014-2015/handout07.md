@@ -2,7 +2,7 @@
 layout     : post
 categories : [handouts, 2014-2015]
 title      : 'Handout 7 - Tangent lines and using data'
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
