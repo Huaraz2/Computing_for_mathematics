@@ -193,7 +193,7 @@ comments    : true
 
         A, B, C, D
 
-    Where \\(A\\) is the number of the original data set, \\(B\\) and \\(C\\) are the solutions to the system of equation in question: \\(B=x, C=y\\). \\(D\\) is the 'norm of the solution vector': \\(D=\sqrt{C^2+B^2}\\).
+    Where \\(A\\) is the position/index of the corresponding problem in the original data set, \\(B\\) and \\(C\\) are the solutions to the system of equation in question: \\(B=x, C=y\\). \\(D\\) is the 'norm of the solution vector': \\(D=\sqrt{C^2+B^2}\\).
 
     If there is no solution to the system of equations set `B=C=D=False`. The data set is a randomly sampled set of problems, how often does a solution exist?
 
