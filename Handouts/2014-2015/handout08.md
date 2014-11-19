@@ -15,7 +15,7 @@ email: knightva@cf.ac.uk
 ## What you have learnt this week:
 
 - You learnt about the mathematical topic of linear algebra;
-- You saw how to make relevant calculation in Sage:
+- You saw how to make relevant calculations in Sage:
 
     - Determinant
     - Inverse
@@ -29,7 +29,7 @@ For example let us say that we think the following is perhaps true:
 
 For example:
 
-- For 11: \\(1-1= 0\\)
+- For \\(11\\): \\(1-1= 0\\)
 - For \\(473=11\times 43\\): \\(4 - 7 + 3 = 0\\)
 - For \\(209=11\times 19\\): \\(2 - 0 + 11 = 11\\)
 
