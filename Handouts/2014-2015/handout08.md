@@ -2,7 +2,7 @@
 layout     : post
 categories : [handouts, 2014-2015]
 title      : 'Handout 8 - Repeating actions with loops, the individual coursework and Class test feedback.'
-comments   : false
+comments   : true
 ---
 Lecturer: Vince Knight
 
