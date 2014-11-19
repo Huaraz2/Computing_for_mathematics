@@ -31,13 +31,13 @@ Sage can be used to solve differential equations. Often complex systems can be m
 
         y = function('y', x)
         soln(x) = desolve(diff(y, x) == y, y)
-        plot(soln(x).subs(c=2), x, -10, 10)
+        plot(soln(x).subs(_C=2), x, -10, 10)
 
     Note that we are here seeing the `subs` method which allows us to substitute a given value in an expression. It is very easy to get a whole family of plots:
 
-        p = plot(soln(x).subs(c=0), x, -10, 10, color=rainbow(11)[0], legend_label="c=0")
+        p = plot(soln(x).subs(_C=0), x, -10, 10, color=rainbow(11)[0], legend_label="c=0")
         for C in range(1, 11):
-            p += plot(soln(x).subs(c=C), x, -10, 10, color=rainbow(11)[C], legend_label="c=%s" % C)
+            p += plot(soln(x).subs(_C=C), x, -10, 10, color=rainbow(11)[C], legend_label="c=%s" % C)
         p.show()
 
     We are here making use of the Sage `rainbow` function which gives a list of colors that can be used in the plot `color` option. We are also making use of the `legend_label` option.
