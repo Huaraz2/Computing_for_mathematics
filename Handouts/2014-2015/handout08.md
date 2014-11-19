@@ -61,13 +61,13 @@ Let's test if the above works:
 
 {% highlight python %}
 exp = Experiment(11)
-exp.test_conjectures()
+print exp.test_conjectures()
 exp = Experiment(12)
-exp.test_conjectures()
+print exp.test_conjectures()
 exp = Experiment(473)
-exp.test_conjectures()
+print exp.test_conjectures()
 exp = Experiment(472)
-exp.test_conjectures()
+print exp.test_conjectures()
 {% endhighlight %}
 
 In practice we'd want to test this for a **very large** set of numbers:
