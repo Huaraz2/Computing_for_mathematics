@@ -50,7 +50,7 @@ class Experiment():
         self.sum_of_consecutive_digits = sum([(-1) ** d *int(str(N)[d]) for d in range(len(str(N)))])
     def test_conjecture(self):
         """
-        Returns True if 'A number is divisible by 11 iff the sum of alternating digits is divisble by 11'
+        Returns True if 'A number is divisible by 11 iff the sum of alternating digits is divisble by 11' holds for this particular number.
         """
         if self.divisible_by_11:
             return self.sum_of_consecutive_digits % 11 == 0
