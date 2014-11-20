@@ -95,8 +95,8 @@ Here are some summary statistics about the class test marks:
 
 - Total mark:
 
-    - mean: 74.66
-    - median: 75.00
+    - mean: 71.60
+    - median: 72.00
     - max: 100.00
 
 - q1 mark:
@@ -125,11 +125,11 @@ Here are some summary statistics about the class test marks:
 
 Percentage of marks above given mark:
 
-- 0.97 of scripts \\(\geq\\) 40%
-- 0.93 of scripts \\(\geq\\) 50%
-- 0.82 of scripts \\(\geq\\) 60%
-- 0.66 of scripts \\(\geq\\) 70%
-- 0.42 of scripts \\(\geq\\) 80%
+- 0.96 of scripts \\(\geq\\) 40%
+- 0.85 of scripts \\(\geq\\) 50%
+- 0.76 of scripts \\(\geq\\) 60%
+- 0.55 of scripts \\(\geq\\) 70%
+- 0.35 of scripts \\(\geq\\) 80%
 - 0.24 of scripts \\(\geq\\) 90%
 
 A picture of the distribution of the marks:
