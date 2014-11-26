@@ -44,7 +44,7 @@ How the model solution would have been marked is [here](https://www.writelatex.c
 
 ## Submitting
 
-Deadline for this work to be handed in is *Friday of Week 11*.
+Deadline for this work to be handed in is *1200 Friday of Week 11*.
 
 You will submit this work in two ways:
 
