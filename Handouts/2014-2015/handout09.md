@@ -46,6 +46,13 @@ LaTeX is a language for typesetting (writing) documents.
 - There are various other templates available at [https://www.writelatex.com/templates](https://www.writelatex.com/templates).
 - If you are having a hard time understanding how 'floats' behave (figures not being in the correct place) in LaTeX take a look at [http://drvinceknight.blogspot.co.uk/2013/12/explaining-floats-in-latex.html](http://drvinceknight.blogspot.co.uk/2013/12/explaining-floats-in-latex.html).
 
+If you would like to install LaTeX on your own machine (instead of using the cloud based solutions discussed in the lab sheet):
+
+- Mac OS: [https://www.youtube.com/watch?v=5CNmIaRxS20](https://www.youtube.com/watch?v=5CNmIaRxS20)
+- PC: [http://miktex.org/about](http://miktex.org/about)
+
+Come and chat to me if you're having trouble with either.
+
 ## Some ideas
 
 - Take a look at [http://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python/](http://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python/) which shows some Python code that generates a fractal **but also** looks like a fractal. The code itself is pretty complicated.
