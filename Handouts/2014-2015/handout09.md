@@ -55,6 +55,11 @@ LaTeX is a language for typesetting (writing) documents.
 - If you play [Clash of Clans](http://www.supercell.net/games/view/clash-of-clans) this might be of interest: [http://drvinceknight.blogspot.co.uk/2014/05/wizards-giants-linear-programming-and.html](http://drvinceknight.blogspot.co.uk/2014/05/wizards-giants-linear-programming-and.html),
 - Here is how I will be scheduling your final group presentations next term: [http://drvinceknight.blogspot.co.uk/2014/03/scheduling-group-presentations-using.html](http://drvinceknight.blogspot.co.uk/2014/03/scheduling-group-presentations-using.html).
 
+## Code Club
+
+We are approaching the part of the course where you will all be working on various specific and different projects.
+This fits in to the remit of [Code Club](http://cardiffmathematicscodeclub.github.io/sessions.html), so it might be a place to get some assistance.
+
 ## What you should do next:
 
 - Work through LaTeX lab sheets.
