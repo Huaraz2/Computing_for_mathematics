@@ -1,7 +1,7 @@
 ---
 layout     : post
 categories : [handouts, 2014-2015]
-title      : 'Handout 9 - Some neat stuff...'
+title      : 'Handout 9 - Some ideas...'
 comments   : false
 ---
 Lecturer: Vince Knight
@@ -44,6 +44,16 @@ LaTeX is a language for typesetting (writing) documents.
 - Go through the videos on the corresponding [lab sheet]({{site.baseurl}}/LabSheets/Week_10/).
 - Take a look at my [coursework template](http://goo.gl/huzjyq).
 - There are various other templates available at [https://www.writelatex.com/templates](https://www.writelatex.com/templates).
+- If you are having a hard time understanding how 'floats' behave (figures not being in the correct place) in LaTeX take a look at [http://drvinceknight.blogspot.co.uk/2013/12/explaining-floats-in-latex.html](http://drvinceknight.blogspot.co.uk/2013/12/explaining-floats-in-latex.html).
+
+## Some ideas
+
+- Take a look at [http://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python/](http://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python/) which shows some Python code that generates a fractal **but also** looks like a fractal. The code itself is pretty complicated.
+- There's a whole area of mathematics that looks at studying queues (Queuing Theory). Here's is the shortest bit of Python script that Jason, Gerain and I managed to write that simulates a simple queue: [https://github.com/drvinceknight/ShortMM1Q/blob/master/MM1Q.py](https://github.com/drvinceknight/ShortMM1Q/blob/master/MM1Q.py). **Note that that is not well written code: it's just short**.
+- Here's something that I wrote a while back looking at random matrices and creating gifs: [http://drvinceknight.blogspot.co.uk/2013/09/for-no-reason-whatsoever-animated-gifs.html](http://drvinceknight.blogspot.co.uk/2013/09/for-no-reason-whatsoever-animated-gifs.html).
+- Here's something I wrote when some of the postgrads started messing around with pigeon holes: [http://drvinceknight.blogspot.co.uk/2013/10/pigeon-holes-markov-chains-and-sagemath.html](http://drvinceknight.blogspot.co.uk/2013/10/pigeon-holes-markov-chains-and-sagemath.html).
+- If you play [Clash of Clans](http://www.supercell.net/games/view/clash-of-clans) this might be of interest: [http://drvinceknight.blogspot.co.uk/2014/05/wizards-giants-linear-programming-and.html](http://drvinceknight.blogspot.co.uk/2014/05/wizards-giants-linear-programming-and.html),
+- Here is how I will be scheduling your final group presentations next term: [http://drvinceknight.blogspot.co.uk/2014/03/scheduling-group-presentations-using.html](http://drvinceknight.blogspot.co.uk/2014/03/scheduling-group-presentations-using.html).
 
 ## What you should do next:
 
