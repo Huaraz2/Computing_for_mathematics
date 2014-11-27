@@ -16,9 +16,9 @@ email: knightva@cf.ac.uk
 
 Some basic Sage code to solve differential equations:
 
-    - ODEs;
-    - Systems of ODEs;
-    - Numerical solutions of ODEs (for when they can't be solved exactly).
+- ODEs;
+- Systems of ODEs;
+- Numerical solutions of ODEs (for when they can't be solved exactly).
 
 ## Extracting parts of an equation
 
