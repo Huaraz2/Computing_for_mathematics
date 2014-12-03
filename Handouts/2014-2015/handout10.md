@@ -30,6 +30,12 @@ Some students had difficulties with creating bibliographies when using CloudSage
 Be sure when you create the `.bib` file to NOT CLICK ON `LaTeX` file but on `New File`.
 This can be clearly seen in the relevant video.
 
+## Cloud.sagemath sometimes being slow
+
+This is due to various architectural issues.
+William Stein describes it as '"like a computer booting up" and is expected'.
+In other words: don't worry it _will_ speed up.
+
 ## Showing Code in LaTeX
 
 This is easy to see how to do if you take a look at my model answer (I really recommend you look at that).
