@@ -2,7 +2,7 @@
 layout     : post
 categories : [handouts, 2014-2015]
 title      : 'Handout 10 - Minor issues and next semester...'
-comments   : false
+comments   : true
 ---
 Lecturer: Vince Knight
 
