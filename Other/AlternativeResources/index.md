@@ -47,3 +47,7 @@ My teaching assistant [Jason Young](https://plus.google.com/u/0/1042438545548331
 - [Stackoverflow](http://stackoverflow.com/)
 - [Tutor mailing list for python](https://mail.python.org/mailman/listinfo/tutor)
 - [Python-forum.org](http://python-forum.org/)
+
+## Helpul links
+
+- [An OOP tutorial with role playing games](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example)
