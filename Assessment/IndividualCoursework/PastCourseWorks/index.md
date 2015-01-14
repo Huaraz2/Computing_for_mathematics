@@ -8,6 +8,7 @@ Here are some past reports by your peers:
 
 - [Bezier Curves and De Casteljau’s Algorithm](./2014-2015/titcomb2014-2015.pdf)
 - [Polygonal Numbers](./2014-2015/claytonrose2014-2015.pdf)
+- [Modelling dice rolls](./2014-2015/lorrimore2014-2015.pdf)
 
 # 2013-2014
 
