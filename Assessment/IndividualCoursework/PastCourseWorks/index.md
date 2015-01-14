@@ -4,6 +4,10 @@ title  : "2013-2014: Past Individual Courseworks"
 ---
 Here are some past reports by your peers:
 
+# 2014-2015
+
+- [Bezier Curves and De Casteljau’s Algorithm](./2014-2015/titcomb2014-2015.pdf)
+
 # 2013-2014
 
 - [Convergence of Sequences](./2013-2014/conway2013-2014.pdf)
