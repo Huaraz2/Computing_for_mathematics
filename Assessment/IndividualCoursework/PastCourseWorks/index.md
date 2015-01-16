@@ -15,6 +15,7 @@ Here are some past reports by your peers:
 - [Networks and flow](./2014-2015/murhpy2014-2015.pdf)
 - [Battleship](./2014-2015/fraser2014-2015.pdf)
 - [Futurama](./2014-2015/skeggsthikettle2014-2015.pdf)
+- [8 Queens](./2014-2015/clancy2014-2015.pdf)
 
 
 # 2013-2014
