@@ -16,6 +16,7 @@ Here are some past reports by your peers:
 - [Battleship](./2014-2015/fraser2014-2015.pdf)
 - [Futurama](./2014-2015/skeggsthikettle2014-2015.pdf)
 - [8 Queens](./2014-2015/clancy2014-2015.pdf)
+- [12 days of Christmas](./2014-2015/thompson2014-2015.pdf)
 
 
 # 2013-2014
