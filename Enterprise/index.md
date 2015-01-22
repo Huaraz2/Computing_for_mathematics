@@ -1,9 +1,7 @@
 ---
-layout : default
+layout : post
 title  : Enterprise (Spring Semester)
 ---
-
-# Experience mathematics in an entrepreneurial environment
 
 The second semester of Computing for Mathematics will give students the opportunity to experience mathematics in an entrepreneurial environment. You will form 'companies' of 4 with 1 student to be selected as the **project manager** and another to be the **secretary**. The selection of the roles within a company is to be done by the company members itself.
 
@@ -62,10 +60,14 @@ The timetable for the 11 weeks of term is shown:
 
 7. Week 7 - 10 Seminars:
 
-    Weeks 7 - 10 will have seminar from mathematicians from industry, the university and otherwise presenting aspects of their work that involve programming.
+    Weeks 7 - 10 will have seminars from mathematicians from industry, the university and otherwise presenting aspects of their work that involve programming.
 
     **During these weeks companies should be working on their code and towards the end start working on their pitch.**
 
 8. Week 11 - Pitches:
 
     **Company pitches (assessed)**
+
+# [Assessment]({{site.baseurl}}/Enterprise/Assessment/)
+
+All information about assessment can be found [here]({{site.baseurl}}/Enterprise/Assessment/).
