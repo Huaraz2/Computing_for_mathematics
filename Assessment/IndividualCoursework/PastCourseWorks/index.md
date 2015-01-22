@@ -17,6 +17,7 @@ Here are some past reports by your peers:
 - [Futurama](./2014-2015/skeggsthikettle2014-2015.pdf)
 - [8 Queens](./2014-2015/clancy2014-2015.pdf)
 - [12 days of Christmas](./2014-2015/thompson2014-2015.pdf)
+- [Cryptography](./2014-2015/allen2014-2015.pdf)
 
 
 # 2013-2014
