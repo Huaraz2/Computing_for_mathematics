@@ -18,7 +18,15 @@ The 'product' must involve programming and mathematics. Students are completely 
 
 Students are welcome and encouraged to form their own companies but if they are unable to do so then they must let me know so that I can form companies for them.
 
+There are **3 phases** to this semester:
+
+1. Phase 1: Research
+2. Phase 2: Development
+3. Phase 3: Production
+
 The timetable for the 11 weeks of term is shown:
+
+### Phase 1: Research
 
 1. Week 1 - Introductory lecture:
 
@@ -40,6 +48,10 @@ The timetable for the 11 weeks of term is shown:
 
     **At the end of this week: all companies must submit a 2 page project proposal (assessed).**
 
+    Be sure to have completed all aspects of phase 1 before moving on to phase 2.
+
+### Phase 2: Development
+
 4. Week 4 - Strategic project management:
 
     - What is project management?
@@ -59,6 +71,10 @@ The timetable for the 11 weeks of term is shown:
 6. Week 6 - Grand Council:
 
     **A meeting of all the companies will take place during which all project managers will deliver a short (<1 minute) pitch about their work so far.**
+
+    Be sure to have completed all aspects of phase 2 before moving on to phase 3.
+
+### Phase 3: Production
 
 7. Week 7 - 10 Seminars:
 
