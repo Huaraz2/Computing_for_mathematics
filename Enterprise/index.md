@@ -9,7 +9,7 @@ The second semester of Computing for Mathematics will give students the opportun
 
 **The goal of every company is to pitch at the end of term explaining the particular 'product' they have designed.**
 
-The 'product' must involve programming and mathematics. Students are completely free to tackle this in any way they please (I encourage you to be original) but please do take in to account the instructions/marking criteria ([report]({{site.baseurl}}/Enterprise/Assessment/ProjectReport/), [presentation]({{site.baseurl}}/Enterprise/Assessment/Presentation/)). Here are some potential ideas:
+The 'product' must involve programming and mathematics. Students are completely free to tackle this in any way they please (I encourage you to be original) but please do take in to account the instructions/marking criteria ([report]({{site.baseurl}}/Enterprise/Assessment/ProjectProposal/), [presentation]({{site.baseurl}}/Enterprise/Assessment/Presentation/)). Here are some potential ideas:
 
 - Building a system to help locate the Mars Rover;
 - A website to explain basic mathematical concepts;
