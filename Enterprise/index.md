@@ -3,6 +3,8 @@ layout : post
 title  : Enterprise (Spring Semester)
 ---
 
+## Description and Schedule
+
 The second semester of Computing for Mathematics will give students the opportunity to experience mathematics in an entrepreneurial environment. You will form 'companies' of 4 with 1 student to be selected as the **project manager** and another to be the **secretary**. The selection of the roles within a company is to be done by the company members itself.
 
 **The goal of every company is to pitch at the end of term explaining the particular 'product' they have designed.**
@@ -68,6 +70,11 @@ The timetable for the 11 weeks of term is shown:
 
     **Company pitches (assessed)**
 
-# [Assessment]({{site.baseurl}}/Enterprise/Assessment/)
+## [Assessment]({{site.baseurl}}/Enterprise/Assessment/)
 
 All information about assessment can be found [here]({{site.baseurl}}/Enterprise/Assessment/).
+
+## [Personal Development]({{site.baseurl}}/Enterprise/PDP/)
+
+This portion of the course is an excellent opportunity to further your personal development.
+Some specific objectives can be found [here]({{site.baseurl}}/Enterprise/PDP/).
