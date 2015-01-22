@@ -1,6 +1,7 @@
 ---
 layout : post
 title  : Personal Development Opportunities
+comments : true
 ---
 
 Here are various key developments that you might want to attempt to address through this part of the module:

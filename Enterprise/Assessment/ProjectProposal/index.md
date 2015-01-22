@@ -1,7 +1,7 @@
 ---
 layout : post
 title  : Project proposal guidance
-comments: false
+comments: true
 ---
 
 In week 3 you are required to write a short project proposal for your group. The aim of this proposal is to:
