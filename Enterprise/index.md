@@ -28,7 +28,7 @@ The timetable for the 11 weeks of term is shown:
 
 ### Phase 1: Research
 
-1. Week 1 - Introductory lecture:
+- Week 1 - Introductory lecture:
 
     - Setting the scene (examples from past students);
     - Communication and collaboration;
@@ -36,11 +36,11 @@ The timetable for the 11 weeks of term is shown:
 
     **At the end of this week: all companies must be formed and initial meetings must have taken place.**
 
-2. Week 2 - Lecture on library skills.
+- Week 2 - Lecture on library skills.
 
     **Companies should be close to completing their project proposal by the end of this week.**
 
-3. Week 3 - Idea to market:
+- Week 3 - Idea to market:
 
     - The commercialisation process;
     - Creativity and innovation;
@@ -52,7 +52,7 @@ The timetable for the 11 weeks of term is shown:
 
 ### Phase 2: Development
 
-4. Week 4 - Strategic project management:
+- Week 4 - Strategic project management:
 
     - What is project management?
     - What is business strategy?
@@ -60,7 +60,7 @@ The timetable for the 11 weeks of term is shown:
 
     **At the end of this week: all companies should be working on the code for the project**
 
-5. Week 5 - Pitching:
+- Week 5 - Pitching:
 
     - What is a pitch?
     - Storyboarding your pitch?
@@ -68,7 +68,7 @@ The timetable for the 11 weeks of term is shown:
 
     **At the end of this week: all companies should be working on the code for the project and have a short pitch prepared.**
 
-6. Week 6 - Grand Council:
+- Week 6 - Grand Council:
 
     **A meeting of all the companies will take place during which all project managers will deliver a short (<1 minute) pitch about their work so far.**
 
@@ -76,13 +76,13 @@ The timetable for the 11 weeks of term is shown:
 
 ### Phase 3: Production
 
-7. Week 7 - 10 Seminars:
+- Week 7 - 10 Seminars:
 
     Weeks 7 - 10 will have seminars from mathematicians from industry, the university and otherwise presenting aspects of their work that involve programming.
 
     **During these weeks companies should be working on their code and towards the end start working on their pitch.**
 
-8. Week 11 - Pitches:
+- Week 11 - Pitches:
 
     **Company pitches (assessed)**
 
