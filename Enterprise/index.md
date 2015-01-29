@@ -94,3 +94,10 @@ All information about assessment can be found [here]({{site.baseurl}}/Enterprise
 
 This portion of the course is an excellent opportunity to further your personal development.
 Some specific objectives can be found [here]({{site.baseurl}}/Enterprise/PDP/).
+
+## Materials
+
+Here are some of the slides etc used during the lectures:
+
+- [Setting up your SME]({{site.baseurl}}/Enterprise/assets/wk1_setting_up_your_SME.pptx)
+- [Setting up your SME extra reading]({{site.baseurl}}/Enterprise/assets/wk1_setting_up_your_SME-READING.pptx)
