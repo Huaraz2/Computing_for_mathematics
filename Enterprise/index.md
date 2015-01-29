@@ -101,3 +101,6 @@ Here are some of the slides etc used during the lectures:
 
 - [Setting up your SME]({{site.baseurl}}/Enterprise/assets/wk1_setting_up_your_SME.pptx)
 - [Setting up your SME extra reading]({{site.baseurl}}/Enterprise/assets/wk1_setting_up_your_SME-READING.pptx)
+- [Role of a company secretary]({{site.baseurl}}/Enterprise/assets/role_of_secretary.pdf)
+- [Researching your competitors]({{site.baseurl}}/Enterprise/assets/researching_your_competitors.pdf)
+- [Profiling the market]({{site.baseurl}}/Enterprise/assets/profiling_the_market.pdf)
