@@ -105,3 +105,4 @@ Here are some of the slides etc used during the lectures:
 - [Researching your competitors]({{site.baseurl}}/Enterprise/assets/researching_your_competitors.pdf)
 - [Profiling the market]({{site.baseurl}}/Enterprise/assets/profiling_the_market.pdf)
 - [Research and referencing]({{site.baseurl}}/Enterprise/assets/wk_2_research_and_referencing.pptx)
+- [Ideas and market]({{site.baseurl}}/Enterprise/assets/ideas_and_market.pdf)
