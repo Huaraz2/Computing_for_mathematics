@@ -106,3 +106,4 @@ Here are some of the slides etc used during the lectures:
 - [Profiling the market]({{site.baseurl}}/Enterprise/assets/profiling_the_market.pdf)
 - [Research and referencing]({{site.baseurl}}/Enterprise/assets/wk_2_research_and_referencing.pptx)
 - [Ideas and market]({{site.baseurl}}/Enterprise/assets/ideas_and_market.pdf)
+- [Business Strategy]({{site.baseurl}}/Enterprise/assets/wk4businessstrategy.pdf)
