@@ -107,3 +107,5 @@ Here are some of the slides etc used during the lectures:
 - [Research and referencing]({{site.baseurl}}/Enterprise/assets/wk_2_research_and_referencing.pptx)
 - [Ideas and market]({{site.baseurl}}/Enterprise/assets/ideas_and_market.pdf)
 - [Business Strategy]({{site.baseurl}}/Enterprise/assets/wk4businessstrategy.pdf)
+- [Presentation about
+  presenting](https://prezi.com/qcimjikxztdg/copy-of-presenting-8/?utm_campaign=share&utm_medium=copy)
