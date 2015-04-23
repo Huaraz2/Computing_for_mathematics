@@ -73,6 +73,8 @@ The timetable for the 11 weeks of term is shown:
     **A meeting of all the companies will take place during which all project managers will deliver a short (<1 minute) pitch about their work so far.**
 
     Be sure to have completed all aspects of phase 2 before moving on to phase 3.
+    View previous grand council pitches
+    [here]({{site.baseurl}}/Enterprise/GrandCouncil).
 
 ### Phase 3: Production
 
