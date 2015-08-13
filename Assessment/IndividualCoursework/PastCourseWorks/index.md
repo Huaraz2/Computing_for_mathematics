@@ -6,7 +6,7 @@ Here are some past reports by your peers:
 
 # 2014-2015
 
-- [Bezier Curves and De Casteljau’s Algorithm](./2014-2015/titcomb2014-2015.pdf)
+- [Bezier Curves and De Casteljau’s Algorithm](./2014-2015/titcomb2014-2015.pdf): [Here is a talk that Rhiannon gave at an international conference based on her report.](https://vimeo.com/135740369)
 - [Polygonal Numbers](./2014-2015/claytonrose2014-2015.pdf)
 - [Modelling dice rolls](./2014-2015/lorrimore2014-2015.pdf)
 - [Spread of disease](./2014-2015/selwood2014-2015.pdf)
