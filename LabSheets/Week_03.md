@@ -215,7 +215,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
                 mylist.append(i)
         print mylist
 
-    This makes use of the range function that we see in the previous lab sheet.
+    This makes use of the range function that we saw in the previous lab sheet.
 
     [Video hint](http://www.youtube.com/watch?v=DWiHBdf5mQI)
 
