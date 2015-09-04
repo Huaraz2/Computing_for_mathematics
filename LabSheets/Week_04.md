@@ -29,7 +29,8 @@ After this session you will know how to:
 
     Note that the string we are writing at each step of the loop ends with a `\n`. This is a special character that tells the writer to write a new line. There are other special characters such as `\t` which tells the writer to include a tabulated space.
 
-    [Video hint](http://www.youtube.com/watch?v=HSz1A8ZHWWg)
+    - [Video hint](http://www.youtube.com/watch?v=HSz1A8ZHWWg)
+    - [Video hint 2](https://www.youtube.com/watch?v=_sTCxQ2oW8E)
 
 02. To read data from a file, we need to open the file in 'read mode':
 
@@ -46,7 +47,8 @@ After this session you will know how to:
 
         data = [int(e) for e in data[:-1]]
 
-    [Video hint](http://www.youtube.com/watch?v=3ljPll8cG3A&feature=youtu.be)
+    - [Video hint](http://www.youtube.com/watch?v=3ljPll8cG3A&feature=youtu.be)
+    - [Video hint 2](https://www.youtube.com/watch?v=uwzPIRf8uC0)
 
 03. **TICKABLE** The following function checks if a number is prime or not. Read through the function and ensure that you understand it.
 
@@ -55,11 +57,13 @@ After this session you will know how to:
 
     The file [W03_D01.txt]({{site.baseurl}}/assets/Data/W03_D01.txt) contains a list of integers. Read in these integers and print to screen how many of them are prime. (If you would like a bit of a challenge, print to to screen the number of unique primes as the file contains various repetitions of numbers).
 
-    [Video hint](http://www.youtube.com/watch?v=Tbv0s_GEJ1I)
+    - [Video hint](http://www.youtube.com/watch?v=Tbv0s_GEJ1I)
+    - [Video hint 2](https://www.youtube.com/watch?v=fr1-Yb6sg3Q)
 
 04. There is a common data format called 'csv' short for 'comma separated value'. There is a python library that allows for the easy use of this format when writing a lot of data to files. Watch the following video and experiment with this library.
 
-    [Video hint](http://www.youtube.com/watch?v=jQ9aDyBWCXI)
+    - [Video hint](http://www.youtube.com/watch?v=jQ9aDyBWCXI)
+    - [Video hint 2](https://www.youtube.com/watch?v=5Pn45ksby-4)
 
     **Recursion**
 
@@ -109,9 +113,12 @@ After this session you will know how to:
 
     ![]({{site.baseurl}}/assets/Images/W03-img03.png)
 
-    [Video hint](http://www.youtube.com/watch?v=EYPT4Ykx5IU)
+    - [Video hint](http://www.youtube.com/watch?v=EYPT4Ykx5IU)
+    - [Video hint 2](https://www.youtube.com/watch?v=Z5F9Zhdu1eE)
 
 06. **TICKABLE** Program two functions that return \\(n!\\) in both an iterative approach and a recursive approach.
+
+    - [Video hint](https://www.youtube.com/watch?v=K6kH9NkB-J0)
 
 07. Write a recursive program for the Fibonacci sequence.
 
