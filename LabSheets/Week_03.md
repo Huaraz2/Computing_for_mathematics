@@ -34,22 +34,25 @@ To be able to make progress from the basic on this sheet we need a way to write 
         def printhello(name):
             print "Hello, " + name
 
-    [Video hint](http://www.youtube.com/watch?v=I_DXaP-mrRA)
+    - [Video hint](http://www.youtube.com/watch?v=I_DXaP-mrRA)
+    - [Video hint 2](https://www.youtube.com/watch?v=1IKdpmgf-xo)
 
 02. The following function makes use of the `return` call to actually return a result of the function:
 
         def mydiv(a, b):
             return a / b
 
-    [Video hint](http://www.youtube.com/watch?v=0cA2VNcc54A)
+    - [Video hint](http://www.youtube.com/watch?v=0cA2VNcc54A)
 
 03. **TICKABLE**: Include a check in the `MyDiv` function to ensure that no division by 0 is attempted.
 
-    [Video hint](http://www.youtube.com/watch?v=KxdJVw-06KE)
+    - [Video hint](http://www.youtube.com/watch?v=KxdJVw-06KE)
+    - [Video hint 2](https://www.youtube.com/watch?v=TtN9QilBNyY)
 
 04. **TICKABLE**: Create a function that returns the sum of the first \\(K\\) integers not divisible by \\(B\\). Investigate "using optional arguments" and set \\(K\\) and \\(B\\) to have default values 10000 and 3 respectively.
 
-    [Video hint](http://www.youtube.com/watch?v=hjv8sAlYPDw&feature=youtu.be)
+    - [Video hint](http://www.youtube.com/watch?v=hjv8sAlYPDw&feature=youtu.be)
+    - [Video hint 2](https://www.youtube.com/watch?v=4AFL5IX4aZo)
 
 05. Create a function that returns the square root of a number using the algorithm suggested in question 14 of the week 2 lab sheet. Write some code that compares the output of this algorithm to the actual square root for the first 10000 digits.
 
@@ -58,7 +61,8 @@ To be able to make progress from the basic on this sheet we need a way to write 
     $$X_n=\begin{cases}1,& n=0,1\\
     X_{n-1}+X_{n-2}\end{cases}$$
 
-    [Video hint](http://www.youtube.com/watch?v=4ZxBLkLRPXQ)
+    - [Video hint](http://www.youtube.com/watch?v=4ZxBLkLRPXQ)
+    - [Video hint 2](https://www.youtube.com/watch?v=5fSDBKbIE0E)
 
 
     **Writing clear code**
@@ -205,7 +209,8 @@ To be able to make progress from the basic on this sheet we need a way to write 
         print index
         print clist[index:index + 2]
 
-    [Video hint](http://www.youtube.com/watch?v=7FbYcOOB64c)
+    - [Video hint](http://www.youtube.com/watch?v=7FbYcOOB64c)
+    - [Video hint 2](https://www.youtube.com/watch?v=IgF0lNI1Q7I)
 
 11. We have seen how to combine two lists using `+` but there is a very useful method on lists called the `append` method. With this we can easily add elements to lists:
 
@@ -217,11 +222,12 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
     This makes use of the range function that we saw in the previous lab sheet.
 
-    [Video hint](http://www.youtube.com/watch?v=DWiHBdf5mQI)
+    - [Video hint](http://www.youtube.com/watch?v=DWiHBdf5mQI)
 
 12. **TICKABLE** Create a list with the first 1300 integers divisible by 3. What is the largest such number?
 
-    [Video hint](http://www.youtube.com/watch?v=7KxOxWC3h78)
+    - [Video hint](http://www.youtube.com/watch?v=7KxOxWC3h78)
+    - [Video hint 2](https://www.youtube.com/watch?v=K5vv-9QdUFM)
 
 13. There is another way of creating/manipulating lists in python called list _comprehensions_. The following code give the squares of the first 10 integers:
 
@@ -233,7 +239,8 @@ To be able to make progress from the basic on this sheet we need a way to write 
         squares = [e ** 2 for e in range(1, 11) if e % 2 == 1]
         print squares
 
-    [Video hint](http://www.youtube.com/watch?v=8WXIY18RJiY)
+    - [Video hint](http://www.youtube.com/watch?v=8WXIY18RJiY)
+    - [Video hint 2](https://www.youtube.com/watch?v=GwUhwHM19FU)
 
 14. **TICKABLE** By creating a function and using list comprehensions, create a list of \\(f(n)\\) for all integers \\(n\leq 100\\) where \\(f(n)\\) is given below:
 
@@ -243,7 +250,8 @@ To be able to make progress from the basic on this sheet we need a way to write 
        n - 1,& \text{otherwise}
     \end{cases}$$
 
-    [Video hint](http://www.youtube.com/watch?v=cr_QV3fF-Ls)
+    - [Video hint](http://www.youtube.com/watch?v=cr_QV3fF-Ls)
+    - [Video hint 2](https://www.youtube.com/watch?v=_vsSoaD7lT4)
 
 15. There are various other things that we can do to a list. Including getting the highest, lowest values as well as the length of the list:
 
