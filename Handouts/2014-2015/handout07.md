@@ -1,7 +1,7 @@
 ---
 layout     : post
-categories : [handouts, 2014-2015]
-title      : 'Handout 7 - Tangent lines and using data'
+categories : 2014-2015
+title      : '2014-2015: Handout 7 - Tangent lines and using data'
 comments   : true
 ---
 

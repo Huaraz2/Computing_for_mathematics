@@ -1,7 +1,7 @@
 ---
 layout     : post
-categories : handouts
-title      : Handout 3 - Attitude, division, indices, functions, while loops.
+categories : 2014-2015
+title      : "2014-2015: Handout 3 - Attitude, division, indices, functions, while loops."
 comments   : true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout     : post
-categories : handouts
-title      : Handout 4 - Functions, dummy variables and building lists from other lists
+categories : 2014-2015
+title      : "2014-2015: Handout 4 - Functions, dummy variables and building lists from other lists:
 comments   : true
 ---
 

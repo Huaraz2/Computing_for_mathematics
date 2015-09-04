@@ -5,11 +5,11 @@ title  : "Past handouts"
 
 <div class="home">
 
-    <h1>Current</h1>
+    <h1>2014-2015</h1>
 
     <ul>
     {% for page in site.pages %}
-        {% if page.categories contains 'handouts' %}
+        {% if page.categories contains '2014-2015' %}
         <li><a href={{ page.url | prepend: site.baseurl }}>{{ page.title }}</a></li>
         {% endif %}
     {% endfor %}
