@@ -41,7 +41,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     ![]({{site.baseurl}}/assets/Screenshots/W02-S01.png)
 
-    [Video hint](http://www.youtube.com/watch?v=9FdsVBAUqRs)
+    - [Video hint](http://www.youtube.com/watch?v=9FdsVBAUqRs)
+    - [Video hint 2](https://www.youtube.com/watch?v=iLHE-aGZeyc)
 
 02. For short bits of code typing directly in to the interpreter is fine (and in fact sometimes very helpful). However, for longer pieces of code one needs to write a file containing all the commands. Open a script and type the same code as above:
 
@@ -68,7 +69,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
         str1 = "Hello world!"
         print type(str1)
 
-    [Video hint](http://www.youtube.com/watch?v=UFGJEG34qMk)
+     - [Video hint](http://www.youtube.com/watch?v=UFGJEG34qMk)
+     - [Video hint 2](https://www.youtube.com/watch?v=xwHXuGSlQW8)
 
 04. We can carry out basic arithmetic operations using Python. Take a look at the following:
 
@@ -89,11 +91,14 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
     +  division;
     +  exponentiation.
 
-    [Video hint](http://www.youtube.com/watch?v=A_Pa6Ov60T8)
+    Experiment with these.
+
+    - [Video hint](http://www.youtube.com/watch?v=A_Pa6Ov60T8)
 
 05. **TICKABLE**: Assign the variable `num` to a value of 5.2, what is the result of adding 7 to `num` then muliplying `num` by 300 then dividing `num` by 4 and finally raising `num` to the power of 3?
 
-    [Video hint](http://www.youtube.com/watch?v=ihBpyMpDy-M)
+    - [Video hint](http://www.youtube.com/watch?v=ihBpyMpDy-M)
+    - [Video hint 2](https://www.youtube.com/watch?v=f6H7-KNzU7A)
 
 06. **TICKABLE**: We can carry also manipulate strings. Try out the following:
 
@@ -114,7 +119,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     There are various other things that can be done "on" strings, be sure to research these.
 
-    [Video hint](http://www.youtube.com/watch?v=gHQtmCeCg1w&feature=youtu.be)
+    - [Video hint](http://www.youtube.com/watch?v=gHQtmCeCg1w&feature=youtu.be)
+    - [Video hint 2](https://www.youtube.com/watch?v=_sMUeVcCxag)
 
 07. It is possible to go from one type of variable to another.
 
@@ -149,7 +155,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     There are other types that can be used as well.
 
-    [Video hint](http://www.youtube.com/watch?v=LlQ7q-EaDnc)
+    - [Video hint](http://www.youtube.com/watch?v=LlQ7q-EaDnc)
+    - [Video hint 2](https://www.youtube.com/watch?v=uNX2gHGbw6c)
 
     **If statements**
 
@@ -183,13 +190,15 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     (The `%` operator gives the remainder of one number when divided by another. Note that this is not the same use as discussed in question 7 within strings.)
 
-    [Video hint](http://www.youtube.com/watch?v=ZODKm7YolkQ)
+    - [Video hint](http://www.youtube.com/watch?v=ZODKm7YolkQ)
+    - [Video hint 2](https://www.youtube.com/watch?v=Ye_Fu2TKZZ8)
 
     **Spend some time understanding the `elif` statement.**
 
 09. **TICKABLE**: Find some information on the `raw_input` statement and write some code that prompts a user to input a string. If the length of that string is more than 10 then print "that string has length strictly more than 10" otherwise "that string has length less than 9".
 
-    [Video hint](http://www.youtube.com/watch?v=4nH-vtBrKXs)
+    - [Video hint](http://www.youtube.com/watch?v=4nH-vtBrKXs)
+    - [Video hint 2](https://www.youtube.com/watch?v=b2lstNSX9iI)
 
     **Loops**
 
@@ -230,11 +239,13 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
             s += i
         print s
 
-    [Video hint](http://www.youtube.com/watch?v=3ht1mNULJC0)
+    - [Video hint](http://www.youtube.com/watch?v=3ht1mNULJC0)
+    - [Video hint 2](https://www.youtube.com/watch?v=V5Z3jHv7pjg)
 
 11. **TICKABLE**: Modify the above code so that it calculates the sum of the first integers less than 1000 that are not divisible by 3.
 
-    [Video hint](http://www.youtube.com/watch?v=1PvEXo0l1NE)
+    - [Video hint](http://www.youtube.com/watch?v=1PvEXo0l1NE)
+    - [Video hint 2](https://www.youtube.com/watch?v=AskcfH3ihXw)
 
 12. Event based loops are implemented in Python using a `while` command that keep repeating a set of commands until a boolean variable is `False`.
 
@@ -248,11 +259,12 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     ![]({{site.baseurl}}/assets/Images/W02-img02.png)
 
-    [Video hint](http://www.youtube.com/watch?v=Rog3YAETP-Q)
+    - [Video hint](http://www.youtube.com/watch?v=Rog3YAETP-Q)
 
 13. **TICKABLE**: Write some code to find \\(N\\) such that \\(\sum_{i=0}^Ni^2\\) is more than 20000.
 
-    [Video hint](http://www.youtube.com/watch?v=tzc4uaJaYHU)
+    - [Video hint](http://www.youtube.com/watch?v=tzc4uaJaYHU)
+    - [Video hint 2](https://www.youtube.com/watch?v=0xjJaTeh8gM)
 
 14. It can be shown (you are not required to check this) that the following sequence:
 
@@ -260,7 +272,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     approaches \\(\sqrt{K}\\) as \\(n\\) increases. Write some code to verify this to any given level of precision.
 
-    [Video hint](http://www.youtube.com/watch?v=bHv2vqPliL0)
+    - [Video hint](http://www.youtube.com/watch?v=bHv2vqPliL0)
+    - [Video hint 2](https://www.youtube.com/watch?v=15JvZ33yQuo)
 
 15. Take a look at the `random` Python library (we will talk about libraries in detail later) and write some code that uses the `input` function to code a simple game:
 
@@ -268,5 +281,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
     - The user tries to guess the integer;
     - At every guess the program indicates if the guess is too high or too low.
 
-    [Video hint](http://www.youtube.com/watch?v=TpQgPKEhrg0)
+    Here are some pointers:
 
+    - [Video hint](http://www.youtube.com/watch?v=TpQgPKEhrg0)
+    - [Video hint 2](https://www.youtube.com/watch?v=NkVXvc4Rlzs)
