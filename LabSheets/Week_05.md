@@ -41,7 +41,8 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     **Note the convention used here: classes use a capitalized name.**
 
-    [Video hint](http://youtu.be/fTV7B6YTHCU)
+    - [Video hint](http://youtu.be/fTV7B6YTHCU)
+    - [Video hint 2](https://www.youtube.com/watch?v=pQFXcw2K2q0)
 
 02. We have already used various types of python objects:
 
@@ -86,7 +87,7 @@ This lab sheet will introduce a very important concept of computer science: obje
         vince.sex = "M"
         print vince.sex
 
-    [Video hint](http://youtu.be/I_fbk5Uss-Q)
+    - [Video hint](http://youtu.be/I_fbk5Uss-Q)
 
 04. **TICKABLE** A quadratic is a mathematical expression of the form: \\(a x ^ 2 + b x + c\\). The following code creates a Quadratic class:
 
@@ -99,7 +100,8 @@ This lab sheet will introduce a very important concept of computer science: obje
 
         listofquadratics = []
 
-    [Video hint](http://www.youtube.com/watch?v=2pPih4SawM8&feature=youtu.be)
+    - [Video hint](http://www.youtube.com/watch?v=2pPih4SawM8&feature=youtu.be)
+    - [Video hint 2](https://www.youtube.com/watch?v=K5-ikEFVLyQ)
 
     **Methods**
 
@@ -145,7 +147,8 @@ This lab sheet will introduce a very important concept of computer science: obje
         vince.haveabirthday(28)
         print vince.age
 
-    [Video hint](http://youtu.be/epYMekhWx2k)
+    - [Video hint](http://youtu.be/epYMekhWx2k)
+    - [Video hint 2](https://www.youtube.com/watch?v=dqI53ABYDX8)
 
 06. There are a variety of 'special' methods to be defined on classes. The one we will consider here is the `__init__` method. This method is run when an instance is created. The following code allows us to pass arguments to an instance of a class when it is **initialised** to set attributes.
 
@@ -162,6 +165,8 @@ This lab sheet will introduce a very important concept of computer science: obje
         print vince.age
         print vince.sex
 
+    - [Video hint](https://www.youtube.com/watch?v=f8-wajuEy-U)
+
 07. **TICKABLE** Revisit the Quadratic class from earlier. Use the `__init__` method and also create a method to return `True` if the quadratic has real roots.
 
     Recall that the roots of \\(ax^2 + bx + c\\) are given by:
@@ -169,6 +174,8 @@ This lab sheet will introduce a very important concept of computer science: obje
     $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
     Using this count how many of the instances in [W05_D01.csv]({{site.baseurl}}/assets/Data/W05_D01.txt) have real roots.
+
+    - [Video hint](https://www.youtube.com/watch?v=PJg6dPOK8Ro)
 
 08. The following dictionary contains course code - course name pairs:
 
@@ -255,4 +262,5 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     Create another inherited class (from student) giving it a specific method.
 
-    [Video hint](http://www.youtube.com/watch?v=cKDWCzCE1y4&feature=youtu.be)
+    - [Video hint](http://www.youtube.com/watch?v=cKDWCzCE1y4&feature=youtu.be)
+    - [Video hint 2](https://www.youtube.com/watch?v=Ts82fG82NZM)
