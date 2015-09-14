@@ -22,7 +22,10 @@ title  : Alternative Resources
 
 ## The class wiki
 
-My teaching assistant [Jason Young](https://plus.google.com/u/0/104243854554833157722/posts) is curating a wiki *for* you guys (ie you need to populate it). Please do add your own tips and tricks but also add any resources I might not have here (if they are any good I'm sure Jason will let me know about them and I'll add them here). [Here it is](https://github.com/drvinceknight/Computing_for_mathematics/wiki).
+Here is a wiki *for* you guys (ie you need to populate it). Please do add your
+own tips and tricks but also add any resources I might not have here (if they
+are any good I'm sure Jason will let me know about them and I'll add them here).
+[Here it is](https://github.com/drvinceknight/Computing_for_mathematics/wiki).
 
 ## Reading list
 
