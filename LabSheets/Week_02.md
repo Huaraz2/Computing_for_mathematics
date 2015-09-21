@@ -100,7 +100,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
     - [Video hint](http://www.youtube.com/watch?v=ihBpyMpDy-M)
     - [Video hint 2](https://www.youtube.com/watch?v=f6H7-KNzU7A)
 
-06. **TICKABLE**: We can carry also manipulate strings. Try out the following:
+06. **TICKABLE**: We can also manipulate strings. Try out the following:
 
         str1 = "This is a string that I will learn to manipulate"
         str2 = ", string manipulation is very useful."
