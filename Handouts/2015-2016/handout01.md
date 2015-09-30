@@ -11,7 +11,7 @@ Office: M1.30
 
 email: knightva@cf.ac.uk
 
-**Office hours: ?**
+**Office hours: Friday 1500-1700**
 
 # Intended learning outcomes for this module:
 
@@ -25,8 +25,8 @@ email: knightva@cf.ac.uk
 - 2 lab sessions to do 1 lab sheet (**bring headphones!**);
 - Need to complete 80% of 'TICKABLES';
 - **YOU WILL NEED TO WORK OUTSIDE OF THE LABS TO HAVE SUFFICIENT TIME TO COMPLETE LAB SHEETS**
-- Lecture on Thursday 1100;
-- Office hours Thursday 1300 - 1500.
+- Lecture on Thursday 1500;
+- Office hours Friday 1500 - 1700.
 
 # What you should do next:
 

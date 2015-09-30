@@ -3,11 +3,11 @@ title            : Vincent Knight
 email            : vincent.knight@gmail.com
 description      : "Class website for Computing for Mathematics"
 baseurl          : "/Computing_for_mathematics"
-url              : "http://drvinceknight.github.io"
+url              : "http://vknight.org"
 github_username  : "drvinceknight"
 twitter_username : "@drvinceknight"
 plus_username    : "+VincentKnight"
-blogurl          : "http://drvinceknight.github.io/unpeudemath/"
+blogurl          : "http://vknight.org/unpeudemath/"
 
 # Build settings
 markdown    : kramdown
