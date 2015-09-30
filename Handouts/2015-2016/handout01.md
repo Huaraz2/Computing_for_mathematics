@@ -11,7 +11,7 @@ Office: M1.30
 
 email: knightva@cf.ac.uk
 
-chat: gitter.im/drvinceknight/Computing_for_mathematics
+chat: [gitter.im/drvinceknight/Computing_for_mathematics](https://gitter.im/drvinceknight/Computing_for_mathematics)
 
 **Office hours: Friday 1500-1700**
 
