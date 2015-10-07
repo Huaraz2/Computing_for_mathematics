@@ -40,7 +40,7 @@ title  : Computing for Mathematics
     <h1><a href='{{site.baseurl}}/Handouts'>Handouts</a></h1>
     <ul>
     {% for page in site.pages %}
-        {% if page.categories contains 'handouts' %}
+        {% if page.categories contains '2015-2016' %}
         <li><a href={{ page.url | prepend: site.baseurl }}>{{ page.title }}</a></li>
         {% endif %}
     {% endfor %}

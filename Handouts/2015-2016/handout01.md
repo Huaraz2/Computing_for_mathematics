@@ -1,6 +1,6 @@
 ---
 layout     : post
-categories : handouts
+categories : 2015-2016
 title      : "2015-2016: Handout 1 - What you need to know"
 comments   : true
 ---
