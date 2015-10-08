@@ -109,11 +109,12 @@ Note that the above is in fact equivalent to:
 {% highlight Python %}
 for i in range(24):
     remainder = i % 12
-    if remainder != 0:
+    is_not_divisible = remainder != 0
+    if is_not_divisible:
         print i
 {% endhighlight %}
 
-The type of remainder in this case is `bool` (it's a boolean so is either `True`
+The type of `is_not_divisible` in this case is `bool` (it's a boolean so is either `True`
 or `False`).
 
 # Question 13
