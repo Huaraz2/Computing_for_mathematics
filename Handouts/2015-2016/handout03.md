@@ -2,7 +2,7 @@
 layout     : post
 categories : 2015-2016
 title      : "2015-2016: Handout 3 - Attitude, division, indices, functions, while loops."
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
