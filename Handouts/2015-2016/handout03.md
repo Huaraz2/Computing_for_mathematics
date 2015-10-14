@@ -1,7 +1,8 @@
 ---
 layout     : post
 categories : 2015-2016
-title      : "2015-2016: Handout 3 - Attitude, division, indices, functions, while loops."
+title      : "2015-2016: Handout 3 - Infinite loops, global vs local variables
+and dictionaries vs lists"
 comments   : true
 ---
 
