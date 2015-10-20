@@ -173,7 +173,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 
-    Using this count how many of the instances in [W05_D01.csv]({{site.baseurl}}/assets/Data/W05_D01.txt) have real roots.
+    Using this count how many of the instances in [W05_D01.csv]({{site.baseurl}}/assets/Data/W05_D01.csv) have real roots.
 
     - [Video hint](https://www.youtube.com/watch?v=PJg6dPOK8Ro)
 
