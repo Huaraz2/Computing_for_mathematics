@@ -66,7 +66,7 @@ print l
 {% endhighlight %}
 
 Similarly, a function can return something and leave other values unchanged
-(remember what we spoke about last week with global and local variables:
+(remember what we spoke about last week with global and local variables):
 
 {% highlight python %}
 def givelistwith2added(data):
