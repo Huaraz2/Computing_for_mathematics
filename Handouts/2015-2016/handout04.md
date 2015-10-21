@@ -3,7 +3,7 @@ layout     : post
 categories : 2015-2016
 title      : "2015-2016: Handout 4 - Reading, functions, understanding
 algorithms"
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
