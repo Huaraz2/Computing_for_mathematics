@@ -147,6 +147,8 @@ while k < 200:
 Try this too: [Sierpinski
 triangle](http://interactivepython.org/runestone/static/pythonds/Recursion/pythondsSierpinskiTriangle.html).
 
+If you would like to know more about python, do come along to the next
+[PyDiff](http://www.pydiff.wales/) meeting (Tuesday Nov 17th).
 
 ## What you should do next:
 
