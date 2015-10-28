@@ -152,7 +152,7 @@ If you would like to know more about python, do come along to the next
 
 ## What you should do next:
 
-- Start the next sheet: this is a short one and the aim is for you to be familiar with Sage.
+- Start the next sheet: this is a short one and the aim is for you to be familiar with Sage. You will be using [cloud.sagemath](https://cloud.sagemath.com/), this does not work well on internet explorer (use firefox or chrome for example).
 - Continue to revise for the class test: work through all your lab sheets. If you can do exercises in the lab sheets (not just ‘understand them’ but actually ‘do them’) you will be fine.
 - To make the best use of the lab sessions turn up having finished your sheets;
 - If anything is still unclear please come and see me during office hours.
