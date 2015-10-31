@@ -81,7 +81,7 @@ def mysum(K=10000, B=3):  # Define function with default values
     s = 0
     k = 0
     while k < K:
-        if k % B == 0:  # Check if B divides k
+        if k % B != 0:  # Check if B does not divide k
             s += k
         k += 1
     return s
