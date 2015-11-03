@@ -3,9 +3,9 @@
 Script to analyse feedback
 """
 import csv
-import gspread
 import matplotlib.pyplot as plt
 import pylab
+
 
 class Opinion():
     """
@@ -18,21 +18,10 @@ class Opinion():
             self.positive = True
         self.mentions = 0
 
-### Download the data from gdrive ###
-print "Authenticating"
-# Download data
-username = "vincent.knight"  # My gmail username
-password = "mxsvlamsbbrepuqy"  # App specific password
-docid = "0Ah_zrw5uAafbdG43TkR0OVJ3M3dqa21EUFU0ZHQxQWc"  # The id for the spreadheet
-
-client = gspread.login(username, password)
-spreadsheet = client.open_by_key(docid)  # Create a client object
-print "Downloading data"
-fulldata = {}  # A dictionary to hold the data by group number
-for i, worksheet in enumerate(spreadsheet.worksheets()):
-    fulldata[i] = worksheet.get_all_values()  # Read in the data
-
-data = fulldata[0]
+f = open('2015-2016.csv', 'r')
+csvrdr = csv.reader(f)
+data = [row for row in csvrdr]
+f.close()
 ####################################
 
 opinions = [Opinion(l) for l in data[0]]  # Create an opinion object for every column of data
@@ -76,6 +65,6 @@ def plot(dictionary, title, filetitle, color='cyan', maxx=False):
     plt.savefig(filetitle, bbox_inches='tight')
 
 opinion_dict = {o.label:o.mentions for o in opinions if o.positive and o.mentions >= 5}
-plot(opinion_dict, 'Positive Comments', 'positive_2014-2015.png', maxx=max([o.mentions for o in opinions]))
+plot(opinion_dict, 'Positive Comments', 'positive_2015-2016.png', maxx=max([o.mentions for o in opinions]))
 opinion_dict = {o.label:o.mentions for o in opinions if not o.positive and o.mentions >= 5}
-plot(opinion_dict, 'Negative Comments', 'negative-2014-2015.png', color='red', maxx=max([o.mentions for o in opinions]))
+plot(opinion_dict, 'Negative Comments', 'negative-2015-2016.png', color='red', maxx=max([o.mentions for o in opinions]))
