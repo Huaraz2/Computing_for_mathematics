@@ -6,32 +6,31 @@
 > week, rather than a feedback lecture. Although the feedback is good and
 > interesting to work out."
 
-> "Hostility"
-
 > "I feel I would really enjoy computing if we were actually taught the basics"
-
-> "Tutors in lab session can't always understand why my codes don't work"
-
-> "More of an importance on non tickables as well as tickables (otherwise why
-> are they there?)"
-
-> "Maybe provide some handouts prior to completing lab sheets that explain in
-> detail the material for the week - more so than the videos as I struggled to
-> find some things online or in books."
-
-> "Some solutions could be explained better."
-
-> "Exponential increase in difficulty"
 
 > "I personally have not done any coding before and I feel that it is often
 > assumed that everyone has coded before."
 
-> "Lab test came out of nowhere."
+# About the Labs
+
+> "Hostility"
+
+> "Tutors in lab session can't always understand why my codes don't work"
+
+# Tickables
+
+> "More of an importance on non tickables as well as tickables (otherwise why
+> are they there?)"
 
 > "Tickables should be put towards grade or have more credit for completing
 > them."
 
+> "Some solutions could be explained better."
+
+
 # Have not looked at website
+
+> "Lab test came out of nowhere."
 
 > "Giving weblinks for websites which teach you Python so extra resources."
 
@@ -42,10 +41,7 @@
 > "More support when stuck on questions - eg like a maths support session for
 > computing."
 
-
 # Positive about methodology
-
-> "Labs need to be more noisy"
 
 > "Lectures were very useful but would have been very helpful to receive these
 > explanations and examples prior to lab sheet."
@@ -59,6 +55,9 @@
 > may be considered more fun for people to do without feeling like it is
 > work."
 
+> "Being able to see the handouts/comments of what people struggled with last
+> year."
+
 > "Working regularly and not leaving everything to the end of the term."
 
 > I hated this subject when I first started but really starting to enjoy it now,
@@ -69,8 +68,9 @@
 > "I don't understand the point in using Python, why do we need it?? That should
 > be explained in more detail."
 
-> "Being able to see the handouts/comments of what people struggled with last
-> year."
+# Interesting
+
+> "Lab sheets as pdfs please"
 
 # Quirky or Amusing
 
@@ -83,7 +83,3 @@
 > "I don't like Canadians"
 
 > "Please tell us what your accent is. Suspense is killing me."
-
-# Interesting
-
-> "Lab sheets as pdfs please"
