@@ -66,6 +66,12 @@ interest with regards to Sage.
 - You will submit your work using a folder on the Shared drive: *you won't have read or write rights to that folder* so you will only be able to submit once!
 - You will also submit by emailing me: please get the subject of the email and the names of the files correct.
 
+Contribute to the
+[wiki](https://github.com/drvinceknight/Computing_for_mathematics/wiki). I know
+some students are sharing notes: **THIS IS GREAT**, but if you do so by using
+the wiki than at least you know for sure that the notes are correct (I will read
+through them).
+
 ## What you should do next:
 
 - **Finish revising for the class test**: be sure to be confident with the lab sheets 1 - 5 (Sage is not on the class test).
