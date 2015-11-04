@@ -123,7 +123,7 @@ Using Sage we can carry out various operations from Calculus. This week we will 
     2. Compute \\(\frac{f(x+h)-f(x)}{h}\\);
     3. Compute the above limit as \\(h\to 0\\) and verify that this is the derivative of \\(f\\).
 
-09. **TICKABLE** By definition, the derivative \\(f'(a)\\) gives the rate of change of the tangent line at the point \\((a,f(a)\\).
+09. **TICKABLE** By definition, the derivative \\(f'(a)\\) gives the rate of change of the tangent line at the point \\((a,f(a))\\).
     Write a function that takes as arguments a function and a point \\(a\\) and returns the plot of the function as well as the tangent line at \\(a\\).
     The plot shows a plot of \\(f(x)=\sin(x)+3x+1/x\\) as well as the tangent line at \\(x=2\\).
 
