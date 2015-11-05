@@ -167,7 +167,8 @@ We can equivalently do this this way:
 {% highlight python %}
 mylist = []   # Initiate an empty list that will hold all the number divisible by 4
 nbr = 0  # Initiate a variable that will keep track of the count of numbers divisible by 4 we have
-while len(nbr) < 10:  # Keep looping until we have enough numbers in our list
+while len(mylist) < 10:  # Keep looping until we have enough numbers in our list
+    nbr += 1
     if nbr % 4 == 0:  # Checks if the number is divisible by 4
         mylist.append(nbr)  # If it is divisible by 4 we append to our list
 {% endhighlight %}
