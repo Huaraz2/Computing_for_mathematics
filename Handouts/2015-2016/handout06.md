@@ -2,7 +2,7 @@
 layout     : post
 categories : 2015-2016
 title      : '2015-2016: Handout 6 - Sage and the Class test'
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
@@ -11,7 +11,7 @@ Office: M1.30
 
 email: knightva@cf.ac.uk
 
-**Office hours: Thursday 1300-1500**
+**Office hours: Friday 1500-1700**
 
 ## What you have learnt this week:
 
