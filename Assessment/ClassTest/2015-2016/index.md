@@ -55,7 +55,7 @@ the following gives the square root of a number:
     >>> math.sqrt(4)
     2.0
 
-Consider the mathematical sequence \\(a_n\\) where the $n$th term of the
+Consider the mathematical sequence \\(a_n\\) where the \\(n\\)th term of the
 sequence is defined in the following two ways:
 
 $$a_n = 2a_{n-1}+a_{n-2},\;a_0=a_1=1$$
