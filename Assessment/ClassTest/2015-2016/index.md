@@ -36,7 +36,7 @@ presentation of code.**
 ## Q1
 
 Create a function that uses the following sequences to approximate
-$\sqrt{K}$:
+\\(\sqrt{K}\\):
 
 $$x_{n+1} = \frac{x_n+K/x_n}{2}$$
 
