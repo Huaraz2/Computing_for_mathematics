@@ -2,7 +2,7 @@
 layout     : post
 title      : "CfM : Class test 2015-2016"
 categories : classtest
-comments   : false
+comments   : true
 ---
 # Computing for Mathematics: Class test
 
