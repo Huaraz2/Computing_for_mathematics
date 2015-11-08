@@ -60,7 +60,7 @@ sequence is defined in the following two ways:
 
 $$a_n = 2a_{n-1}+a_{n-2},\;a_0=a_1=1$$
 
-and (SEE NEXT PAGE):
+and:
 
 $$a_n=\frac{(1+\sqrt{2})^n+(1-\sqrt{2})^n}{2}$$
 
