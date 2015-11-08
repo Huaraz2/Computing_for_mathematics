@@ -81,8 +81,8 @@ expression for \\(\pi\\).
 $$\pi = \frac{9801}{\sqrt{8}}\left(\sum_{k=0}^{\infty}\frac{(4k)!(1103+26390k)}{(k!)^4396^{4k}}\right)^{-1}$$
 
 Note that the above is an **infinite** sum, but nonetheless calculating
-the $n$th term still can give a good approximation of $\pi$. Let us
-define $f(n)$:
+the \\(n\\)th term still can give a good approximation of \\(\pi\\). Let us
+define \\(f(n)\\):
 
 $$f(n) = \frac{9801}{\sqrt{8}}\left(\sum_{k=0}^{n}\frac{(4k)!(1103+26390k)}{(k!)^4396^{4k}}\right)^{-1}$$
 
