@@ -186,7 +186,7 @@ comments    : true
 
     $$\begin{cases}
     ax+by=c\\
-    dx+fy=g
+    dx+ey=f
     \end{cases}$$
 
     Write to file a new data set containing the following columns:
