@@ -180,7 +180,7 @@ comments    : true
 
 08. **TICKABLE** The file [W08_D01.csv]({{site.baseurl}}/assets/Data/W08_D01.csv) contains 4 columns of data:
 
-        a, b, c, d, f, g
+        a, b, c, d, e, f
 
     For each row of data, obtain the solution to the system of equations:
 
