@@ -127,7 +127,7 @@ comments    : true
 
         A.inverse() * b
 
-    Use this approach to solve the systems of equations we have considered so far.
+    Use this approach to solve the systems of equations we have considered so far (from questions 1 and 3).
 
     [Video hint](http://youtu.be/NOpEMl_yzMM)
 
