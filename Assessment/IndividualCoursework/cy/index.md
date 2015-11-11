@@ -50,7 +50,7 @@ Mae sut fyddai'r ateb enghreifftiol wedi cael ei farcio [fan hyn](https://www.wr
 
 Fe allwch gyflwyno'r gwaith yn naill ai Saesneg neu yng Nghymraeg.
 
-Dyddiad cau i roi'r gwaith i mewn yw *1200 Dydd Gwener o Wythnos 11*.
+Dyddiad cau i roi'r gwaith i mewn yw *1500 Dydd Iau o Wythnos 11*.
 
 Fe fyddwch yn cyflwyno'r gwaith mewn dwy ffordd:
 
