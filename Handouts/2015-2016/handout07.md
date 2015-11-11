@@ -2,7 +2,7 @@
 layout     : post
 categories : 2015-2016
 title      : '2015-2016: Handout 7 - A level calculus, debugging and class test'
-comments   : false
+comments   : true
 ---
 
 Lecturer: Vince Knight
