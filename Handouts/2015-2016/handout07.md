@@ -61,9 +61,9 @@ is then run it is difficult/impossible to debug.
 
 Consider the problem below:
 
-> Obtain a plot showing the number of primes less than or equal to \(n\) for
-> \(n\leq 100\). After that, obtain the plot of the number of primes up until
-> \(n\) divided by \(n\).
+> Obtain a plot showing the number of primes less than or equal to \\(n\\) for
+> \\(n\leq 100\\). After that, obtain the plot of the number of primes less than
+> or equal to \\(n\\) divided by \\(n\\).
 
 Here is an example of how all this code could be thrown together in one go
 (**there are errors**):
