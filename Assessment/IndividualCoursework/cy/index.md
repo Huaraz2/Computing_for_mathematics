@@ -39,9 +39,11 @@ Defnyddir y cynllun marcio canlynol:
 
 
 ## Enghraifft
-Mae ateb enghreifftiol ar gael [fan hyn](http://goo.gl/ly8fdG).
+Mae ateb enghreifftiol ar gael [fan
+hyn](https://www.overleaf.com/read/dcbnhxdqkttr).
 
-Mae sut fyddai'r ateb enghreifftiol wedi cael ei farcio [fan hyn](https://www.writelatex.com/read/qcjzqvbrmsfq).
+Mae sut fyddai'r ateb enghreifftiol wedi cael ei farcio [fan
+hyn](https://www.overleaf.com/read/fcrbxxqmqbmw).
 
 (Nodwch fod y linciau yma yn Saesneg.)
 
