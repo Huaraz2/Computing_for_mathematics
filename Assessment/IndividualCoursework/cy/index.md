@@ -40,7 +40,7 @@ Defnyddir y cynllun marcio canlynol:
 
 ## Enghraifft
 Mae ateb enghreifftiol ar gael [fan
-hyn](https://www.overleaf.com/read/dcbnhxdqkttr).
+hyn](https://www.overleaf.com/latex/templates/deall-y-deilliad/dcbnhxdqkttr#.VkRfB9_hBWc).
 
 Mae sut fyddai'r ateb enghreifftiol wedi cael ei farcio [fan
 hyn](https://www.overleaf.com/read/fcrbxxqmqbmw).
