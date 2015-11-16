@@ -174,7 +174,7 @@ comments    : true
         random_matrix(ZZ, 5) # Gives a random square matrix of size 5 in Z
         random_matrix(QQ, 5) # Gives a random square matrix of size 5 in Q
 
-    Using this attempt to conjecture a connection between the determinant of a matrix and it's inverse (and the determinant of it's inverse).
+    Using this attempt to conjecture a connection between the determinant of a matrix and its inverse (and the determinant of its inverse).
 
     [Video hint](http://youtu.be/3qdlespAi9o)
 
