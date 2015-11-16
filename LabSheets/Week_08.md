@@ -178,7 +178,7 @@ comments    : true
 
     [Video hint](http://youtu.be/3qdlespAi9o)
 
-08. **TICKABLE** The file [W08_D01.csv]({{site.baseurl}}/assets/Data/W08_D01.csv) contains 4 columns of data:
+08. **TICKABLE** The file [W08_D01.csv]({{site.baseurl}}/assets/Data/W08_D01.csv) contains 6 columns of data:
 
         a, b, c, d, e, f
 
