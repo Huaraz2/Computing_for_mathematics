@@ -45,16 +45,10 @@ hyn](https://www.overleaf.com/latex/templates/deall-y-deilliad/dcbnhxdqkttr#.VkR
 Mae sut fyddai'r ateb enghreifftiol wedi cael ei farcio [fan
 hyn](https://www.overleaf.com/read/fcrbxxqmqbmw).
 
-(Nodwch fod y linciau yma yn Saesneg.)
 
 
 ## Cyflwyno
 
 Fe allwch gyflwyno'r gwaith yn naill ai Saesneg neu yng Nghymraeg.
 
-Dyddiad cau i roi'r gwaith i mewn yw *1500 Dydd Iau o Wythnos 11*.
-
-Fe fyddwch yn cyflwyno'r gwaith mewn dwy ffordd:
-
-- Trwy learning central yn defnyddio turnitin. Chwiliwch am adran 'assessment' o'r modiwl Computing for Mathematics. Byddwch **ond** yn cyflwyno'r pdf yn y ffordd yma a bydd turnitin yn ei gwirio am lên-ladrad. **Fe fyddwch ond yn gallu gwneud hyn unwaith!**
--Rhowch **eich holl ffeiliau** (.txt, .pdf, .sws ayyb...) yn ffolder o'r enw `studentnumber` (**EICH RHIF MYFYRIWR YMA**). Rhowch y ffolder yma yn y ffolder o'r enw: `MA1003 Coursework` yn y gyriant rhannu (shared drive). **Pwysig: mae gan y ffolder yma caniatâd arbennig ar gyfer darllen ac ysgrifennu, felly fe allwch ond gwneud hyn unwaith!**
+Gweler y fersiwn Saesneg ar gyfer manylion cyflwyno a dyddiadau cau.

@@ -129,7 +129,7 @@ comments    : true
 
     Use this approach to solve the systems of equations we have considered so far (from questions 1 and 3).
 
-    [Video hint](http://youtu.be/NOpEMl_yzMM)
+    [Video hint](http://youtu.be/uYrDeapnFq4)
 
 06. **TICKABLE** Recalling your basic python knowledge. Lists can be used to hold any sort of object. Obtain a list of the inverses of the following matrices (when the inverse exists, you might need to look up information on `try` and `except`):
 
@@ -174,11 +174,11 @@ comments    : true
         random_matrix(ZZ, 5) # Gives a random square matrix of size 5 in Z
         random_matrix(QQ, 5) # Gives a random square matrix of size 5 in Q
 
-    Using this attempt to conjecture a connection between the determinant of a matrix and it's inverse (and the determinant of it's inverse).
+    Using this attempt to conjecture a connection between the determinant of a matrix and its inverse (and the determinant of its inverse).
 
     [Video hint](http://youtu.be/3qdlespAi9o)
 
-08. **TICKABLE** The file [W08_D01.csv]({{site.baseurl}}/assets/Data/W08_D01.csv) contains 4 columns of data:
+08. **TICKABLE** The file [W08_D01.csv]({{site.baseurl}}/assets/Data/W08_D01.csv) contains 6 columns of data:
 
         a, b, c, d, e, f
 
