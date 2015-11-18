@@ -1,8 +1,8 @@
 ---
 layout     : post
 categories : 2015-2016
-title      : '2015-2016: Handout 8 - Repeating actions with loops, Q8, and the individual coursework.'
-comments   : false
+title      : '2015-2016: Handout 8 - Reading, Q8, and the individual coursework.'
+comments   : true
 ---
 Lecturer: Vince Knight
 
@@ -132,6 +132,9 @@ for k in range(10000):
 print mean(data)
 {% endhighlight %}
 
+**Note that for all files, when using cloud.sagemath the files are not on your
+physical computer but in the cloud. Apparently some students were confused by
+that.**
 
 ## Individual coursework
 
