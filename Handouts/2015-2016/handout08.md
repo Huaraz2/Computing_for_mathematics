@@ -1,7 +1,7 @@
 ---
 layout     : post
 categories : 2015-2016
-title      : '2015-2016: Handout 8 - Reading, Q8, and the individual coursework.'
+title      : '2015-2016: Handout 8 - Reading, repeating actions over list (Q8), and the individual coursework.'
 comments   : true
 ---
 Lecturer: Vince Knight
