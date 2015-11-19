@@ -109,7 +109,7 @@ class ParameterSet:
 
 f = open('file.csv', 'r')  # Open the file in read mode
 csvrdr = csv.reader(f)  # Create a reader instance
-data = [ParameterSet(eval(row[0]), eval(row[1]), eval(row[2])) for row in csvrdr]  # Get the data
+data = [ParameterSet(eval(row[0]), eval(row[1]), eval(row[2])).deriv for row in csvrdr]  # Get the data
 print mean(data)  # Obtain the mean
 {% endhighlight %}
 
