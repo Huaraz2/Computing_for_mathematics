@@ -79,7 +79,7 @@ Sage can be used to solve differential equations. Often complex systems can be m
 
     Obtain the solution to this system of equations. Assuming that \\(x(0)=100\\) and that \\(y(0)=700\\) plot the two solutions of the equations, which army wins this battle? When does the battle end?
 
-07. **TICKABLE** The love story between Romero and Juliet can be modelled with the following system of differential equations:
+07. **TICKABLE** The love story between Romeo and Juliet can be modelled with the following system of differential equations:
 
     $$\begin{cases}
     \frac{dx}{dt} = -y\\
@@ -88,7 +88,7 @@ Sage can be used to solve differential equations. Often complex systems can be m
 
     Where \\(x(t)\\) represents the affection of Juliet towards Romeo and \\(y(t)\\) the affection of Romeo towards Juliet (negative affection represents 'hatred').
 
-    Solve this system of equation and assuming that Romeo is initially attracted to Juliet (\\(y(0)=1\\)) but that Juliet is initially indifferent to Romeo (\\(x(0)=0\\)) at time \\(t=0\\) are indifferent to each other describe the long term relationship between the two characters.
+    Solve this system of equations and, assuming that Romeo is initially attracted to Juliet (\\(y(0)=1\\)) but that Juliet is initially indifferent to Romeo (\\(x(0)=0\\)), describe the long term relationship between the two characters.
 
     Describe the behaviour of the system if Romeo and Juliet are initially indifferent to each other.
 
