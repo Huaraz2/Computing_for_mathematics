@@ -10,7 +10,7 @@ A typesetting language is a language that requires the user to write code that i
 
 ![]({{site.baseurl}}/assets/Images/W10-img01.png)
 
-01. **TICKABLE**  Open up TeXworks which should open a blank document. Write the following LaTeX code:
+01. **TICKABLE**  Open up TeXworks which should open a blank document **or use the cloud based services described at the bottom of this question**. Write the following LaTeX code:
 
         \documentclass{article}
 
