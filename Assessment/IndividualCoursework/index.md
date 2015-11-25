@@ -53,7 +53,7 @@ Find the module **"MA1003 Computing For Mathematics "**, within there find the
 **"Assessment"** folder and then the **"Computing For Mathematics: Individual
 Coursework"** item. Then click on **"View/Complete"** and follow the
 instructions. Please see this video which shows how to submit:
-https://vimeo.com/114969438
+[vimeo.com/114969438](https://vimeo.com/114969438).
 
 You are submitting work this way as "Turnitin" is a product purchased by the
 University which checks for plagiarism.
