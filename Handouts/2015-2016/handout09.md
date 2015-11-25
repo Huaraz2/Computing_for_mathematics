@@ -69,7 +69,7 @@ Come and chat to me if you're having trouble with either.
 
 You will be submitting your coursework via learning central: please [read the
 instructions](http://0.0.0.0:4000/Computing_for_mathematics/Assessment/IndividualCoursework/)
-and [this video](https://vimeo.com/114969438). **Do not leave this till the last
+as well as [this video](https://vimeo.com/114969438). **Do not leave this till the last
 minute**. If you don't submit, your mark will be 0.
 
 ## Some ideas
