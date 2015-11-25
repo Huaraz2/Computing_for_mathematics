@@ -32,11 +32,11 @@ A typesetting language is a language that requires the user to write code that i
     2. Often possible to have multiple authors collaborating on a document **at the same time**;
     3. Your files are always available to you.
 
-    The main disadvantage is that you need an internet collection to use it. Another good cloud based LaTeX solution is [www.writelatex.com/](https://www.writelatex.com/). Feel free to either use TeXworks, SageMathCloud or writelatex throughout your learning of LaTeX.
+    The main disadvantage is that you need an internet collection to use it. Another good cloud based LaTeX solution is [www.overleaf.com/](https://www.overleaf.com/). Feel free to either use TeXworks, SageMathCloud or overleaf throughout your learning of LaTeX.
 
     [Video hint (SageMathCloud)](http://youtu.be/fHC5AS8r7-o)
 
-    [Video hint (writelatex)](http://youtu.be/4B8Cmm9scmU)
+    [Video hint (overleaf)](http://youtu.be/4B8Cmm9scmU)
 
 02. **TICKABLE** The following keys are used to type text in a source file:
 
@@ -61,7 +61,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/m-BKupCslxQ)
 
-    [Video hint (writelatex)](http://youtu.be/xMujHplqFx0)
+    [Video hint (overleaf)](http://youtu.be/xMujHplqFx0)
 
 03. **TICKABLE** In general all the code that comes before the `\begin{document}` statement is called the 'preamble' and is used to set a title for the document, call certain packages as well as various other things. The following code (to be inserted in the preamble of your document) sets a title:
 
@@ -77,7 +77,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/m6D5JeB3jm8)
 
-    [Video hint (writelatex)](http://youtu.be/bSJbxAWM5A8)
+    [Video hint (overleaf)](http://youtu.be/bSJbxAWM5A8)
 
 04. **TICKABLE** The following will add an abstract to your document:
 
@@ -87,7 +87,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/t5cMm2MfLpA)
 
-    [Video hint (writelatex)](http://youtu.be/d9WZFOSjIPA)
+    [Video hint (overleaf)](http://youtu.be/d9WZFOSjIPA)
 
 05. **TICKABLE** There are various ways to obtain lists:
 
@@ -105,7 +105,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/MoCr3NGbeho)
 
-    [Video hint (writelatex)](http://youtu.be/AMisCNGM2G8)
+    [Video hint (overleaf)](http://youtu.be/AMisCNGM2G8)
 
 06. **TICKABLE** The following code creates a simple table (note the `c`, `r`, and `l` tags that indicate text alignment, experiment by changing these):
 
@@ -125,7 +125,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/6G-yCK9etds)
 
-    [Video hint (writelatex)](http://youtu.be/OAgTXe5ShSI)
+    [Video hint (overleaf)](http://youtu.be/OAgTXe5ShSI)
 
 07. **TICKABLE** To include a picture is straightforward in LaTeX. We make use of the `graphicx` package. In LaTeX packages are included in the preamble using `usepackage`. Include the following in the preamble:
 
@@ -145,7 +145,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/HIzlgfSHL_M)
 
-    [Video hint (writelatex)](http://youtu.be/260odGNvPEc)
+    [Video hint (overleaf)](http://youtu.be/260odGNvPEc)
 
 
 08. **TICKABLE** Graphs, pictures and diagrams can thus be created in any software of choice (Sage, inkscape, google drive etc...) and then included as required **but** it is often easier to draw a picture in LaTeX itself using code. A great package to do this with is `tikz`. Include the following in the preamble:
@@ -182,7 +182,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/-pZyfnV-qrI)
 
-    [Video hint (writelatex)](http://youtu.be/fPpATcx-fVc)
+    [Video hint (overleaf)](http://youtu.be/fPpATcx-fVc)
 
 09. **TICKABLE** It is possible to organise parts of a document using 'sections':
 
@@ -217,13 +217,13 @@ A typesetting language is a language that requires the user to write code that i
     1. The first time to find all the labels;
     2. The second time to match the labels to the references.
 
-    If you are using writelatex then this happens automatically.
+    If you are using overleaf then this happens automatically.
 
     Note, labels can be using in conjunction with `tabular` (for tables) and `figure` (for images) environments.
 
     [Video hint (SageMathCloud)](http://youtu.be/4JlmiqnCitM)
 
-    [Video hint (writelatex)](http://youtu.be/E2xT0xNk8EU)
+    [Video hint (overleaf)](http://youtu.be/E2xT0xNk8EU)
 
 10. **TICKABLE** To create a bibliography we need to store the bibliographic information in a separate 'bibtex' file. In this file you include bibliographic information for the various references you might have.
 
@@ -251,11 +251,11 @@ A typesetting language is a language that requires the user to write code that i
 
     ![]({{site.baseurl}}/assets/Images/W10-img02.png)
 
-    If you are using writelatex then this happens automatically.
+    If you are using overleaf then this happens automatically.
 
     [Video hint (SageMathCloud)](http://youtu.be/zcZ-ucApV6w)
 
-    [Video hint (writelatex)](http://youtu.be/X-9T2Oaj-5A)
+    [Video hint (overleaf)](http://youtu.be/X-9T2Oaj-5A)
 
 11. **TICKABLE** Typesetting mathematics is LaTeX's strength. Add the following to your document:
 
@@ -263,7 +263,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/nEkADjLQdmY)
 
-    [Video hint (writelatex)](http://youtu.be/ef2p-rVJ2Vk)
+    [Video hint (overleaf)](http://youtu.be/ef2p-rVJ2Vk)
 
 12. **TICKABLE** The previous code showed how to include mathematics in text (_inline). We can also include mathematics in display mode. Add the following to your document:
 
@@ -271,7 +271,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/nRMU8Erl__I)
 
-    [Video hint (writelatex)](http://youtu.be/cHuDdblKmjs)
+    [Video hint (overleaf)](http://youtu.be/cHuDdblKmjs)
 
 13. **TICKABLE** Mathematics can also be included in equations and referred to as for sections, pictures etc:
 
@@ -283,7 +283,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/CVB4H7hiM60)
 
-    [Video hint (writelatex)](http://youtu.be/_ZH0jwscSwk)
+    [Video hint (overleaf)](http://youtu.be/_ZH0jwscSwk)
 
 14. **TICKABLE** To include text within mathematics we can use the `text` command from the `amsmath` package:
 
@@ -295,7 +295,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/VY-lyrcukEs)
 
-    [Video hint (writelatex)](http://youtu.be/408OEiq3ybU)
+    [Video hint (overleaf)](http://youtu.be/408OEiq3ybU)
 
 15. **TICKABLE** Arithmetic operators are quite simple in LaTeX. Try the following:
 
@@ -313,7 +313,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/pmBpwxwnunk)
 
-    [Video hint (writelatex)](http://youtu.be/DiDe88f8jN0)
+    [Video hint (overleaf)](http://youtu.be/DiDe88f8jN0)
 
 16. **TICKABLE** Experiment with the following to see how to obtain integrals in LaTeX:
 
@@ -321,7 +321,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/beUz_50IBL4)
 
-    [Video hint (writelatex)](http://youtu.be/Aezyj0OhDVM)
+    [Video hint (overleaf)](http://youtu.be/Aezyj0OhDVM)
 
 17. **TICKABLE** The following code gives a 3 by 2 matrix:
 
@@ -335,7 +335,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/BnuxEyz_euc)
 
-    [Video hint (writelatex)](http://youtu.be/JDsirwrf1Bg)
+    [Video hint (overleaf)](http://youtu.be/JDsirwrf1Bg)
 
 18. **TICKABLE** It is possible to create aligned mathematics using:
 
@@ -355,7 +355,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/9MJ6TUWILeM)
 
-    [Video hint (writelatex)](http://youtu.be/AzFOqb9WKX4)
+    [Video hint (overleaf)](http://youtu.be/AzFOqb9WKX4)
 
 19. **TICKABLE** Finally we can create partitioned statements:
 
@@ -368,7 +368,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/kPwXfq_mY3c)
 
-    [Video hint (writelatex)](http://youtu.be/if7P-w6hHmw)
+    [Video hint (overleaf)](http://youtu.be/if7P-w6hHmw)
 
 20. **TICKABLE** It is possible to create high quality presentation in LaTeX. To do this we use the `beamer` document class:
 
@@ -395,7 +395,7 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/YYLtgWGp-_w)
 
-    [Video hint (writelatex)](http://youtu.be/XrZRVGnFXw0)
+    [Video hint (overleaf)](http://youtu.be/XrZRVGnFXw0)
 
 21. **TICKABLE** Most of the LaTeX code you have learnt so far an be used without much change in a beamer presentation within the `frame` environment. There are however a few particularities:
 
@@ -420,4 +420,4 @@ A typesetting language is a language that requires the user to write code that i
 
     [Video hint (SageMathCloud)](http://youtu.be/d61T_y917DE)
 
-    [Video hint (writelatex)](http://youtu.be/L3KGl2vn_iA)
+    [Video hint (overleaf)](http://youtu.be/L3KGl2vn_iA)
