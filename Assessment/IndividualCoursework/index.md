@@ -48,4 +48,15 @@ How the model solution would have been marked is [here](https://www.writelatex.c
 
 Deadline for this work to be handed in is *1500 Thursday of Week 11*.
 
-Instructions for submission will be given soon.
+To submit you will use [learning central](https://learningcentral.cf.ac.uk).
+Find the module **"MA1003 Computing For Mathematics "**, within there find the
+**"Assessment"** folder and then the **"Computing For Mathematics: Individual
+Coursework"** item. Then click on **"View/Complete"** and follow the
+instructions. Please see this video which shows how to submit:
+https://vimeo.com/114969438
+
+You are submitting work this way as "Turnitin" is a product purchased by the
+University which checks for plagiarism.
+
+**THIS IS YOUR ONLY CHANCE TO SUBMIT: PLEASE DO NOT LEAVE SUBMISSION TO THE LAST
+MINUTE. IF YOU DO NOT SUBMIT YOU WILL GET A MARK OF 0.**
