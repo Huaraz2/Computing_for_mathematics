@@ -92,8 +92,8 @@ A typesetting language is a language that requires the user to write code that i
 05. **TICKABLE** There are various ways to obtain lists:
 
         \begin{itemize}
-            \item Unorderd item number 1
-            \item Unorderd item number 2
+            \item Unordered item number 1
+            \item Unordered item number 2
         \end{itemize}
 
         \begin{enumerate}
