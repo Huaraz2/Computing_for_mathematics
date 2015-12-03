@@ -2,7 +2,7 @@
 layout     : post
 categories : 2015-2016
 title      : '2015-2016: Handout 10 - Referencing a web page...'
-comments   : false
+comments   : true
 ---
 Lecturer: Vince Knight
 
