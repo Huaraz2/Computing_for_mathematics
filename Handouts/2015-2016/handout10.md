@@ -26,7 +26,7 @@ Here is another example of this.
 
 The `bib` file (for example `bibliography.bib`):
 
-{% highlight bibtex %}
+{% highlight latex %}
 @misc{Google,
   title = {Google},
   howpublished = {\url{https://www.google.com}},
