@@ -1,7 +1,7 @@
 ---
 layout     : post
 categories : 2015-2016
-title      : '2014-2015: Handout 9 - Spoons, spoons, spoons'
+title      : '2015-2016: Handout 9 - Spoons, spoons, spoons'
 comments   : true
 ---
 Lecturer: Vince Knight
