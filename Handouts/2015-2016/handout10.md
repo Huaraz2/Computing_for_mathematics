@@ -71,3 +71,4 @@ Next Semester is a group exercise. You can find information about it here: [{{si
 - Think of groups and topics for next semester
 - **Finish the coursework**
 - If anything is still unclear **please** come and see me during office hours.
+- Compliment Oliver on his tie
