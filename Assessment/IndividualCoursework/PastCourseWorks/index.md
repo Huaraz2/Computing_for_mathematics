@@ -7,19 +7,13 @@ Here are some past reports by your peers:
 # 2015-2016
 
 - [The Probability of Winning at Blackjack](./2015-2016/dudley2015-2016.pdf)
-- [Optimal Addition Chains and the Scholz Conjecture](./2015-2016/siddique2015-2016.pdf)
 - [UnSCRABBLEing Mathematics](./2015-2016/ridgway2015-2016.pdf)
 - [Mandelbrot Set](./2015-2016/zozin2015-2016.pdf)
 - [Prisoner’s Names in Boxes](./2015-2016/williams2015-2016.pdf)
-- [Euler’s Theorem and RSA Public Key Cryptography](./2015-2016/weaving2015-2016.pdf)
 - [Relationship Between Product And Sum](./2015-2016/smith2015-2016.pdf)
 - [Tuning With Just Intonation and Equal Temparement](./2015-2016/scott2015-2016.pdf)
-- [The Finite Within Infinity](./2015-2016/phillips2015-2016.pdf)
 - [RNA codons and correlant Amino Acids](./2015-2016/min2015-2016.pdf)
-- [Maths behind a MOBA: Using Linear Programming to model and solve a problem](./2015-2016/knight2015-2016.pdf)
-- [How To Be A Lazy Cyclist](./2015-2016/holden2015-2016.pdf)
 - [Sierpinski’s Carpet](./2015-2016/hedge2015-2016.pdf)
-- [Sudoku Solving Algorithm](./2015-2016/challis2015-2016.pdf)
 - [A Mathematician’s Cookbook: How to Make the Perfect Pi](./2015-2016/baynham2015-2016.pdf)
 
 
