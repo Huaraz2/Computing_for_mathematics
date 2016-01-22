@@ -17,6 +17,7 @@ Here are some past reports by your peers:
 - [A Mathematician’s Cookbook: How to Make the Perfect Pi](./2015-2016/baynham2015-2016.pdf)
 - [The Finite Within Infinity](./2015-2016/phillips2015-2016.pdf)
 - [Optimal Addition Chains and the Scholz Conjecture](./2015-2016/siddique2015-2016.pdf)
+- [How To Be A Lazy Cyclist](./2015-2016/holden2015-2016.pdf)
 
 
 # 2014-2015
