@@ -32,7 +32,7 @@ chat: [gitter.im/drvinceknight/Computing_for_mathematics](https://gitter.im/drvi
 
 # What you should do next:
 
-- Download and install Python (**version 2.x**) on your own machine if you have one:
+- Download and install Python (**version 3.x**) on your own machine if you have one:
     - If you have a windows machine follow the instruction at [www.python.org/](http://www.python.org/)
     - If you have a linux machine or using Mac OS (both of these are 'nix' machines) then python is already installed.
     - If you have a chromebook or similar come and have a chat with me.

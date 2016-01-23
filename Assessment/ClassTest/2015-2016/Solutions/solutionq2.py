@@ -44,7 +44,7 @@ def recX(N):
 ###########################
 
 for n in range(0, 11):
-    print recX(n), iterX(n), recX(n) == round(iterX(n), 0)
+    print(recX(n), iterX(n), recX(n) == round(iterX(n), 0))
 
 #################################
 # 10 Marks for anything like this

@@ -40,7 +40,7 @@ def approxint(N=1000):
 
 ### 10 remaining marks for obtaining 'correct answer' (whether or not a function is used as above or if list comprehensions are used etc...
 
-print "For N=200, integral approximated as %s" % approxint(200)
-print "For N=1000, integral approximated as %s" % approxint()
-print "For N=10000, integral approximated as %s" % approxint(10000)
-print "For N=20000, integral approximated as %s" % approxint(20000)
+print("For N=200, integral approximated as %s" % approxint(200))
+print("For N=1000, integral approximated as %s" % approxint())
+print("For N=10000, integral approximated as %s" % approxint(10000))
+print("For N=20000, integral approximated as %s" % approxint(20000))

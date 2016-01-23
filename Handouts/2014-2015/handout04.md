@@ -30,7 +30,7 @@ mylist = [] # Create an empty list
 for i in range(11): # Iterate over the integers from 0 to 10.
     if i % 2 == 0: # Use an if statement to check that i is even
             mylist.append(i) # If i is even append i to our empty list
-            print mylist # print the list
+            print(mylist) # print the list
 {% endhighlight %}
 
 The above creates an empty list `mylist` and takes all elements from the list containing the integers from 0 to 10 (`range(11)`), and putting the ones that are even (`i % 2 == 0`) in to the empty list.
@@ -56,7 +56,7 @@ mylist = []  # Create an empty list
 for dummyvariable in givenlist:  # Iterate over the elements of the givenlist
     if biggerthanfive(dummyvariable):  # Use an if statement coupled with our previously defined function
         mylist.append(dummyvariable)  # If the dummyvariable is bigger than five then append to our empty list
-print mylist  # print the list
+print(mylist)  # print the list
 
 {% endhighlight %}
 
@@ -101,15 +101,15 @@ So the following code snippets all do the same thing:
 {% highlight python %}
 # Using i as a dummy variable:
 for i in range(10):
-    print i
+    print(i)
 
 # Using j as a dummy variable:
 for j in range(10):
-    print j
+    print(j)
 
 # Using ninja as a dummy variable:
 for ninja in range(10):
-    print ninja
+    print(ninja)
 {% endhighlight %}
 
 ## Functions
@@ -122,19 +122,19 @@ In general it is straightforward to modify code that does things for 1 or 2 spec
 The following finds all natural numbers less than 20 than are divisible by 2 and 5:
 
 {% highlight python %}
-numbers = range(1, 21)
+numbers = list(range(1, 21))
 mylist = []
 for k in numbers:
     if k % 2 == 0 and k % 5 == 0:
         mylist.append(k)
-print mylist
+print(mylist)
 {% endhighlight %}
 
 Here is a function that returns a list of all natural numbers than `K` that are divisible by `r` and `s`:
 
 {% highlight python %}
 def divisiblefunction(K, r, s):
-    numbers = range(1, K + 1)
+    numbers = list(range(1, K + 1))
     mylist = []
     for k in numbers:
         if k % r == 0 and k % s == 0:
@@ -145,7 +145,7 @@ def divisiblefunction(K, r, s):
 We can use that function to get the same result as above (but also other values if we wanted them):
 
 {% highlight python %}
-print divisiblefunction(20, 2, 5)
+print(divisiblefunction(20, 2, 5))
 {% endhighlight %}
 
 Compare this to the solution of question 8 and make sure you're comfortable with functions.

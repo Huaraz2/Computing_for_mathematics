@@ -32,7 +32,7 @@ On Windows when you double click a `.py` file (and if you haven't changed your s
 Write this code snippet and double click on it to see what I mean (this code forces a break by asking for some input):
 
 {% highlight python %}
-k = raw_input('Hi!')
+k = input('Hi!')
 {% endhighlight %}
 
 ## Finding things in strings
@@ -43,7 +43,7 @@ This is used to find the location of a smaller string in a string.
 {% highlight python %}
 string = 'abcdefghjkl'
 k = string.index('e')
-print k
+print(k)
 {% endhighlight %}
 
 The above would output:
@@ -56,7 +56,7 @@ Similarly we could also look for the position of substring `efghj`:
 
 {% highlight python %}
 k = string.index('efghj')
-print k
+print(k)
 {% endhighlight %}
 
 The above would produce the same result.
@@ -74,9 +74,9 @@ We could avoid the above error by checking if the substring is actually in the s
 
 {% highlight python %}
 if 'vince' in string:
-    print string.index('vince')
+    print(string.index('vince'))
 else:
-    print 'Not in string'
+    print('Not in string')
 {% endhighlight %}
 
 Understanding how indexing work is an important part of this course as the same approach is used with `lists` (something in the next lab sheet).
@@ -89,7 +89,7 @@ Understanding how indexing work is an important part of this course as the same 
 mood = 'Happy'
 
 if mood == 'Happy':
-    print 'Tick all the tickables!'
+    print('Tick all the tickables!')
 {% endhighlight %}
 
 We can use `if` statements in conjunction with the `elif` and `else` command to evaluate alternatives:
@@ -98,11 +98,11 @@ We can use `if` statements in conjunction with the `elif` and `else` command to 
 mood = 'Grumpy'
 
 if mood == 'Happy':
-    print 'Tick all the tickables!'
+    print('Tick all the tickables!')
 elif mood == 'Grumpy':
-    print 'No ticks...'
+    print*'No ticks...')
 else:
-    print 'Who knows...'
+    print('Who knows...')
 {% endhighlight %}
 
 ## The square root question

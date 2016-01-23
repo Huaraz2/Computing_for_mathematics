@@ -35,7 +35,7 @@ This lab sheet will introduce a very important concept of computer science: obje
 
     To view the object try the following:
 
-        print vince
+        print(vince)
 
     Create another instance of the Student object and view it.
 
@@ -72,20 +72,20 @@ This lab sheet will introduce a very important concept of computer science: obje
     If we now assign the variable `vince` to an instance of Student we can access these attributes as follows:
 
         vince = Student()
-        print vince.courses
-        print vince.age
-        print vince.sex
+        print(vince.courses)
+        print(vince.age)
+        print(vince.sex)
 
     We can then modify these attributes like any other python object:
 
         vince.courses.append("French")
-        print vince.courses
+        print(vince.courses)
 
         vince.age = 28
-        print vince.age
+        print(vince.age)
 
         vince.sex = "M"
-        print vince.sex
+        print(vince.sex)
 
     - [Video hint](http://youtu.be/I_fbk5Uss-Q)
 
@@ -124,9 +124,9 @@ This lab sheet will introduce a very important concept of computer science: obje
     Let us see how this works:
 
         vince = Student()
-        print vince.age
+        print(vince.age)
         vince.haveabirthday()
-        print vince.age
+        print(vince.age)
 
     We can include other arguments in a method definition (just like for a normal python function):
 
@@ -141,11 +141,11 @@ This lab sheet will introduce a very important concept of computer science: obje
     In the above we have set a default variable:
 
         vince = Student()
-        print vince.age
+        print(vince.age)
         vince.haveabirthday()
-        print vince.age
+        print(vince.age)
         vince.haveabirthday(28)
-        print vince.age
+        print(vince.age)
 
     - [Video hint](http://youtu.be/epYMekhWx2k)
     - [Video hint 2](https://www.youtube.com/watch?v=dqI53ABYDX8)
@@ -161,9 +161,9 @@ This lab sheet will introduce a very important concept of computer science: obje
                 self.age += numberofbirthdays
 
         vince = Student(["Biology","Math"], 28, "Male")
-        print vince.courses
-        print vince.age
-        print vince.sex
+        print(vince.courses)
+        print(vince.age)
+        print(vince.sex)
 
     - [Video hint](https://www.youtube.com/watch?v=f8-wajuEy-U)
 
@@ -254,11 +254,11 @@ This lab sheet will introduce a very important concept of computer science: obje
     Instances of this inherited class will inherit attributes and methods from the original class:
 
         becky = MathStudent(['Mathematics', 'Biology'], 29, 'Female')
-        print becky.courses
-        print becky.age
-        print becky.favouriteclass
+        print(becky.courses)
+        print(becky.age)
+        print(becky.favouriteclass)
         becky.haveabirthday()
-        print becky.age
+        print(becky.age)
 
     Create another inherited class (from student) giving it a specific method.
 

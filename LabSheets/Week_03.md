@@ -23,7 +23,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 01. The following code defines a very simple function (with no arguments):
 
         def printhello():
-            print "Hello"
+            print("Hello")
 
     The name of the function is `PrintHello` and `def` is the Python syntax used to define it. When we run the above two lines of code, nothing is output. To call the function we simply write:
 
@@ -32,7 +32,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
     We can modify our function to take an argument:
 
         def printhello(name):
-            print "Hello, " + name
+            print("Hello, " + name)
 
     - [Video hint](http://www.youtube.com/watch?v=I_DXaP-mrRA)
     - [Video hint 2](https://www.youtube.com/watch?v=1IKdpmgf-xo)
@@ -80,7 +80,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
         num = 2
         num += 3  # Add 3 to num
-        print num
+        print(num)
 
 08. The following is an example of a multilined comment in the definition of a function:
 
@@ -125,12 +125,12 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
       Yes:
 
-          print 2 + 2
+          print(2 + 2)
           myfunc(3, 4)
 
       No:
 
-          print 2+2
+          print(2+2)
           myfunc(3,4)
 
       Include 2 whitespaces before an inline comment `#` at the end of a line of code.
@@ -138,28 +138,28 @@ To be able to make progress from the basic on this sheet we need a way to write 
       Yes:
 
           # Just leave a space after the comment symbol if on a single line
-          print 2 + 2  # but if you comment at the end of a line leave 2 whitespaces.
+          print(2 + 2)  # but if you comment at the end of a line leave 2 whitespaces.
 
       No:
 
-          print 2 + 2 # So this is not enough space.
+          print(2 + 2) # So this is not enough space.
 
       Also include two blank lines before the definition of a function.
 
       Yes:
 
-          print 2 + 2
+          print(2 + 2)
 
 
           def myfunc():
-              print 2 + 2
+              print(2 + 2)
 
       No:
 
-          print 2 + 2
+          print(2 + 2)
 
           def myfunc():
-              print 2 + 2
+              print(2 + 2)
 
     - Comments
 
@@ -197,17 +197,17 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
         blist = [30, 40, 50, 60]
         clist = alist + blist
-        print clist
-        print len(clist)
-        print clist[0]
-        print clist[-1]
-        print clist[3:12]
+        print(clist)
+        print(len(clist))
+        print(clist[0])
+        print(clist[-1])
+        print(clist[3:12])
 
     We see that python indexes lists just like strings: starting at 0. We can also use the `index` function as for strings. Try:
 
         index = clist.index(40)
-        print index
-        print clist[index:index + 2]
+        print(index)
+        print(clist[index:index + 2])
 
     - [Video hint](http://www.youtube.com/watch?v=7FbYcOOB64c)
     - [Video hint 2](https://www.youtube.com/watch?v=IgF0lNI1Q7I)
@@ -218,7 +218,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
         for i in range(11):
             if i % 2 == 0:
                 mylist.append(i)
-        print mylist
+        print(mylist)
 
     This makes use of the range function that we saw in the previous lab sheet.
 
@@ -232,12 +232,12 @@ To be able to make progress from the basic on this sheet we need a way to write 
 13. There is another way of creating/manipulating lists in python called list _comprehensions_. The following code give the squares of the first 10 integers:
 
         squares = [e ** 2 for e in range(1, 11)]
-        print squares
+        print(squares)
 
     We can include logical statements to only give the squares of odd numbers:
 
         squares = [e ** 2 for e in range(1, 11) if e % 2 == 1]
-        print squares
+        print(squares)
 
     - [Video hint](http://www.youtube.com/watch?v=8WXIY18RJiY)
     - [Video hint 2](https://www.youtube.com/watch?v=GwUhwHM19FU)
@@ -256,9 +256,9 @@ To be able to make progress from the basic on this sheet we need a way to write 
 15. There are various other things that we can do to a list. Including getting the highest, lowest values as well as the length of the list:
 
         alist = [1,74,2,100,-123]
-        print max(alist)
-        print min(alist)
-        print len(alist)
+        print(max(alist))
+        print(min(alist))
+        print(len(alist))
 
     [Video hint](http://www.youtube.com/watch?v=JslPoHRe3kk)
 
@@ -283,10 +283,10 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
         def searchpb(target):
             for e in badphonebook:
-                print "Checking %s" % e
+                print("Checking %s" % e)
                 if e[0] == target:
                     return e[1]
-            return "%s not in phonebook" % target
+            return("%s not in phonebook" % target)
 
     Code this function and use it to find all the phone numbers in the above phone book. Try to find some strings that are not in the phone book.
 
@@ -314,15 +314,15 @@ To be able to make progress from the basic on this sheet we need a way to write 
 
     We can also modify an element of a dictionary as follows:
 
-        print goodphonebook['Vince']
+        print(goodphonebook['Vince'])
         goodphonebook['Vince'] = 8
-        print goodphonebook['Vince']
+        print(goodphonebook['Vince'])
 
     We must just be careful as if we use square brackets for a value that is not in a dictionary we will obtain an error:
 
-        print goodphonebook['Brayden']
+        print(goodphonebook['Brayden'])
         goodphonebook['Brayden'] = 12
-        print goodphonebook['Brayden']
+        print(goodphonebook['Brayden'])
 
     **Note: A key must be a string or a numerical variable. The associated value of a key can be anything.**
 
@@ -339,7 +339,7 @@ To be able to make progress from the basic on this sheet we need a way to write 
 18. Note that it is also possible to iterate over keys in a dictionary:
 
         for e in goodphonebook:
-            print goodphonebook[e]
+            print(goodphonebook[e])
 
     [Video hint](http://www.youtube.com/watch?v=cZWwJgvRbBE)
 

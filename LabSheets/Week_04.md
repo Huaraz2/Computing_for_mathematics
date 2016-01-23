@@ -36,12 +36,12 @@ After this session you will know how to:
 
         textfile = open('mytextfile.txt', 'r')
         string = textfile.read()
-        print string
+        print(string)
 
     This string is not particularly helpful. To transform the string to a list we can use the `split` method which seperates a string on a given character:
 
         data = string.split('\n')
-        print data
+        print(data)
 
     All the variables in this list are still character variables. To convert them to numeric variables we can use a list comprehension:
 
@@ -129,13 +129,13 @@ After this session you will know how to:
 08. **TICKABLE** The following code creates a list of digits from 1 to 31.
 
         l = range(1, 31)
-        print l
+        print(l)
 
     If we import the random library we can pick a random sample of the list and `shuffle` this it (do not worry too much about this):
 
         import random
         jumbledlist = random.sample(range(1, 31), 20)
-        print jumbledlist
+        print(jumbledlist)
 
     Using pen and paper, sort the above list, attempting to understand a general approach to doing this. Write a function `jumbledlist` that takes as arguments: `maximumnumber` and `sizeoflist` which returns a jumbled list of integers as above.
 
@@ -144,9 +144,9 @@ After this session you will know how to:
 09. **TICKABLE** Python has a built in method on lists to sort them: `sort()`:
 
         l = jumbledlist(30, 20) # Use the function you created above.
-        print l
+        print(l)
         l.sort()
-        print l
+        print(l)
 
     In this question we will take a look at one type of algorithm that can be used to sort a list: "Selection sort".
 
@@ -212,7 +212,7 @@ After this session you will know how to:
 11. The 'time' module allows you to get the current system time on your machine:
 
         import time
-        print time.time()
+        print(time.time())
 
     Using this we can write a function that will evaluate how long it takes to run a particular function:
 
@@ -230,7 +230,7 @@ After this session you will know how to:
 
     We see how long a single run of this testfunction takes using our timing function:
 
-        print timing("testfunction")
+        print(timing("testfunction"))
 
     Modify the timing function so that it returns the average time taken over 10 evaluations of the passed code. Furthermore use this function to evaluate the performance of the bubble sort and insertion sort algorithms.
 

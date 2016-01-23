@@ -35,7 +35,7 @@ Some of you (surprisingly not that many) wrote code something like this:
 k = 0
 i = 0
 while k < 10:
-    print i
+    print(i)
     i += 1
 {% endhighlight %}
 
@@ -48,7 +48,7 @@ The correct code for the above would be something like:
 k = 0
 i = 0
 while k < 10:
-    print i
+    print(i)
     i += 1
     k += 1  # Without this line the boolean test for the while loop is never False
 {% endhighlight %}
@@ -67,8 +67,8 @@ def pol(x):
     """A function to return the required polynomial"""
     return x ** 2 + b * x +1
 
-print pol(1)
-print b
+print(pol(1))
+print(b)
 {% endhighlight %}
 
 Here the variable `b` is a **global** variable, executing `f(1)` gives `22`.
@@ -99,8 +99,8 @@ def pol(x, b=1):
     """A function to return the required polynomial"""
     return x ** 2 + b * x +1
 
-print pol(1)
-print b
+print(pol(1))
+print(b)
 {% endhighlight %}
 
 There we see that `b` is has a default value in `pol`.

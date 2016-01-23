@@ -79,10 +79,10 @@ The way we have *defined* functions and passed values to them is exactly the sam
 
     values = [0, .5, 1, 3]  # This defines our list of values
     for x in values:  # We now loop over our values
-        print "When x=%s" %x
-        print "f(x)=%s" % f(x)  # Here we calculate f(x) for a given x
-        print "g(x)=%s" % g(x)  # Here we calculate g(x) for a given x
-        print "h(x)=%s" % h(x)  # Here we calculate h(x) for a given x
+        print("When x=%s" %x)
+        print("f(x)=%s" % f(x)  # Here we calculate f(x) for a given x)
+        print("g(x)=%s" % g(x)  # Here we calculate g(x) for a given x)
+        print("h(x)=%s" % h(x)  # Here we calculate h(x) for a given x)
 
 Now to do the second half of the problem:
 
@@ -92,7 +92,7 @@ Now to do the second half of the problem:
         """
         return f(g(h(x)))
 
-    print [k(x) for x in values]  # This just return k(x) for x in values using list comprehensions (this is another way of what we did above)
+    print([k(x) for x in values])  # This just return k(x) for x in values using list comprehensions (this is another way of what we did above)
 
     def mean(lst):
         """
@@ -104,10 +104,10 @@ Now to do the second half of the problem:
         """
         return sum(lst) / len(lst)
 
-    print "f: %s" % mean([f(x) for x in values])
-    print "g: %s" % mean([g(x) for x in values])
-    print "h: %s" % mean([h(x) for x in values])
-    print "k: %s" % mean([k(x) for x in values])
+    print("f: %s" % mean([f(x) for x in values]))
+    print("g: %s" % mean([g(x) for x in values]))
+    print("h: %s" % mean([h(x) for x in values]))
+    print("k: %s" % mean([k(x) for x in values]))
 
 ## Sorting algorithms
 

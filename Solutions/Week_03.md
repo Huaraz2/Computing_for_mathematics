@@ -14,12 +14,12 @@ Solution to question 01 of week 3 lab sheet.
 """
 
 def printhello():
-    print "Hello"
+    print("Hello")
 
 printhello()  # Run the above function
 
 def printhello(name):
-    print "Hello, " + name  # This concatenates the name and string 'Hello', students might use another approach for this which is also fine.
+    print("Hello, " + name)  # This concatenates the name and string 'Hello', students might use another approach for this which is also fine.
 
 printhello("Vince")  # Run the above function
 
@@ -39,7 +39,7 @@ Solution to question 2 of week 3 lab sheet.
 def mydiv(a, b):
     return a / b  # Uses the return function which gives a value to the function but DOES not print anything
 
-print mydiv(6, 3)  # Use print to print
+print(mydiv(6, 3))  # Use print to print
 
 """
 Ensure that students are able to write those statements (check that they have a brief understanding of what is happening).
@@ -60,8 +60,8 @@ def mydiv(a, b):
         return "Cannot divide by 0"  # Uses a return in the if statement which ends the function
     return a / b  # Uses the return function which gives a value to the function but DOES not print anything
 
-print mydiv(6, 0)  # Use print to print
-print mydiv(6, 3)  # Use print to print
+print(mydiv(6, 0))  # Use print to print
+print(mydiv(6, 3))  # Use print to print
 
 """
 Ensure that students are able to write those statements (check that they have a brief understanding of what is happening).
@@ -86,8 +86,8 @@ def mysum(K=10000, B=3):  # Define function with default values
         k += 1
     return s
 
-print mysum(50,13)
-print mysum()
+print(mysum(50,13))
+print(mysum())
 
 """
 Ensure that students are able to write those statements (check that they have a brief understanding of what is happening).
@@ -113,7 +113,7 @@ def mysqrt(K, epsilon=.001):
 for n in range(1, 10001):  # A loop to test a bunch of values
     approx = mysqrt(n)
     true = n ** .5
-    print approx, true, approx - true  # Printing the 3 results
+    print(approx, true, approx - true)  # Printing the 3 results
 
 """
 Ensure that students are able to write those statements (check that they have a brief understanding of what is happening).
@@ -139,7 +139,7 @@ def fibonacci(n):
     return a
 
 for i in range(10):  # Visualise output of function
-    print fibonacci(i)
+    print(fibonacci(i))
 
 """
 Ensure that students are able to write those statements (check that they have a brief understanding of what is happening).
@@ -159,15 +159,15 @@ alist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] # This assigns the list of integers from
 
 blist = [30, 40, 50, 60] # We assign another list to the variable blist
 clist = alist + blist # This concatenates both previous lists (NOTE THAT IT DOES NOT CARRY OUT VECTOR ADDITION)
-print "Here is clist: %s" % clist # Viewing clist
-print "Length: %s" % len(clist) # Viewing the length of clist
-print "The first element of clist: %s" % clist[0] # Obtaining the FIRST element of clist
-print "The last element of clist: %s" % clist[-1] # Negative indices can be used to index from the last element.
-print "The 4th to the 12th elements of clist: %s" % clist[3:12] # Two numbers can be used to obtain a sub list.
+print("Here is clist: %s" % clist) # Viewing clist
+print("Length: %s" % len(clist)) # Viewing the length of clist
+print("The first element of clist: %s" % clist[0]) # Obtaining the FIRST element of clist
+print("The last element of clist: %s" % clist[-1]) # Negative indices can be used to index from the last element.
+print("The 4th to the 12th elements of clist: %s" % clist[3:12]) # Two numbers can be used to obtain a sub list.
 
 index = clist.index(40) # The index method finds the index of a particular element in a list (here '40'). Students have seen this before in strings.
-print "The index of 40 in clist: %s" % index
-print "A sublist containing clist and 1 more element: %s" % clist[index:index + 2] # Viewing the elements in clist from the index to 2 + the index.
+print("The index of 40 in clist: %s" % index)
+print("A sublist containing clist and 1 more element: %s" % clist[index:index + 2]) # Viewing the elements in clist from the index to 2 + the index.
 {% endhighlight %}
 
 ## Q11
@@ -182,7 +182,7 @@ mylist = [] # Create an empty list
 for i in range(11): # Iterate over the integers from 0 to 10.
     if i % 2 == 0: # Use an if statement to check that i is even
         mylist.append(i) # If i is even append i to our empty list
-print mylist # print the list
+print(mylist) # print the list
 {% endhighlight %}
 
 ## Q12
@@ -200,8 +200,8 @@ while k < 1300: # Count the first 1300 element
         k += 1 # If i is a multiple of 3 increase counter
         mylist.append(i) # If i is a multiple of 3 append to list
     i += 1 # Increment i
-print mylist
-print max(mylist) # Obtain the largest of elements in the list
+print(mylist)
+print(max(mylist)) # Obtain the largest of elements in the list
 
 # Some student might try and do this with a for loop.
 {% endhighlight %}
@@ -214,10 +214,10 @@ Solution to question 13 of week 3 lab sheet.
 """
 
 squares = [e ** 2 for e in range(1, 11)] # Create a list of squares using list comprehensions (very handy short hand in python)
-print squares
+print(squares)
 
 squares = [e ** 2 for e in range(1, 11) if e % 2 == 1] # We can include a conditional statement in a list comprehension
-print squares
+print(squares)
 {% endhighlight %}
 
 ## Q14
@@ -245,7 +245,7 @@ def f(n): # Defining function from question. Ensure students use convention as s
     return n - 1 # A final return that catches all non matching cases
 
 l = [f(n) for n in range(1,101)] # It is straightforward to create the list with this list comprehension
-print l
+print(l)
 {% endhighlight %}
 
 ## Q15
@@ -257,9 +257,9 @@ Solution to question 15 of week 3 lab sheet.
 """
 
 alist = [1,74,2,100,-123]
-print max(alist) # Note that some of these functions might be useful to students in previous exercises.
-print min(alist)
-print len(alist)
+print(max(alist)) # Note that some of these functions might be useful to students in previous exercises.
+print(min(alist))
+print(len(alist))
 {% endhighlight %}
 
 ## Q16
@@ -287,14 +287,14 @@ def searchpb(target):
     Output: The number corresponding to the string if it is in the phonebook.
     """
     for e in badphonebook: # Iterate through all elements in the phonebook.
-        print "Checking %s" % e # Printing a statement for each element in the phonebook
+        print("Checking %s" % e) # Printing a statement for each element in the phonebook
         if e[0] == target: # If statement to check if the element is the target element
             return e[1]
     return "%s not in phonebook" % target # A statement to point out that the target is not in the phonebook
 
 
-print searchpb("Mike") # Trying out some values
-print searchpb("Ben")
+print(searchpb("Mike")) # Trying out some values
+print(searchpb("Ben"))
 
 
 goodphonebook = {"Vince": 3,
@@ -304,19 +304,19 @@ goodphonebook = {"Vince": 3,
                     "Mike": 1,
                     "Matt": 4} # A phonebook written as a dictionary
 
-print goodphonebook.get("Thomas") # Using the get method to obtain the value corresponding to 'Thomas'
-print goodphonebook.get("Brayden") # Using the get method to obtain the value corresponding to 'Brayden' (as it is not in the dictionary this will return 0)
-print goodphonebook.get("Brayden", 'Not in book') # Setting a value to be return in case the value is not in the dictionary
-print goodphonebook.get("Thomas", 'Not in book')
+print(goodphonebook.get("Thomas")) # Using the get method to obtain the value corresponding to 'Thomas'
+print(goodphonebook.get("Brayden")) # Using the get method to obtain the value corresponding to 'Brayden' (as it is not in the dictionary this will return 0)
+print(goodphonebook.get("Brayden", 'Not in book')) # Setting a value to be return in case the value is not in the dictionary
+print(goodphonebook.get("Thomas", 'Not in book'))
 
 
-print goodphonebook['Vince'] # Checking the value of 'Vince'
+print(goodphonebook['Vince']) # Checking the value of 'Vince'
 goodphonebook['Vince'] = 8 # Changing the value of 'Vince'
-print goodphonebook['Vince'] # Checking the new value of 'Vince'
+print(goodphonebook['Vince']) # Checking the new value of 'Vince'
 
-print goodphonebook['Brayden'] # Note that 'Brayden' is not in the dictionary so this returns an error
+print(goodphonebook['Brayden']) # Note that 'Brayden' is not in the dictionary so this returns an error
 goodphonebook['Brayden'] = 12
-print goodphonebook['Brayden']
+print(goodphonebook['Brayden'])
 {% endhighlight %}
 
 ## Q17
@@ -333,7 +333,7 @@ pb = {} # Creating an empty dictionary
 for e in badphonebook: # Iterating over the lists in the bad phonebook
         pb[e[0]] = e[1] # Defining the value of the key corresponding to the name in the bar phonebook
 
-print pb
+print(pb)
 {% endhighlight %}
 
 
@@ -353,7 +353,7 @@ goodphonebook = {"Vince": 3,
                     "Matt": 4}
 
 for e in goodphonebook: # When iterating over a dictionary we iterate over the keys (but these are not necessarily in order).
-    print goodphonebook[e]
+    print(goodphonebook[e])
 {% endhighlight %}
 
 ## Challenge
