@@ -41,13 +41,13 @@ First I need to find out where that position is:
 
 {% highlight python %}
 position = question.index("movember")
-print position
+print(position)
 {% endhighlight %}
 
 This gives `16`. Let us take a look at the type of `position`:
 
 {% highlight python %}
-print type(position)
+print(type(position))
 {% endhighlight %}
 
 We see that `position` is an integer.
@@ -56,7 +56,7 @@ We can get the sub string of our original string by going from that position to
 the end (recall that in python the last element is at index `-1`):
 
 {% highlight Python %}
-print question[16:-1]
+print(question[16:-1])
 {% endhighlight %}
 
 This gives: `'movember this november'` **but** I could do that another way. In
@@ -64,19 +64,19 @@ this instance, `position` is just pointing at `16` anyway (they are both the
 same integers). So this is the same as the previous statement:
 
 {% highlight Python %}
-print question[position:-1]
+print(question[position:-1])
 {% endhighlight %}
 
 I could also get the first 5 letters of "movember" from the substring:
 
 {% highlight Python %}
-print question[position: position + 5]
+print(question[position: position + 5])
 {% endhighlight %}
 
 which is just the same as:
 
 {% highlight Python %}
-print question[16:21]
+print(question[16:21])
 {% endhighlight %}
 
 # Modulo arithmetic
@@ -86,7 +86,7 @@ Python:
 
 {% highlight Python %}
 for i in range(24):
-    print i % 12
+    print(i % 12)
 {% endhighlight %}
 
 The above code loops through all numbers from 0 to 23 and displays the remainder
@@ -100,7 +100,7 @@ number (they have remainder 0):
 {% highlight Python %}
 for i in range(24):
     if i % 12 != 0:
-        print i
+        print(i)
 {% endhighlight %}
 
 The above only displays the numbers that **are not** divisible by 12.
@@ -111,7 +111,7 @@ for i in range(24):
     remainder = i % 12
     is_not_divisible = remainder != 0
     if is_not_divisible:
-        print i
+        print(i)
 {% endhighlight %}
 
 The type of `is_not_divisible` in this case is `bool` (it's a boolean so is either `True`
