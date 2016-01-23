@@ -64,7 +64,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
         print(type(num1))
 
         num2 = 23.5
-        print type(num2)
+        print(type(num2))
 
         str1 = "Hello world!"
         print(type(str1))
@@ -129,8 +129,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
         print(float(int(f)))
 
         s = str(f)
-        print s
-        print type(s)
+        print(s)
+        print(type(s))
 
     It is also possible to write strings using other variables.
 
@@ -182,11 +182,11 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
     It is also possible to give alternatives to an `if statement`:
 
         num = 11
-        print num % 2 == 0
+        print(num % 2 == 0)
         if num % 2 == 0:
-            print "num is an even number"
+            print("num is an even number")
         else:
-            print "num is an odd number"
+            print("num is an odd number")
 
     (The `%` operator gives the remainder of one number when divided by another. Note that this is not the same use as discussed in question 7 within strings.)
 
@@ -230,7 +230,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
     We can in fact iterate over anything in a list:
 
         for e in ["dog", "cat", 3, "I love mathematics"]:
-            print e
+            print(e)
 
     This allows us to do various interesting things. Try the following:
 
