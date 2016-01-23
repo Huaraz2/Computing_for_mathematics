@@ -56,7 +56,7 @@ Note that the output of division in Python depends on the types of variables inp
 {% highlight python %}
 a = 5
 b = 2
-print a / b
+print(a / b)
 {% endhighlight %}
 
 The above does not return `5/2` but:
@@ -70,7 +70,7 @@ If however we tell Python that one of the inputs is a float we obtain the result
 {% highlight python %}
 a = 5
 b = float(2)
-print a / b
+print(a / b)
 {% endhighlight %}
 
 the above gives:
@@ -92,26 +92,26 @@ myfavouritenumbers = [12, 5, 8, 41, 13, 7]
 To get the first element:
 
 {% highlight python %}
-print myfavouritenumbers[0]
+print(myfavouritenumbers[0])
 {% endhighlight %}
 
 To get the second element:
 
 {% highlight python %}
-print myfavouritenumbers[1]
+print(myfavouritenumbers[1])
 {% endhighlight %}
 
 To get the 3rd till the 5th element:
 
 {% highlight python %}
-print myfavouritenumbers[2:5]
+print(myfavouritenumbers[2:5])
 {% endhighlight %}
 
 We can also use negative numbers to 'count from the end'.
 This gives us the 2nd from last element:
 
 {% highlight python %}
-print myfavouritenumbers[-2]
+print(myfavouritenumbers[-2])
 {% endhighlight %}
 
 ## Simultaneous assignment
