@@ -51,7 +51,7 @@ Many people found question 7 quite a challenge. Here is a similar question.
             return self.width * self.height >= 50
 
     fields = [Field(f[0], f[1]) for f in fields]
-    print len([f for f in fields if f.profitable()])
+    print(len([f for f in fields if f.profitable()]))
 
 ## What you should do next:
 
