@@ -39,7 +39,7 @@ email: knightva@cf.ac.uk
 
 - The above just creates a **tool** that we can use if we want to:
 
-        print mean([1,2,3,4,5])
+        print(mean([1,2,3,4,5]))
 
 ## Lists and for loops
 
@@ -50,7 +50,7 @@ email: knightva@cf.ac.uk
 - We can use a `for` loop (see sheet 1) to 'iterate' (ie 'go through') the elements of that list:
 
         for k in someoddnbrs:
-            print k
+            print(k)
 
 - We can apply a function to a list:
 
@@ -69,7 +69,7 @@ email: knightva@cf.ac.uk
         someevennbrs = []
         for k in someoddnbrs:
             someevenbrs.append(makeeven(k))
-            print someevennbrs
+            print(someevennbrs)
 
 - We can do this in 1 line using list comprehensions:
 
