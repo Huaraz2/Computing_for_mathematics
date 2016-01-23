@@ -18,9 +18,9 @@ def fib(n):
 
 ### 20 marks available for defining function
 
-print "The first 10 fibonacci numbers:"
+print("The first 10 fibonacci numbers:")
 
 for i in range(11):  # Printing the first 10 numbers
-    print "f(%s)=%s" % (i, fib(i))
+    print("f(%s)=%s" % (i, fib(i)))
 
 ### 10 marks available for correct loop and use of function (if incorrect range is used: lose 2 marks)
