@@ -91,8 +91,8 @@ Now let us make things official:
 
 {% highlight python %}
 vince.become_partner(zoe)
-print vince.partner.number
-print zoe.partner.number
+print(vince.partner.number)
+print(zoe.partner.number)
 {% endhighlight %}
 
 Here are some further resources that might be helpful:
