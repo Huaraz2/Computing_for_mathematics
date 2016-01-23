@@ -21,7 +21,7 @@ def mysqrt(K, epsilon=.001):
 for n in range(1, 10001):  # A loop to test a bunch of values
     approx = mysqrt(n)
     true = n ** .5
-    print approx, true, approx - true  # Printing the 3 results
+    print(approx, true, approx - true)  # Printing the 3 results
 
 ###########################################
 # 10 marks for pasting the correct solution
