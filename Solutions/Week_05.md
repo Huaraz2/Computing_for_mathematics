@@ -21,10 +21,10 @@ class Student():
     pass  # The pass command does not do anything but a command is needed to avoid a syntax error
 
 vince = Student()
-print vince
+print(vince)
 
 joey = Student()
-print joey
+print(joey)
 {% endhighlight %}
 
 ## Q2
@@ -64,21 +64,21 @@ class Student():
 
 # Create a student and print the student's attributes to screen
 vince = Student()
-print vince.courses
-print vince.age
-print vince.sex
+print(vince.courses)
+print(vince.age)
+print(vince.sex)
 
 # Include a new course
 vince.courses.append("French")
-print vince.courses
+print(vince.courses)
 
 # Change age
 vince.age = 28
-print vince.age
+print(vince.age)
 
 # Change gender
 vince.sex = "M"
-print vince.sex
+print(vince.sex)
 {% endhighlight %}
 
 ## Q4
@@ -119,7 +119,7 @@ for row in data:
     listofquadratics[-1].c = row[2]
 
 for q in listofquadratics:
-    print "%sx^2+%sx+%s" % (q.a, q.b, q.c)  # Print out quadratic
+    print("%sx^2+%sx+%s" % (q.a, q.b, q.c))  # Print out quadratic
 {% endhighlight %}
 
 ## Q5
@@ -157,9 +157,9 @@ class Student():
         self.age += 1
 
 vince = Student()  # Assign a student to the variable vince
-print vince.age
+print(vince.age)
 vince.haveabirthday()  # Make vince have a birthday
-print vince.age
+print(vince.age)
 
 
 class Student():
@@ -189,11 +189,11 @@ class Student():
         self.age += numberofbirthdays
 
 vince = Student()
-print vince.age
+print(vince.age)
 vince.haveabirthday()
-print vince.age
+print(vince.age)
 vince.haveabirthday(28)
-print vince.age
+print(vince.age)
 {% endhighlight %}
 
 ## Q6
@@ -233,9 +233,9 @@ class Student():
 
 
 vince = Student(["Biology","Math"], 28, "Male")  # Creating an instance by passing arguments. This uses the init method
-print vince.courses
-print vince.age
-print vince.sex
+print(vince.courses)
+print(vince.age)
+print(vince.sex)
 {% endhighlight %}
 
 ## Q07
@@ -288,7 +288,7 @@ for row in data:
     listofquadratics.append(Quadratic(row[0], row[1], row[2]))  # Append a quadratic to the list
 
 nbrofqwithrealroots = len([e for e in listofquadratics if e.hasrealroots()])  # Count the elements that have real roots
-print "%s of %s equations have real roots" % (nbrofqwithrealroots, len(listofquadratics))
+print("%s of %s equations have real roots" % (nbrofqwithrealroots, len(listofquadratics)))
 {% endhighlight %}
 
 ## Q08
@@ -379,15 +379,15 @@ class School_Year():
         #A method to print to screen all the required info. First we print (IF THE VALUE OF ENROLLED IS TRUE!) the name of the student and some other info.
         for e in self.student_record:
             if e.enrolled:
-                print e.name,  "is enrolled on: "
+                print(e.name,  "is enrolled on: ")
                 for i in e.course_list:
-                    print "\t", i
-        print ""
-        print "---------------"
-        print ""
+                    print("\t", i)
+        print("")
+        print("---------------")
+        print("")
         #We print the course numbers
         for e in self.course_numbers:
-            print e, " has ", self.course_numbers[e], "students enrolled"
+            print(e, " has ", self.course_numbers[e], "students enrolled")
 
 
 #We now create the instance and run the output method.
@@ -450,17 +450,17 @@ for N in range(2, 10001):  # Check approximation for 10000 values of N
     if approxdif < bestapproxdif:  # if approximation is better update best values
         bestapproxdix = approxdif
         bestN = N
-print "Best N is: %s" % bestN
+print("Best N is: %s" % bestN)
 # This indicates that increasing the number of points improves the
 # approximation (which is logical)
 #########################################
 
-print "For N=200, pi approximated as %s" % approxpi(200)
-print "For N=1000, pi approximated as %s" % approxpi()
-print "For N=10000, pi approximated as %s" % approxpi(10000)
-print "For N=100000, pi approximated as %s" % approxpi(100000)
-print "For N=1000000, pi approximated as %s" % approxpi(1000000)
-print "For N=10000000, pi approximated as %s" % approxpi(10000000)  # This seems to be the correct order of magnitude for 3 decimal places...
+print("For N=200, pi approximated as %s" % approxpi(200))
+print("For N=1000, pi approximated as %s" % approxpi())
+print("For N=10000, pi approximated as %s" % approxpi(10000))
+print("For N=100000, pi approximated as %s" % approxpi(100000))
+print("For N=1000000, pi approximated as %s" % approxpi(1000000))
+print("For N=10000000, pi approximated as %s" % approxpi(10000000))  # This seems to be the correct order of magnitude for 3 decimal places...
 {% endhighlight %}
 
 ## Q10
@@ -515,11 +515,11 @@ class MathStudent(Student):
     favouriteclass = "Mathematics"
 
 becky = MathStudent(['Mathematics', 'Biology'], 29, 'Female')
-print becky.courses
-print becky.age
-print becky.favouriteclass
+print(becky.courses)
+print(becky.age)
+print(becky.favouriteclass)
 becky.haveabirthday()
-print becky.age
+print(becky.age)
 
 class BadStudent(MathStudent):
     """
@@ -546,7 +546,7 @@ class BadStudent(MathStudent):
         del self.courses[self.courses.index(course)]  # This uses the del command which is new but students are welcome to do whatever they want
 
 jason = BadStudent(['Mathematics', 'Computer Science'], 12, 'Male')
-print jason.courses
+print(jason.courses)
 jason.flunkclass(jason.favouriteclass)  # Note that this class inherits from MathStudent
-print jason.courses
+print(jason.courses)
 {% endhighlight %}
