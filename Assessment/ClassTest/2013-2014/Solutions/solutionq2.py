@@ -26,21 +26,21 @@ f.close()  # Close f
 
 ### 5 marks for importing data correctly
 
-print len(data)  # Print the number of names in the list
+print(len(data))  # Print the number of names in the list
 
 ### 5 marks for len of data
 
-print mean([len(n) for n in data])  # Prints the mean of length of the names in the list
+print(mean([len(n) for n in data]))  # Prints the mean of length of the names in the list
 
 ### 5 marks for mean of length of names
 
-print len(list(set(data))) # This is a python one liner, student may also:
+print(len(list(set(data)))) # This is a python one liner, student may also:
 
 uniquenames = []  # Create an empty list for unique names
 for n in data:  # Iterate through every element of data
     if n not in uniquenames:  # if element is not in list
         uniquenames.append(n)  # Append it
 
-print len(uniquenames)  # Print len of unique names
+print(len(uniquenames))  # Print len of unique names
 
 ### 5 marks for removing duplicates
