@@ -60,9 +60,9 @@ This does not **return** anything but it does change the given list:
 
 {% highlight python %}
 l = [1, 2, 3, 4]
-print l
+print(l)
 print add2tolist(l)  # This prints None as nothing is returned
-print l
+print(l)
 {% endhighlight %}
 
 Similarly, a function can return something and leave other values unchanged
@@ -76,9 +76,9 @@ def givelistwith2added(data):
 
 {% highlight python %}
 l = [1, 2, 3, 4]
-print l
-print givelistwith2added(l)  # Now returns a list
-print l  # Is the same list
+print(l)
+print(givelistwith2added(l))  # Now returns a list
+print(l)  # Is the same list
 {% endhighlight %}
 
 ## Understanding algorithms
