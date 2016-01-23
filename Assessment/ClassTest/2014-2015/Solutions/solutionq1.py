@@ -77,15 +77,15 @@ class School_Year():
         #A method to print to screen all the required info. First we print (IF THE VALUE OF ENROLLED IS TRUE!) the name of the student and some other info.
         for e in self.student_record:
             if e.enrolled:
-                print e.name,  "is enrolled on: "
+                print(e.name,  "is enrolled on: ")
                 for i in e.courselist:
-                    print "\t", i
-        print ""
-        print "---------------"
-        print ""
+                    print("\t", i)
+        print("")
+        print("---------------")
+        print("")
         #We print the course numbers
         for e in self.course_numbers:
-            print e, " has ", self.course_numbers[e], "students enrolled"
+            print(e, " has ", self.course_numbers[e], "students enrolled")
 
 
 #We now create the instance and run the output method.
