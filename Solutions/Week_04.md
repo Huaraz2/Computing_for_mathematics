@@ -30,13 +30,13 @@ Solution to question 2 of week 4 lab sheet.
 
 textfile = open('mytextfile.txt', 'r') # Opens a file in read mode
 string = textfile.read() # Reads the file, NOTE that this reads the file as a string, so the '\n' for new lines are also read.
-print string # This prints the string to the screen, the IDLE interpreter however, knows how to display new lines (ie it reads the '\n').
+print(string) # This prints the string to the screen, the IDLE interpreter however, knows how to display new lines (ie it reads the '\n').
 
 data = string.split('\n') # This uses the split method which creates a list from a string, separating on a given string.
-print data
+print(data)
 
 data = [int(e) for e in data[:-1]] # Converting our sting to an integer.
-print data
+print(data)
 {% endhighlight %}
 
 ## Q3
@@ -57,8 +57,8 @@ def isprime(n):
     """
     return min([n % e for e in range(2, n)]) != 0  # This checks that the remainder of all the numbers smaller than n is at least 1
 
-print isprime(5)  # Returns true
-print isprime(6)  # Returns false
+print(isprime(5))  # Returns true
+print(isprime(6))  # Returns false
 
 # If students don't understand how the above works, invite them to not return
 # the boolean but to return the list itself.
@@ -68,10 +68,10 @@ string = textfile.read()  # Reads the file, NOTE that this reads the file as a s
 data = string.split('\n')  # Splits the file on the newline character
 data = [int(e) for e in data[:-1]] # Removes last line and converts to integer
 
-print len(data)
+print(len(data))
 
-print len([e for e in data if isprime(e)])  # Uses function to check primes and also gives length
-print len([e for e in set(data) if isprime(e)])  # Uses the set command to remove duplicates from data. Other approaches would make use of loops.
+print(len([e for e in data if isprime(e)]))  # Uses function to check primes and also gives length
+print(len([e for e in set(data) if isprime(e)]))  # Uses the set command to remove duplicates from data. Other approaches would make use of loops.
 {% endhighlight %}
 
 ## Q4
@@ -100,8 +100,8 @@ csvobject = csv.reader(textfile)  # Creates a csv reader object (in essence this
 data = [int(row[0]) for row in csvobject]  # Converts the csv reader object to data
 textfile.close()
 
-print len([e for e in data if isprime(e)])  # Uses function to check primes and also gives length
-print len([e for e in set(data) if isprime(e)])  # Uses the set command to remove duplicates from data. Other approaches would make use of loops.
+print(len([e for e in data if isprime(e)]))  # Uses function to check primes and also gives length
+print(len([e for e in set(data) if isprime(e)]))  # Uses the set command to remove duplicates from data. Other approaches would make use of loops.
 {% endhighlight %}
 
 ## Q5
@@ -124,8 +124,8 @@ def iterX(n):
         r *= 2  # Keep doubling r
     return r
 
-print "Using iteration: f(3)=%s" % iterX(3)
-print "Using iteration: f(40)=%s" % iterX(40)
+print("Using iteration: f(3)=%s" % iterX(3))
+print("Using iteration: f(40)=%s" % iterX(40))
 
 def recX(n):
     """
@@ -139,8 +139,8 @@ def recX(n):
         return 1
     return 2 * recX(n - 1)  # return 2*Xn-1 using the function itself
 
-print "Using recursion: f(3)=%s" % recX(3)
-print "Using recursion: f(40)=%s" % recX(40)
+print("Using recursion: f(3)=%s" % recX(3))
+print("Using recursion: f(40)=%s" % recX(40))
 {% endhighlight %}
 
 ## Q6
@@ -163,8 +163,8 @@ def iterfactorial(n):
         r *= i  # Keep multiplying r by i
     return r
 
-print "Using iteration: 3!=%s" % iterfactorial(3)
-print "Using iteration: 40!=%s" % iterfactorial(40)
+print("Using iteration: 3!=%s" % iterfactorial(3))
+print("Using iteration: 40!=%s" % iterfactorial(40))
 
 def recfactorial(n):
     """
@@ -178,8 +178,8 @@ def recfactorial(n):
         return 1
     return n * recfactorial(n - 1)  # return n*(n-1)! using the function itself
 
-print "Using iteration: 3!=%s" % recfactorial(3)
-print "Using iteration: 40!=%s" % recfactorial(40)
+print("Using iteration: 3!=%s" % recfactorial(3))
+print("Using iteration: 40!=%s" % recfactorial(40))
 {% endhighlight %}
 
 ## Q07
@@ -201,10 +201,10 @@ def fib(n):
         return 1
     return fib(n - 1) + fib(n - 2)  # Use recursion and the formula for the fibonacci numbers
 
-print "The first 10 fibonacci numbers:"
+print("The first 10 fibonacci numbers:")
 
 for i in range(11):  # Printing the first 10 numbers
-    print "f(%s)=%s" % (i, fib(i))
+    print("f(%s)=%s" % (i, fib(i)))
 {% endhighlight %}
 
 ## Q08
@@ -218,7 +218,7 @@ Solution to question 8 of week 4 lab sheet.
 import random  # This imports the random libraru
 
 jumbledlist = random.sample(range(1, 31), 20)  # Creates a random list of 20 elements from the integers 1 to 30
-print "Here is a jumbled list: %s" % jumbledlist
+print("Here is a jumbled list: %s" % jumbledlist)
 
 
 def jumbledlist(maximumnumber, sizeoflist):
@@ -233,13 +233,14 @@ def jumbledlist(maximumnumber, sizeoflist):
     """
     return random.sample(range(1, maximumnumber + 1), sizeoflist)
 
-print "Here is another jumbled list: %s" % jumbledlist(10, 5)
+print("Here is another jumbled list: %s" % jumbledlist(10, 5))
 {% endhighlight %}
 
 
 ## Q09
 
 {% highlight python %}
+
 
 """
 Solution to question 9 of week 4 lab sheet.
@@ -261,9 +262,9 @@ def jumbledlist(maximumnumber, sizeoflist):
     return random.sample(range(1, maximumnumber + 1), sizeoflist)
 
 l = jumbledlist(30, 20)  # Creates a jumbled list
-print "A random list: %s" % l  # Print the list before sorting it
+print("A random list: %s" % l)  # Print the list before sorting it
 l.sort()
-print "The above list (sorted): %s" % l  # Print the list after sorting it
+print("The above list (sorted): %s" % l)  # Print the list after sorting it
 
 
 # Here is the insertion sort algorithm:
@@ -288,9 +289,9 @@ def insertionsort(data):
         firstUnsorted += 1
 
 l = jumbledlist(30, 20)  # Creates a jumbled list
-print "A random list: %s" % l  # Print the list before sorting it
+print("A random list: %s" % l)  # Print the list before sorting it
 insertionsort(l)
-print "The above list (sorted): %s" % l  # Print the list after sorting it
+print("The above list (sorted): %s" % l)  # Print the list after sorting it
 {% endhighlight %}
 
 ## Q10
@@ -316,9 +317,9 @@ def jumbledlist(maximumnumber, sizeoflist):
     return random.sample(range(1, maximumnumber + 1), sizeoflist)
 
 l = jumbledlist(30, 20)  # Creates a jumbled list
-print "A random list: %s" % l  # Print the list before sorting it
+print("A random list: %s" % l)  # Print the list before sorting it
 l.sort()
-print "The above list (sorted): %s" % l  # Print the list after sorting it
+print("The above list (sorted): %s" % l)  # Print the list after sorting it
 
 # Here is the bubble sort algorithm:
 
@@ -340,9 +341,9 @@ def bubblesort(data):
         firstUnsorted += 1
 
 l = jumbledlist(30, 20)  # Creates a jumbled list
-print "A random list: %s" % l  # Print the list before sorting it
+print("A random list: %s" % l)  # Print the list before sorting it
 bubblesort(l)
-print "The above list (sorted): %s" % l  # Print the list after sorting it
+print("The above list (sorted): %s" % l)  # Print the list after sorting it
 {% endhighlight %}
 
 ## Q11
@@ -354,7 +355,7 @@ Solution to question 11 of week 4 lab sheet.
 
 import time  # This import the time library
 
-print "Current computer time is: %s" % time.time()  # This prints the current time to screen.
+print("Current computer time is: %s" % time.time())  # This prints the current time to screen.
 
 
 def timing(string):
@@ -383,7 +384,7 @@ def testfunction():
         k += 1
 
 
-print "testfunction took %s seconds to run" % timing("testfunction()")
+print("testfunction took %s seconds to run" % timing("testfunction()"))
 
 
 def timing(string):
@@ -401,7 +402,7 @@ def timing(string):
         runtime.append(time.time() - starttime)  # Append run time to list
     return sum(runtime) / len(runtime)  # Compute mean of list
 
-print "testfunction took %s seconds to run over 10 runs" % timing("testfunction()")
+print("testfunction took %s seconds to run over 10 runs" % timing("testfunction()"))
 {% endhighlight %}
 
 ## Q12
@@ -418,7 +419,7 @@ data = f.read()  # Read the data as a string (if students want to use csv librar
 f.close()  # Close the file
 
 data = data.split("\n")  # Split on new lines
-print data.index("4558\r")  # Print index, note the \r which is the symbol for carriage return. Students might have a hard time finding this so tell them to print the data to screen.
+print(data.index("4558"))  # Print index. Students might have a hard time finding this so tell them to print the data to screen.
 {% endhighlight %}
 
 ## Q13
@@ -471,9 +472,9 @@ targets = [19,
 for t in targets:
     index = sequentialsearch(data, t)
     if index:
-        print 'target: %s is in position %s of sorted list.' % (t, index)
+        print('target: %s is in position %s of sorted list.' % (t, index))
     else:
-        print 'target: %s is not in list' % t
+        print('target: %s is not in list' % t)
 {% endhighlight %}
 
 ## Q14
@@ -511,8 +512,8 @@ def binarysearch(data, item):
         return middle
     return False
 
-data = range(345010)
-print binarysearch(data, 64890)  # Student can play with algorithm in any way they see fit.
+data = list(range(345010))
+print(binarysearch(data, 64890))  # Student can play with algorithm in any way they see fit.
 {% endhighlight %}
 
 ## Q15
@@ -597,10 +598,10 @@ def binarysearch(data, item):
 timedata = []
 for i in range(1, 1001):
     target = random.randint(0, i)
-    data = range(i)
+    data = list(range(i))
     timedata.append([timing("sequentialsearch(%s, %s)" % (data, target)), timing("binarysearch(%s, %s)" % (data, target))])
 
-print "Mean difference in timings: %s" % (sum([e[1] - e[0] for e in timedata]) / len(timedata))  # Small negative mean value indicates that binary search seems faster.
+print("Mean difference in timings: %s" % (sum([e[1] - e[0] for e in timedata]) / len(timedata)))  # Small negative mean value indicates that binary search seems faster.
 {% endhighlight %}
 
 ## Q16
@@ -634,6 +635,6 @@ def binary_search(data, item, first=0, last=False):
     else:  # If item is after middle, carry out algorithm on second half of data
         return binary_search(data, item, middle, last)
 
-data = range(10000)
-print binary_search(data, 750)
+data = list(range(10000))
+print(binary_search(data, 750))
 {% endhighlight %}
