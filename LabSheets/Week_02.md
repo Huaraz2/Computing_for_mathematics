@@ -37,7 +37,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
 01. **TICKABLE**: Open up IDLE and in the **interpreter** type the following code and press `ENTER`:
 
-        print "Hello world"
+        print("Hello world")
 
     ![]({{site.baseurl}}/assets/Screenshots/W02-S01.png)
 
@@ -46,7 +46,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
 02. For short bits of code typing directly in to the interpreter is fine (and in fact sometimes very helpful). However, for longer pieces of code one needs to write a file containing all the commands. Open a script and type the same code as above:
 
-        print "Hello world"
+        print("Hello world")
 
     ![]({{site.baseurl}}/assets/Screenshots/W02-S02.png)
 
@@ -61,13 +61,13 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 03. **TICKABLE**: Experiment with the following code which creates variables (by assigning them a value) and checks what type they are using the `type` function.
 
         num1 = 23
-        print type(num1)
+        print(type(num1))
 
         num2 = 23.5
         print type(num2)
 
         str1 = "Hello world!"
-        print type(str1)
+        print(type(str1))
 
      - [Video hint](http://www.youtube.com/watch?v=UFGJEG34qMk)
      - [Video hint 2](https://www.youtube.com/watch?v=xwHXuGSlQW8)
@@ -76,13 +76,13 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
         num = 2
         num = num +3
-        print num
+        print(num)
 
     this can however also be written:
 
         num = 2
         num += 3
-        print num
+        print(num)
 
     Simlarly, `-`, `*`, `/` and `**` can be used for:
 
@@ -105,17 +105,17 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
         str1 = "This is a string that I will learn to manipulate"
         str2 = ", string manipulation is very useful."
         string = str1 + str2
-        print string
-        print len(string)
-        print string[0]
-        print string[-1]
-        print string[3:7]
+        print(string)
+        print(len(string))
+        print(string[0])
+        print(string[-1])
+        print(string[3:7])
 
     We see that Python indexes a string, starting at 0, we can also use negative values to start from the end.
 
         index = str1.index("string")
-        print index
-        print str1[index:index + len("string")]
+        print(index)
+        print(str1[index:index + len("string")])
 
     There are various other things that can be done "on" strings, be sure to research these.
 
@@ -125,8 +125,8 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 07. It is possible to go from one type of variable to another.
 
         f = 10.2
-        print int(f)
-        print float(int(f))
+        print(int(f))
+        print(float(int(f)))
 
         s = str(f)
         print s
@@ -166,7 +166,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
         boolean = True
         if boolean:
-            print "boolean is %s" % boolean
+            print("boolean is %s" % boolean)
 
     Try typing the above code but change `boolean` to `False`. **Note: in Python, indentation is important! In all languages it is good practice, in Python it is a requirement**.
 
@@ -195,7 +195,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
     **Spend some time understanding the `elif` statement.**
 
-09. **TICKABLE**: Find some information on the `raw_input` statement and write some code that prompts a user to input a string. If the length of that string is more than 10 then print "that string has length strictly more than 10" otherwise "that string has length less than 9".
+09. **TICKABLE**: Find some information on the `input` statement and write some code that prompts a user to input a string. If the length of that string is more than 10 then print "that string has length strictly more than 10" otherwise "that string has length less than 9".
 
     - [Video hint](http://www.youtube.com/watch?v=4nH-vtBrKXs)
     - [Video hint 2](https://www.youtube.com/watch?v=b2lstNSX9iI)
@@ -208,20 +208,20 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
 10. The `range()` function in Python allows us to create a list of integers easily. **A list is a new type of variable that we will look at more closely next week**:
 
-        print range(10)
+        print(range(10))
 
     Note that this gives a list starting at 0 of size 10 (so it goes up to the integer 9). We can include 2 arguments in to this function:
 
-        print range(3,10)
+        print(range(3,10))
 
     We can also include 3 arguments:
 
-        print range(0,10,2)
+        print(range(0,10,2))
 
     Using `range()` we can use the basic `for` loop in Python (a type of count controlled loop):
 
         for i in range(10):
-            print i
+            print(i)
 
     The first line of the above defines the iterator `i` and tells it the values it will go through.
 
@@ -237,7 +237,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
         s = 0
         for i in range(1001):
             s += i
-        print s
+        print(s)
 
     - [Video hint](http://www.youtube.com/watch?v=3ht1mNULJC0)
     - [Video hint 2](https://www.youtube.com/watch?v=V5Z3jHv7pjg)
@@ -251,7 +251,7 @@ and many more. We will be using the simplest Python IDE available: IDLE which co
 
         k = 0
         while k < 10:
-            print k
+            print(k)
             k += 1
 
 
