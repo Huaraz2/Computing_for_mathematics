@@ -9,6 +9,7 @@ Here are some past reports by your peers:
 - [The Probability of Winning at Blackjack](./2015-2016/dudley2015-2016.pdf)
 - [UnSCRABBLEing Mathematics](./2015-2016/ridgway2015-2016.pdf)
 - [Mandelbrot Set](./2015-2016/zozin2015-2016.pdf)
+- [Euler’s Theorem and RSA Public Key Cryptography](./2015-2016/weaving2015-2016.pdf)
 - [Prisoner’s Names in Boxes](./2015-2016/williams2015-2016.pdf)
 - [Relationship Between Product And Sum](./2015-2016/smith2015-2016.pdf)
 - [Tuning With Just Intonation and Equal Temparement](./2015-2016/scott2015-2016.pdf)
