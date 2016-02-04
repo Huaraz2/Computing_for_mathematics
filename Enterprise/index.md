@@ -36,15 +36,15 @@ The timetable for the 11 weeks of term is shown:
 
     **At the end of this week: all companies must be formed and initial meetings must have taken place.**
 
-- Week 2 - Lecture on library skills.
-
-    **Companies should be close to completing their project proposal by the end of this week.**
-
-- Week 3 - Idea to market:
+- Week 2 - Idea to market:
 
     - The commercialisation process;
     - Creativity and innovation;
     - The market.
+
+    **Companies should be close to completing their project proposal by the end of this week.**
+
+- Week 3 - Lecture on library skills.
 
     **At the end of this week: all companies must submit a 2 page project proposal (assessed).**
 
