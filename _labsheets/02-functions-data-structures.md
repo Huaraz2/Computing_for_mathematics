@@ -48,7 +48,7 @@ These questions aim to show you the basic building blocks of programming
   [0, 1, 2, 3, 4]
 
   >>> type(favourite_numbers)
-  <type 'list'>
+  <class 'list'>
   >>> sum(favourite_numbers)
   10
 
