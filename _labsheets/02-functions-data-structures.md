@@ -94,9 +94,8 @@ These questions aim to push a bit further.
 
 - **T** Fibonacci function
 
-- Create a list of numbers whose fibonacci function is divisible by 2. Is the
-  result surprising?
+- Check primality of some quadratic expression
 
-- Divisibility by 11
+- Monty Hall problem
 
 - Dictionaries
