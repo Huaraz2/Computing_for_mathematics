@@ -1,0 +1,36 @@
+MONDAY:
+
+S: 1110 - VK
+X: 1110 - JT
+
+T: 1210 - AF
+Y: 1210 - VK
+
+P: 1310 - AF
+U: 1310 - DE
+
+R: 1410 - PH
+W: 1410 - JY
+
+Z: 1510 - JY
+V: 1510 - VK
+
+TUESDAY:
+
+S: 0900 - DE
+X: 0900 - JY
+
+T: 1000 - AF
+Y: 1000 - RL
+
+P: 1110 - AF
+U: 1110 - RL
+
+R: 1510 - PH
+W:1510 - JY
+
+WEDNESDAY:
+
+Z: 0900 - JT
+V: 0900 - VK
+

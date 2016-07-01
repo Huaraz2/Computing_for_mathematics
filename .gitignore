@@ -1,3 +1,7 @@
 .DS_Store
 _site
 Enterprise/Assessment/ProjectProposal/Feedback/
+Enterprise/Assessment/Presentation/Feedback/
+*checkpoint.ipynb
+*swp
+
