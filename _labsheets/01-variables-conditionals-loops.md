@@ -113,17 +113,13 @@ These questions aim to show you the basic building blocks of programming
   ```python
   >>> len(firstname)  # How many characters are in the variable
   5
-
-  ```
-
-  ```python
   >>> firstname[0]  # We can point at individual characters, 0 is the first
   'V'
   >>> firstname[4]
   'e'
   >>> firstname[-1]  # We can use negative number to start counting from the end
   'e'
-  >>> firstname[0:4]  # We can 'slice' scrings
+  >>> firstname[0:4]  # We can 'slice' strings
   'Vinc'
 
   ```
@@ -138,8 +134,97 @@ These questions aim to show you the basic building blocks of programming
 
   ```
 
-- **T** If statements: boolean variables
-- **T** For and while loops: for and while loops
+- **Tickable** Boolean variables and if statements.
+
+  Programming languages can be used to check if statements are true or not. A
+  variable that can either be `True` or `False` is called a boolean variable.
+  Here is a simple example:
+
+  ```python
+  >>> a = 4
+  >>> b = 8 / 2
+  >>> a == b  # Check if a is equal to b
+  True
+  >>> a != b  # Check if a is NOT equal to b
+  False
+  >>> a >= b  # Check if a is bigger or equal to b
+  True
+  >>> a < b + 1  # Check if a is stricly small than b + 1
+  True
+
+  ```
+
+  Not that we can set the statement to be a variable itself:
+
+  ```python
+  >>> statement = a == b
+  >>> statement
+  True
+  >>> type(statement)  # This variable is a boolean
+  <class 'bool'>
+
+  ```
+
+  We can use this to carry out different operations depending on whether or not
+  a boolean is True or False.
+
+  ```python
+  >>> n = 11  # Experiment by changing the value of n
+  >>> if n <= 5:
+  ...    value = 1
+  ... elif n % 2 == 0:  # Otherwise if (else if)
+  ...    value = 2
+  ... else:  # Otherwise
+  ...    value = 3
+  >>> value
+  3
+
+  ```
+
+  The above is in essence producing:
+
+  $$f(n)=\begin{cases}
+  1&\text{ if } n\leq 5\\
+  2&\text{ if } n> 5\text{ and } n \text{ even}\\
+  3&\text{ otherwise }\\
+  \end{cases}$$
+
+  **The indentation is important: everything indented after the `if`, `elif`,
+  `else` statements is what will be evaluated in that specific case.
+
+- **Tickable** For and while loops.
+
+  It is possible to use code to repeat various actions. Here is a `while` loop
+  that repeats whatever is indented until the boolean condition is no longer
+  true:
+
+  ```python
+  >>> count = 0  # A variable to count
+  >>> total = 0  # We will sum the first ten numbers
+  >>> while count < 10:  # Keep repeating until count if >= 10
+  ...     count += 1  # Adding 1 to count
+  ...     total += count  # Adding the count to the total
+  >>> total
+  55
+
+  ```
+
+  We can also just choose to loop over a given 'list' of objects (we'll learn
+  more about lists in the next chapter):
+
+  ```python
+  >>> items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Creating a list
+  >>> total = 0
+  >>> for item in items:
+  ...     total += item
+  >>> total
+  55
+
+  ```
+
+# Worked example
+
+A more involved worked example. Shown from start to finish.
 
 # Further work
 
