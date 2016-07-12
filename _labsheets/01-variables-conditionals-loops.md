@@ -52,190 +52,245 @@ Hello world
 
 ```
 
-# Basics
+**Basics**
 
 These questions aim to show you the basic building blocks of programming
 
-- **TICKABLE** Creating numeric variables.
+1. **TICKABLE** Creating numeric variables.
 
-  One of the building block of any
-  programming language is variables. This is how we store a particular variable
-  that we can reuse:
+   One of the building block of any
+   programming language is variables. This is how we store a particular variable
+   that we can reuse:
 
-  ```python
-  >>> age = 20  # Pointing the variable age at the numeric value 20
-  >>> print(age)  # Recalling the value of the variable
-  20
+   ```python
+   >>> age = 20  # Pointing the variable age at the numeric value 20
+   >>> print(age)  # Recalling the value of the variable
+   20
 
-  ```
+   ```
 
-  It is possible to carry out a variety of numeric operations and reassigning the value of the variable:
+   It is possible to carry out a variety of numeric operations and reassigning the value of the variable:
 
-  ```python
-  >>> age = age + 1  # Adding 1 to age
-  >>> print(age)
-  21
+   ```python
+   >>> age = age + 1  # Adding 1 to age
+   >>> print(age)
+   21
 
-  ```
+   ```
 
-  Python has some **short hand** for the above:
+   Python has some **short hand** for the above:
 
-  ```python
-  >>> age += 1  # Adding 1 to age
-  >>> print(age)
-  22
+   ```python
+   >>> age += 1  # Adding 1 to age
+   >>> print(age)
+   22
 
-  ```
+   ```
 
-  We can do more than just addition (experiment with these as you might need
-  them later on):
+   We can do more than just addition (experiment with these as you might need
+   them later on):
 
-  - Subtraction: `-`
-  - Multiplication: `*`
-  - Division: `/`
-  - Exponentiation: `**`
-  - Modulo division: `%`
+   - Subtraction: `-`
+   - Multiplication: `*`
+   - Division: `/`
+   - Exponentiation: `**`
+   - Modulo division: `%`
 
-- **TICKABLE** Creating character variables.
+2. **TICKABLE** Creating character variables.
 
-  Another type of variable used is called a character variable. **In
-  programming these are called strings**.
+   Another type of variable used is called a character variable. **In
+   programming these are called strings**.
 
-  ```python
-  >>> firstname = "Vince"
-  >>> print(firstname)
-  Vince
+   ```python
+   >>> firstname = "Vince"
+   >>> print(firstname)
+   Vince
 
-  ```
+   ```
 
-  There are various things that we can do with character variables:
+   There are various things that we can do with character variables:
 
-  ```python
-  >>> len(firstname)  # How many characters are in the variable
-  5
-  >>> firstname[0]  # We can point at individual characters, 0 is the first
-  'V'
-  >>> firstname[4]
-  'e'
-  >>> firstname[-1]  # We can use negative number to start counting from the end
-  'e'
-  >>> firstname[0:4]  # We can 'slice' strings
-  'Vinc'
+   ```python
+   >>> len(firstname)  # How many characters are in the variable
+   5
+   >>> firstname[0]  # We can point at individual characters, 0 is the first
+   'V'
+   >>> firstname[4]
+   'e'
+   >>> firstname[-1]  # We can use negative number to start counting from the end
+   'e'
+   >>> firstname[0:4]  # We can 'slice' strings
+   'Vinc'
 
-  ```
+   ```
 
-  We can also create new strings from other ones:
+   We can also create new strings from other ones:
 
-  ```python
-  >>> lastname = "Knight"
-  >>> fullname = firstname + " " + lastname
-  >>> fullname
-  'Vince Knight'
+   ```python
+   >>> lastname = "Knight"
+   >>> fullname = firstname + " " + lastname
+   >>> fullname
+   'Vince Knight'
 
-  ```
+   ```
 
-- **Tickable** Boolean variables and if statements.
+3. **Tickable** Boolean variables and if statements.
 
-  Programming languages can be used to check if statements are true or not. A
-  variable that can either be `True` or `False` is called a boolean variable.
-  Here is a simple example:
+   Programming languages can be used to check if statements are true or not. A
+   variable that can either be `True` or `False` is called a boolean variable.
+   Here is a simple example:
 
-  ```python
-  >>> a = 4
-  >>> b = 8 / 2
-  >>> a == b  # Check if a is equal to b
-  True
-  >>> a != b  # Check if a is NOT equal to b
-  False
-  >>> a >= b  # Check if a is bigger or equal to b
-  True
-  >>> a < b + 1  # Check if a is stricly small than b + 1
-  True
+   ```python
+   >>> a = 4
+   >>> b = 8 / 2
+   >>> a == b  # Check if a is equal to b
+   True
+   >>> a != b  # Check if a is NOT equal to b
+   False
+   >>> a >= b  # Check if a is bigger or equal to b
+   True
+   >>> a < b + 1  # Check if a is stricly small than b + 1
+   True
 
-  ```
+   ```
 
-  Not that we can set the statement to be a variable itself:
+   Note that we can set the statement to be a variable itself:
 
-  ```python
-  >>> statement = a == b
-  >>> statement
-  True
-  >>> type(statement)  # This variable is a boolean
-  <class 'bool'>
+   ```python
+   >>> statement = a == b
+   >>> statement
+   True
+   >>> type(statement)  # This variable is a boolean
+   <class 'bool'>
 
-  ```
+   ```
 
-  We can use this to carry out different operations depending on whether or not
-  a boolean is True or False.
+   We can use this to carry out different operations depending on whether or not
+   a boolean is True or False.
 
-  ```python
-  >>> n = 11  # Experiment by changing the value of n
-  >>> if n <= 5:
-  ...    value = 1
-  ... elif n % 2 == 0:  # Otherwise if (else if)
-  ...    value = 2
-  ... else:  # Otherwise
-  ...    value = 3
-  >>> value
-  3
+   ```python
+   >>> n = 11  # Experiment by changing the value of n
+   >>> if n <= 5:
+   ...    value = 1
+   ... elif n % 2 == 0:  # Otherwise if (else if)
+   ...    value = 2
+   ... else:  # Otherwise
+   ...    value = 3
+   >>> value
+   3
 
-  ```
+   ```
 
-  The above is in essence producing:
+   **The indentation is important: everything indented after the `if`, `elif`,
+   `else` statements is what will be evaluated in that specific case.**
 
-  $$f(n)=\begin{cases}
-  1&\text{ if } n\leq 5\\
-  2&\text{ if } n> 5\text{ and } n \text{ even}\\
-  3&\text{ otherwise }\\
-  \end{cases}$$
+   The above is in essence producing:
 
-  **The indentation is important: everything indented after the `if`, `elif`,
-  `else` statements is what will be evaluated in that specific case.
+   $$f(n)=\begin{cases}
+   1&\text{ if } n\leq 5\\
+   2&\text{ if } n> 5\text{ and } n \text{ even}\\
+   3&\text{ otherwise }\\
+   \end{cases}$$
 
-- **Tickable** For and while loops.
 
-  It is possible to use code to repeat various actions. Here is a `while` loop
-  that repeats whatever is indented until the boolean condition is no longer
-  true:
+4. **Tickable** For and while loops.
 
-  ```python
-  >>> count = 0  # A variable to count
-  >>> total = 0  # We will sum the first ten numbers
-  >>> while count < 10:  # Keep repeating until count if >= 10
-  ...     count += 1  # Adding 1 to count
-  ...     total += count  # Adding the count to the total
-  >>> total
-  55
+   It is possible to use code to repeat various actions. Here is a `while` loop
+   that repeats whatever is indented until the boolean condition is no longer
+   true:
 
-  ```
+   ```python
+   >>> count = 0  # A variable to count
+   >>> total = 0  # We will sum the first ten numbers
+   >>> while count < 10:  # Keep repeating until count if >= 10
+   ...     count += 1  # Adding 1 to count
+   ...     total += count  # Adding the count to the total
+   >>> total
+   55
 
-  We can also just choose to loop over a given 'list' of objects (we'll learn
-  more about lists in the next chapter):
+   ```
 
-  ```python
-  >>> items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Creating a list
-  >>> total = 0
-  >>> for item in items:
-  ...     total += item
-  >>> total
-  55
+   We can also just choose to loop over a given 'list' of objects (we'll learn
+   more about lists in the next chapter):
 
-  ```
+   ```python
+   >>> items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Creating a list
+   >>> total = 0
+   >>> for item in items:
+   ...     total += item
+   >>> total
+   55
 
-# Worked example
+   ```
 
-A more involved worked example. Shown from start to finish.
+5. **Worked example**
 
-# Further work
+   This is a slightly more complex example that brings together the various
+   concepts above.
 
-These questions aim to push a bit further.
+   Let us aim to verify (**this is not a proof!**) that the following statement is
+   true:
 
-- Use code to check the following identity:
+   $$
+   \sum_{i=0}^n n ^ 2 = \frac{n(n+1)(2n+1)}{6}
+   $$
 
-  $$\sum_{i=0}^{n}\frac{n(n+1)}{2}$$
+   We will do this by computing the left hand side and the right hand side:
 
-  for \(n=200\).
+   ```python
+   >>> n = 20
+   >>> rhs = n * (n +  1) * (2 * n + 1) / 6
+   >>> lhs = 0
+   >>> i = 0
+   >>> while i < n:
+   ...     i += 1
+   ...     lhs += i ** 2
+   >>> lhs == rhs
+   True
 
-- **T** Modify **the above** to check it for all values less than 1000.
+   ```
 
-3 other questions that push students a bit.
+   We can put all of the above in a `while` loop that will check it for a large
+   number of values of n:
+
+   ```python
+   >>> max_n = 2000
+   >>> n = 0
+   >>> while n < max_n:
+   ...     n += 1
+   ...     rhs = n * (n +  1) * (2 * n + 1) / 6
+   ...     lhs = 0
+   ...     i = 0
+   ...     while i < n:
+   ...         i += 1
+   ...         lhs += i ** 2
+   ...     if lhs != rhs:
+   ...         print(False)
+
+   ```
+
+   **Further work**
+
+   These questions aim to push a bit further.
+
+6. Use code to check the following identity:
+
+   $$\sum_{i=0}^{n}i=\frac{n(n+1)}{2}$$
+
+   for \(n=20\).
+
+7. **Tickable** Modify **the above** to check it for all values less than 2000.
+
+8. Calculates the sum of the first natural numbers less than 1000 that are not
+   divisible by 3.
+
+9. Calculates the sum of the first 1000 natural numbers that are not
+   divisible by 3.
+
+10. It can be shown (you are not required to check this) that the following
+    sequence:
+
+    $$x_{n+1}=\frac{x_n + K / x_{n}}{2}$$
+
+    approaches \\(\sqrt{K}\\) as \\(n\\) increases. Write some code to
+    verify this to any given level of precision.

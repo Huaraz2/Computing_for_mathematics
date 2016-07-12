@@ -9,93 +9,298 @@ General description.
 
 These questions aim to show you the basic building blocks of programming
 
-- **T** Building a very simple function
+1. **Tickable** Writing simple functions.
 
-  ```python
-  >>> def say_hi():
-  ...     return "Hello world"
+   Often we want to be able to use code more than once. The way to do this is to
+   write a function. Here is a very simple example. This creates a function that
+   returns a string saying "Hello world":
 
-  ```
+   ```python
+   >>> def say_hi():
+   ...     return "Hello world"
 
-  ```python
-  >>> say_hi()
-  'Hello world'
+   ```
 
-  ```
+   Now, to **use** that function we need to call the function:
 
-- **T** Building a slightly more complicated function
+   ```python
+   >>> say_hi()
+   'Hello world'
 
-  ```python
-  >>> def sum_till_n(n):
-  ...     """This is called a doctstring. We use it to describe what a function
-  ...     does. This function adds the first n numbers together."""
-  ...     total = 0
-  ...     count = 1
-  ...     while count <= n:
-  ...         total += count
-  ...         count += 1
-  ...     return total
-  >>> sum_till_n(3)
-  6
+   ```
 
-  ```
+   It is good practice to break down code in to smaller functions that make
+   it easier to read.
 
-- **T** Lists
+2. **Tickable** Functions with variables.
 
-  ```python
-  >>> favourite_numbers = [0, 1, 2, 3, 4]
-  >>> favourite_numbers
-  [0, 1, 2, 3, 4]
+   It is more useful to include variables in our functions (in the exact same
+   way as for mathematical functions!).
 
-  >>> type(favourite_numbers)
-  <class 'list'>
-  >>> sum(favourite_numbers)
-  10
+   Let us revisit the mathematical function we described in the previous lab
+   sheet:
 
-  >>> max(favourite_numbers)
-  4
+   $$f(n)=\begin{cases}
+   1&\text{ if } n\leq 5\\
+   2&\text{ if } n> 5\text{ and } n \text{ even}\\
+   3&\text{ otherwise }\\
+   \end{cases}$$
 
-  >>> min(favourite_numbers)
-  0
+   Here is the code that defines this function (compare it to the code we wrote
+   in the previous lab sheet):
 
-  >>> total = 0
-  >>> for n in favourite_numbers:
-  ...     if n % 2 == 0:  # Check if n is divisible by 2
-  ...         total += n
-  >>> total
-  6
+   ```python
+   >>> def f(n):
+   ...     """This is called a doc string. We use it to describe what a function
+   ...     does. For example here we would write: This function returns f(n) as
+   ...     described above."""
+   ...     if n <= 5:
+   ...        return 1
+   ...     elif n % 2 == 0:  # Otherwise if (else if)
+   ...        return 2
+   ...     else:  # Otherwise
+   ...        return 3
+   >>> f(11)
+   3
 
-  ```
+   We can also have functions with more than 1 variable:
 
-- **T** List comprehension
+   ```python
+   >>> def simple_sum(a, b):
+   ...     """Returns the sum of a and b"""
+   ...     return a + b
+   >>> simple_sum(5, 7)
+   12
 
-  ```python
-  >>> square_of_favourite_numbers = [x ** 2 for x in favourite_numbers]
-  >>> square_of_favourite_numbers
-  [0, 1, 4, 9, 16]
+   ```
 
-  ```
+   Finally, it is also possible to have default variables:
 
-  This is familiar:
+   ```python
+   >>> def simple_sum(a=5, b=1):
+   ...     """Returns the sum of a and b"""
+   ...     return a + b
+   >>> simple_sum()
+   6
+   >>> simple_sum(b=2)
+   7
+   >>> simple_sum(a=3)
+   4
 
-  $$\{n \in S \;| \text{ if } n \text{ is divisible by  2}\}$$
+   ```
 
-  ```python
-  >>> sum([n for n in favourite_numbers if n % 2 == 0])
-  6
+3. **Tickable** Lists
 
-  ```
+   Another type of variable in Python (we have already seen numeric and
+   character variables) is the list. This type acts as a container that can hold
+   multiple other items in an ordered way.
 
-# Further work
+   Here is a list of my favourite numbers:
 
-These questions aim to push a bit further.
+   ```python
+   >>> favourite_numbers = [9, 12, 13, 7]  # Defining a list
+   >>> favourite_numbers
+   [9, 12, 13, 7]
 
-- Triangular numbers
+   >>> type(favourite_numbers)
+   <class 'list'>
 
-- **T** Fibonacci function
+   ```
 
-- Check primality of some quadratic expression
+   We can do various things to the items in the list:
 
-- Monty Hall problem
+   ```python
+   >>> sum(favourite_numbers)  # Adding all the elements of our list
+   41
 
-- Dictionaries
+   >>> max(favourite_numbers)  # Getting the largest element of a list
+   13
+
+   >>> min(favourite_numbers)  # Getting the minimum element of a list
+   7
+
+   >>> favourite_numbers.append(-100)  # Add another element to a list
+   >>> favourite_numbers
+   [9, 12, 13, 7, -100]
+
+   ```
+
+   We can also go in to our lists and get specific items. This works just as it
+   did with strings:
+
+   ```python
+   >>> favourite_numbers[0]  # Getting the first element of a list
+   9
+   >>> favourite_numbers[1]  # Getting the second element of a list
+   12
+   >>> favourite_numbers[-1]  # Getting the last element of a list
+   -100
+   >>> favourite_numbers[2:4]  # Getting the 3rd till the 4th element of a list
+   [13, 7]
+
+   ```
+
+   Finally, a quick way to get a list of integers is the `range` command:
+
+   ```python
+   >>> for k in range(10):
+   ...     print(k)
+   0
+   1
+   2
+   3
+   4
+   5
+   6
+   7
+   8
+   9
+
+   ```
+
+4. **T** List comprehension
+
+   We can use lists to easily repeat actions using `for` loops. So here is how
+   to create a new list with the squares of the elements in favourite numbers:
+
+   ```python
+   >>> total = 0
+   >>> square_of_favourite_numbers = []  # Create an empty list
+   >>> for n in favourite_numbers:
+   ...     square_of_favourite_numbers.append(n ** 2)
+   >>> square_of_favourite_numbers
+   [81, 144, 169, 49, 10000]
+
+   ```
+
+   We can however do this using some nice Python syntax called a list
+   comprehension:
+
+   ```python
+   >>> square_of_favourite_numbers = [x ** 2 for x in favourite_numbers]
+   >>> square_of_favourite_numbers
+   [81, 144, 169, 49, 10000]
+
+   ```
+
+   This is familiar, as it replicates mathematical notation. For example here
+   is how to get the sum of the elements in the following set:
+
+   $$\{n \in S \;| \text{ if } n \text{ is divisible by  2}\}$$
+
+   ```python
+   >>> sum([n for n in favourite_numbers if n % 2 == 0])
+   -88
+
+   ```
+
+5. **Worked example**
+
+   The Fibonacci numbers are defined by the following mathematical formula:
+
+   $$
+   f_n = \begin{cases}
+   1,\text{ if } n \in \{0, 1\}\\
+   f_{n - 1} + f_{n - 2}, \text{ otherwise}
+   \end{cases}
+   $$
+
+   The goal of this question is to verify the following theorem about the sum
+   of the first Fibonacci numbers:
+
+   $$\sum_{i=0}^n f_i = f_{n + 2} - 1$$
+
+   Let us first write a Python function for the above:
+
+   ```python
+   >>> def fibonacci(n):
+   ...     """Returns the n th fibonacci number"""
+   ...     if n in [0, 1]:  # The special case of n being 0 or 1
+   ...         return 1
+   ...     a = 1  # Setting the starting values
+   ...     b = 1
+   ...     for i in range(n - 1):  # Going through the first n - 1 terms
+   ...         temp = b  # A temporary variable to remember the value of b
+   ...         b = a + b  # New value of b
+   ...         a = temp  # New value of a (old value of b)
+   ...     return b
+
+   ```
+
+   Let us now call this function to check that it is correct:
+
+   ```python
+   >>> for n in range(5):
+   ...     print(fibonacci(n))
+   1
+   1
+   2
+   3
+   5
+
+   ```
+
+   We can now obtain a list of the first \\(K\\) fibonacci numbers and check the
+   theorem:
+
+   ```python
+   >>> K = 3
+   >>> list_of_fib = [fibonacci(n) for n in range(K + 1)]
+   >>> sum(list_of_fib) == fibonacci(K + 2) - 1
+   True
+
+   ```
+
+   We can put this code that checks if a relationship is true in to a new
+   function:
+
+   ```python
+   >>> def check_theorem(K):
+   ...     """
+   ...     Check the relationship for the sum of the first K fibonacci numbers
+   ...     """
+   ...     list_of_fib = [fibonacci(n) for n in range(K + 1)]
+   ...     return  sum(list_of_fib) == fibonacci(K + 2) - 1
+
+   ```
+
+
+   Let us now check that our theorem can be checked for the first 200
+   values of:
+
+   ```python
+   >>> checks = [check_theorem(K) for K in range(200)]
+   >>> all(checks)  # `all` combines all booleans in a list
+   True
+
+   ```
+
+   **Further work**
+
+   These questions aim to push a bit further.
+
+6. Write a function that returns the triangular numbers \\(T_n\\):
+
+   $$T_n=\frac{n(n+1)}{2}$$
+
+7. **Tickable** Use code to check that the following relationship is true:
+
+   $$\sum_{i=0}^{n}T_i=\frac{n(n+1)(n+2)}{6}$$
+
+8. Create a list with the first 1300 integers divisible by 3. What is the largest
+   such number? What is the smallest such number? What is the mean of these
+   numbers?
+
+9. Investigate the use of the python `random` library. Use this to simulate the
+   [Monty hall](Monty Hall proble://en.wikipedia.org/wiki/Monty_Python):
+
+   - Write a function that simulates the play of the game when you 'stick' with
+     the initial choice.
+   - Write a function that simulates the play of the game when you 'change' your
+     choice.
+   - Repeat the play of the game using both those functions and compare the
+     probability of winning.
+
+10. A data type that we have not considered are dictionaries. These are a
+    specific type of what is generally called a 'hash table'. Find information
+    about dictionaries and experiment with them.
