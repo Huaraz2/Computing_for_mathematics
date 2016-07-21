@@ -110,27 +110,27 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-    This string is not particularly helpful. To transform the string to a
-    list we can use the split method which seperates a string on a given
-    character:
+   This string is not particularly helpful. To transform the string to a
+   list we can use the split method which seperates a string on a given
+   character:
 
-    ```python
-    >>> data = string.split('\n')
-    >>> data
-    ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '']
+   ```python
+   >>> data = string.split('\n')
+   >>> data
+   ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '']
 
-    ```
+   ```
 
-    We see that we have a list of **strings** and also have a last empy item.
-    Here we clean that up (converting the strings to integers and ignoring the
-    last item):
+   We see that we have a list of **strings** and also have a last empy item.
+   Here we clean that up (converting the strings to integers and ignoring the
+   last item):
 
-    ```python
-    >>> data = [int(e) for e in data[:-1]]
-    >>> data
-    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   ```python
+   >>> data = [int(e) for e in data[:-1]]
+   >>> data
+   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-    ```
+   ```
 
 4. **Worked example**
 
