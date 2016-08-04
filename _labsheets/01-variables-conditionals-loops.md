@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lab sheet 01"
+title:  "Lab sheet 01: Variables, Conditional Statements and Loops"
 ---
 
 General description.
