@@ -203,7 +203,7 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```python
    >>> np.linalg.det(A)
-   -2.0
+   -2.0...
 
    ```
 
