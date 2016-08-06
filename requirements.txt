@@ -1,3 +1,6 @@
-sympy
-numpy
+# Purposefully not pinning versions. If a version upgrade breaks anything, I
+# want to know about.
 matplotlib
+numpy
+scipy
+sympy
