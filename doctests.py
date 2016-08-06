@@ -1,6 +1,9 @@
 import doctest
 import os
 import unittest
+import matplotlib
+
+matplotlib.use('Agg')
 
 
 def load_tests(loader, tests, ignore):
