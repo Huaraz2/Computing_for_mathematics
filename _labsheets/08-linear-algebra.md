@@ -282,6 +282,10 @@ title:  "Lab Sheet 08: Linear Algebra"
    We see that the total contribution is £7.5, but that the second contributor
    actually gains money from the deal! (A negative contribution.)
 
+   **Further work**
+
+   These questions aim to push a bit further.
+
 7. Consider a similar situation to that described in question 6 except that
    business person \\(i\\) and **half** of the contribution of business person
    \\(i+1\\) always equal to £5.
