@@ -3,7 +3,9 @@ layout: post
 title:  "Lab Sheet 04: Object Oriented Programming"
 ---
 
-General description.
+This lab sheet introduces object oriented programming. We have been using
+object oriented programming throughout the previous lab sheets. Here we will
+learn how to create our own objects (what this means become clear).
 
 # Basics
 
@@ -47,15 +49,17 @@ These questions aim to show you the basic building blocks of programming
    ```
 
    The `at ...` is a pointer to the location of the instance in memory. If you
-   rerun the code that location will change.
+   re run the code that location will change.
 
-   We have already seen example of classes in Python:
+   We have already seen examples of classes in Python:
 
    - Integers;
    - Strings;
    - Lists.
 
    There are many more and we are going to see how to build our own.
+
+   **Experiment with building an instance of the Student class.**
 
 2. **Tickable** Attributes
 
@@ -108,11 +112,12 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   **Create instances with attributes and experiment with them.**
+
 3. **Tickable** Methods
 
-   Now our classes can 'hold' information. We will now see how to make them 'do'
-   things. These are called 'methods' and they are just functions 'attached' to
-   classes.
+   We will now see how to make classes 'do' things. These are called 'methods'
+   and they are just functions 'attached' to classes.
 
    ```python
    >>> class Student:
@@ -165,6 +170,8 @@ These questions aim to show you the basic building blocks of programming
    There are various other 'special' methods, we will see one of them in the
    worked example.
 
+   **Create instances of the Student class with these new methods.**
+
 4. **Inheritance**
 
    One final (very important) aspect of object oriented programming is the
@@ -208,14 +215,17 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   **Experiment with the above code: how would it work if leap year was every 3
+   years?**
+
 5. **Worked example**
 
-   Let us assume we want to study a linear expressions. These are expressions
+   Let us assume we want to study linear expressions. These are expressions
    of the form:
 
    $$ax+b$$
 
-   We are interested for example, in what the value of \\(x\\) for which a
+   We are interested, for example, in what the value of \\(x\\) for which a
    linear expression is 0. This is called the 'root' and is the solution to the
    following equation:
 
@@ -235,10 +245,10 @@ These questions aim to show you the basic building blocks of programming
    ...         """Return the root of the linear expression"""
    ...         return - self.b / self.a
    ...     def __add__(self, linexp):
-   ...         """A special method: let's us have addition between expressions"""
+   ...         """A special method: lets us have addition between expressions"""
    ...         return LinearExpression(self.a + linexp.a, self.b + linexp.b)
    ...     def __repr__(self):
-   ...         """A special method: changes the default way an instance is displayed"""
+   ...         """A special method: changes the way an instance is displayed"""
    ...         return "Linear expression: " + str(self.a) + "x + " + str(self.b)
    >>> exp = LinearExpression(2, 4)
    >>> exp  # This output is given by the `__repr__` method
@@ -255,7 +265,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   This class works just fine but we quickly can arrive at a problem:
+   This class works just fine but we quickly arrive at a problem:
 
    ```python
    >>> exp1 = LinearExpression(2, 4)
@@ -317,7 +327,7 @@ These questions aim to show you the basic building blocks of programming
    ...     x1 = f.root()
    ...     x2 = g.root()
    ...     x3 = k.root()
-   ...     if x1 and x2 and x3:
+   ...     if x1 and x2 and x3:  # Assuming our three expressions have a root
    ...         return (a1 * x1 + a2 * x2) / (a1 + a2) == x3
    ...     return True  # If f, g have no roots the relationship is still true
    >>> check_result(2, 3, 4, 5)
@@ -329,7 +339,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```python
    >>> import random  # Importing the random module
-   >>> N = 10000  # THe number of samples
+   >>> N = 1000  # THe number of samples
    >>> checks = []
    >>> for _ in range(N):
    ...     a1 = random.randint(-10, 10)
@@ -418,5 +428,5 @@ These questions aim to show you the basic building blocks of programming
 
    ![Grid]({{site.baseurl}}/assets/Images/gridwithplot.png)
 
-10. Re create the linear expression using inheritance and the quadratic
-    quadratic expression class from question 6.
+10. Re create the linear expression class using **inheritance** and the
+    quadratic quadratic expression class from question 6.
