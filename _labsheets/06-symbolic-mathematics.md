@@ -349,3 +349,7 @@ These questions aim to show you the basic building blocks of programming
     3. \\((1 - \cos(\theta)) / 2 = \sin^2(\theta / 2)\\)
     4. \\(\cos(n\pi)=(-1) ^ n\\) (for \\(n\in\mathbb{Z}\\) (Hint: you will need to
        look in to options that can be passed to `symbols` for this).
+
+11. Use SymPy to write the first \\(10^6\\) prime numbers to file. Compare this
+    file to [primes.csv]({{site.baseurl}}/assets/data/primes.csv) (not by hand!)
+    and check that it's the same.

@@ -3,7 +3,7 @@ layout: post
 title:  "Lab Sheet 02: Functions and Data Structures"
 ---
 
-This lab sheet will move in to understanding how to write functions (very
+This lab sheet will move on to understanding how to write functions (very
 similar to mathematical functions) and lists (a way of holding data).
 
 **Building blocks**

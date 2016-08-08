@@ -3,7 +3,8 @@ layout: post
 title:  "Lab Sheet 03: Reading and writing to file, recursion and algorithms"
 ---
 
-General description.
+This lab sheet will allow us to read and write to text files (which lets us
+store information even after we close down Python) and introduce recursion.
 
 # Basics
 
@@ -67,6 +68,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   Experiment with modifying the above code.
+
 2. **Tickable** Writing to file.
 
    All of the data we handle with variables, lists and dictionaries lives in
@@ -97,6 +100,8 @@ These questions aim to show you the basic building blocks of programming
           textfile.write(str(i) + "\n")
 
    ```
+
+   Modify the above code to write something different to file.
 
 3. **Tickable** Reading files.
 
@@ -132,6 +137,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   Use this code to verify that you can read in from the file you wrote.
+
 4. **Worked example**
 
    The Fibonacci sequence can be thought of as:
@@ -164,7 +171,7 @@ These questions aim to show you the basic building blocks of programming
 
    It can be shown that the Fibonacci sequence can also be given by:
 
-   $$f(n) = \frac{\phi^(n + 1) + (-\phi)^{-(n + 1)}}{\sqrt{5}}$$
+   $$f(n) = \frac{\phi^{(n + 1)} + (-\phi)^{-(n + 1)}}{\sqrt{5}}$$
 
    Where \\(\phi\\) is the golden ration:
 
@@ -232,8 +239,8 @@ These questions aim to show you the basic building blocks of programming
 
    You can use the factorial function we defined in this lab sheet (question 1) or you   can use the `math` library: `math.factorial`.
 
-7. The file primes.csv contains the first million prime numbers. Use it to
-   attempt to verify
+7. The file [primes.csv]({{site.baseurl}}/assets/data/primes.csv) contains the
+   first million prime numbers. Use it to attempt to verify
    [Goldbach's conjecture](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture).
 
 8. Python has it's own functions to sort a list. This question investigates how
@@ -298,3 +305,19 @@ These questions aim to show you the basic building blocks of programming
 
     Investigate caching and see if you can implement it yourself and/or use
     the inbuilt functions to use it.
+
+# Further resources
+
+- [A non programmers tutorial for
+  Python:
+  Recursion](Caching in Python
+  ://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Recursion):
+- [A nice tutorial from The Python
+  Course on recursion](Caching in Python 3)
+- [Reading and writing csv files with the csv library](https://pymotw.com/3/csv/)
+- [Docuentation for the caching function available in Python
+  3](https://docs.python.org/3/library/functools.html#functools.lru_cache)
+- [Insertion sort in
+  Python](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSort.html)
+- [Binary search in
+  Python](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBinarySearch.html)
