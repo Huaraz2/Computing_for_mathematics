@@ -3,7 +3,9 @@ layout: post
 title:  "Lab Sheet 08: Linear Algebra"
 ---
 
-# Basics
+In this lab sheet we will learn how to use Python to study linear algebra.
+
+**Building blocks**
 
 1. **Tickable** Linear algebra is the study of systems of linear equations. Many
    mathematical problems reduce to solving systems of linear equations. Here is
@@ -68,6 +70,8 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```
 
+   **Experiment with another linear system.**
+
 2. **Tickable** Manipulating matrices.
 
    It is possible to add two matrices together, this corresponds to adding each
@@ -114,6 +118,8 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```
 
+   **Modify the code here to try multiplying different matrices together.**
+
 3. **Tickable** As we have matrix multiplication, that implies that there will
    be an element that does not have any effect when multiplying by it. (In normal
    multiplication this is the number \\(1\\) as \\(1 \times 5 = 5\\).
@@ -157,6 +163,8 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```
 
+   **Experiment with the above with different matrices.**
+
 4. **Tickable** Related to the idea of the identity matrix is the notion of the
    inverse of a matrix \\(A^{-1}\\) so that:
 
@@ -196,6 +204,8 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```
 
+   **Experiment with the above.**
+
 5. **Tickable** Related to the inverse of a matrix (it is used for its
    calculation) is called the
    [determinant](https://en.wikipedia.org/wiki/Determinant). We won't go in to
@@ -207,15 +217,18 @@ title:  "Lab Sheet 08: Linear Algebra"
 
    ```
 
+   **For the various matrices you have experimented with, calculate the
+   determinant.**
+
 6. **Worked example**: Large linear system.
 
-   Let's consider the following hypothetical problem. A set of \\(N\\) business
-   people who agree **together** to invest in company. The first business person
-   and the second business person agree to contribute a combined £1, the second
-   and the third a combined £2, the third and the fourth a combined £3, and so
-   on and so on until the \\(N-1\\)th and the \\(N\\)th a combined £\\(N-1\\).
-   Finally, the \\(N\\)th and the first business person contribute a combined
-   £\\(N\\).
+   Let us consider the following hypothetical problem. A set of \\(N\\) business
+   people who agree **together** to invest in a company. The first business
+   person and the second business person agree to contribute a combined £1, the
+   second and the third a combined £2, the third and the fourth a combined £3,
+   and so on and so on until the \\(N-1\\)th and the \\(N\\)th a combined
+   £\\(N-1\\).  Finally, the \\(N\\)th and the first business person contribute
+   a combined £\\(N\\).
 
    Assume that \\(N=5\\), how much will each person contribute to the deal, and
    subsequently what is the total amount?
