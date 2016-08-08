@@ -332,3 +332,9 @@ In this lab sheet we will see how to carry out basic aspects of Calculus
 
     1. Normal distribution: \\(f(x)=\frac{1}{\sqrt{2\sigma^2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}\\)
     2. The Logistic distribution: \\(f(x)=\frac{e^{\frac{x-\mu}{s}}}{s\left(1+e^{\frac{x-\mu}{s}}\right)^2}\\)
+
+# Further resources
+
+- [A SymPy tutorial given by some SymPy
+  developers](https://www.youtube.com/watch?v=AqnpuGbM6-Q)
+- [The SymPy documentation](http://docs.sympy.org/dev/index.html)

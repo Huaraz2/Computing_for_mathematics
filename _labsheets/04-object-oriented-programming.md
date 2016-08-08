@@ -430,3 +430,14 @@ These questions aim to show you the basic building blocks of programming
 
 10. Re create the linear expression class using **inheritance** and the
     quadratic quadratic expression class from question 6.
+
+# Further resources
+
+- [A non programmers tutorial for
+  Python:
+  Object Oriented
+  Programming](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Intro_to_Object_Oriented_Programming_in_Python_3)
+- [A nice tutorial: a role playing
+  example](http://inventwithpython.com/blog/2014/12/02/why-is-object-oriented-programming-useful-with-an-role-playing-game-example)
+- [A video about classed suggested by a student
+  tutor](https://www.youtube.com/watch?v=trOZBgZ8F_c)

@@ -111,7 +111,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment with manipulating numeric variables.
+   **Experiment with manipulating numeric variables.**
 
 2. **TICKABLE** Creating character variables.
 
@@ -137,7 +137,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment by creating your own strings variables.
+   **Experiment by creating your own strings variables.**
 
 3. **Tickable** Boolean variables and if statements.
 
@@ -197,7 +197,7 @@ These questions aim to show you the basic building blocks of programming
    3&\text{ otherwise }\\
    \end{cases}$$
 
-   Experiment by changing the function \\(f\\) and modifying the code.
+   **Experiment by changing the function \\(f\\) and modifying the code.**
 
 4. **Tickable** For and while loops.
 
@@ -229,8 +229,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment by summing (or perhaps multiplying?) over a different list of
-   items.
+   **Experiment by summing (or perhaps multiplying?) over a different list of
+   items.**
 
 5. **Worked example**
 

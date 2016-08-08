@@ -203,3 +203,8 @@ The final topic that we will consider is the study of differential equations.
    Obtain the solution to this system of equations. Assuming that \\(x(0)=100\\)
    and that \\(y(0)=700\\) plot the two solutions of the equations, which army
    wins this battle? When does the battle end?
+
+# Further resources
+
+- [SymPy documentation for solving differential
+  equations.](http://docs.sympy.org/dev/modules/solvers/ode.html)

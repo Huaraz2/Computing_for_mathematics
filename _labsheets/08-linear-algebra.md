@@ -321,3 +321,13 @@ In this lab sheet we will learn how to use Python to study linear algebra.
 
 10. Scipy (another package) and Sympy can also be used for linear algebra.
     Explore those libraries and compare them to numpy.
+
+# Further resources
+
+- [NumPy docs for linear
+  algebra](http://docs.scipy.org/doc/numpy/reference/routines.linalg.html)
+- [A short
+  tutorial](http://www.bogotobogo.com/python/python_numpy_matrix_tutorial.php)
+- [A video about linear algebra with
+  NumPy](https://www.youtube.com/watch?v=AqIrdW2-K6k)
+- [Another course site](http://www.u.arizona.edu/~erdmann/mse350/topics/basic_linear_algebra.html)
