@@ -3,7 +3,7 @@ layout: post
 title:  "Lab Sheet 07: Symbolic Calculus"
 ---
 
-# Basics
+**Building blocks**
 
 1. **Tickable** Calculating limits.
 
@@ -12,14 +12,21 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    $$f(x)=1/x$$
 
-   First let us define this function in Python as a function of the symbolic
-   variable `x`:
+   First let us define this function in Python as a function:
 
    ```python
    >>> from sympy import *
-   >>> x  = symbols('x')
    >>> def f(x):
    ...     return 1 / x
+   >>> f(2)
+   0.5
+
+   ```
+
+   We can now pass it symbolic variable:
+
+   ```python
+   >>> x  = symbols('x')
    >>> f(x)
    1/x
 
@@ -49,6 +56,8 @@ title:  "Lab Sheet 07: Symbolic Calculus"
    -oo
 
    ```
+
+   **Experiment with caculating the limit of different functions.**
 
 2. **Tickable** Differentiation.
 
@@ -97,11 +106,11 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    ```
 
-   Try and experiment with differentiating more complicated functions.
+   **Try and experiment with differentiating more complicated functions.**
 
 3. **Tickable** Integration.
 
-   As well as differentiation it's possible to carry out integration.
+   As well as differentiation it is possible to carry out integration.
 
    We can do both definite and indefinite integrals:
 
@@ -133,6 +142,8 @@ title:  "Lab Sheet 07: Symbolic Calculus"
    True
 
    ```
+
+   **Experiment with integrating other functions.**
 
 4. **Tickable** Plotting. It is possible to use SymPy to create plots.
 
@@ -189,10 +200,12 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    ```
 
+   **Attempt to create plots of other functions.**
+
 5. **Worked example**
 
    We are going to use the above to attempt to find and classify all points of
-   inflection for following quartic function:
+   inflection for the following quartic function:
 
    $$f(x) = - x^{4} + 9 x^{2} + 4 x - 12$$
 
@@ -206,7 +219,7 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    ```
 
-   First let us find the roots of the functions:
+   Let us find the roots of the functions:
 
    ```python
    >>> solveset(f(x), x)
@@ -223,9 +236,9 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    ```
 
-   We see that \(2\) is a repeated root.
+   We see that \(-2\) is a repeated root.
 
-   Let's confirm the limiting behaviour of our function:
+   Let us confirm the limiting behaviour of our function:
 
    ```python
    >>> limit(f(x), x, oo)
@@ -258,7 +271,7 @@ title:  "Lab Sheet 07: Symbolic Calculus"
    ```
 
    We see that 2 points of inflection give negative second derivative (so they
-   are local maxima, whereas \\(-\sqrt{6}/2+1\\) is a local minimum. This
+   are local maxima), whereas \\(-\sqrt{6}/2+1\\) is a local minimum. This
    confirms the plot.
 
    **Further work**
@@ -269,8 +282,8 @@ title:  "Lab Sheet 07: Symbolic Calculus"
 
    $$f(x) =- x^{4} + 10 x^{3} - 29 x^{2} + 8 x + 48$$
 
-   Identify the roots and limits (at \\(\pm\infty\\) of the function and confirm
-   this with a plot.
+   Identify the roots and limits (at \\(\pm\infty\\)) of the function and
+   confirm this with a plot.
 
 7. **Tickable** For the function of question 6, identify and classify all points
    of inflection.
