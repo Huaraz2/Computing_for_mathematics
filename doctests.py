@@ -16,5 +16,17 @@ def load_tests(loader, tests, ignore):
     return tests
 
 
-if __name__ == '__main__':
+def clean_up():
+    try:
+        os.remove("my_plot.pdf")
+    except FileNotFoundError:
+        pass
+
+
+def main():
     unittest.main()
+    clean_up()
+
+
+if __name__ == '__main__':
+    main()
