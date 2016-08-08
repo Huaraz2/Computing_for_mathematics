@@ -6,7 +6,7 @@ title:  "Lab Sheet 03: Reading and writing to file, recursion and algorithms"
 This lab sheet will allow us to read and write to text files (which lets us
 store information even after we close down Python) and introduce recursion.
 
-# Basics
+**Building blocks**
 
 These questions aim to show you the basic building blocks of programming
 

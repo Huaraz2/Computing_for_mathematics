@@ -20,7 +20,7 @@ This lab sheet will introduce one such library:
 [SymPy](http://www.sympy.org/en/index.html) which allows us to do symbolic
 mathematics.
 
-# Basics
+**Building blocks**
 
 These questions aim to show you the basic building blocks of programming
 
@@ -83,7 +83,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment with other mathematical functions: `tan`, `sin`, `exp`.
+   **Experiment with other mathematical functions: `tan`, `sin`, `exp`.**
 
 2. **Tickable** Manipulating natural numbers.
 
@@ -100,17 +100,18 @@ These questions aim to show you the basic building blocks of programming
    True
    >>> factorint(N)
    {3: 4, 5: 1, 7: 1}
-   >>> N == 3 ** 4 * 5 * 7
+   >>> N == 3 ** 4 * 5 * 7  # Checking the output of `factorint`
    True
 
    ```
 
-   Repeat the above example with a different value of `N`.
+   **Repeat the above example with a different value of `N`.**
 
 3. **Tickable** Creating a symbolic variable.
 
-   Using Sympy it's possible to carry out symbolic computations. To do this we
-   need to creates instances of Sympy symbols:
+   Using SymPy it is possible to carry out symbolic computations. To do this we
+   need to creates instances of the SymPy Symbols class. We do this using the
+   `symbols` function:
 
    ```python
    >>> x = symbols('x')
@@ -133,7 +134,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment with other symbolic manipulations.
+   **Experiment with other symbolic manipulations.**
 
 4. **Tickable** Manipulating symbolic expressions.
 
@@ -159,7 +160,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Here is another (hopefully familiar) example:
+   Here is another example:
 
    ```python
    >>> alpha, beta = symbols('alpha, beta')
@@ -168,7 +169,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Experiment with other expressions and `expand`/`simplify`.
+   **Experiment with other expressions and `expand`/`simplify`.**
 
 5. **Tickable** Solving equations.
 
@@ -227,6 +228,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   **Experiment with solving different equations.**
+
 6. **Worked example**
 
    In this example we are going to investigate the claim that the following
@@ -234,7 +237,7 @@ These questions aim to show you the basic building blocks of programming
 
    $$n^2 -79n+1601$$
 
-   Let us first identify for which numbers this is true:
+   Here are a couple of values:
 
    ```python
    >>> def polynomial(n):
@@ -250,20 +253,21 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   Let us first identify for which numbers this is true.
    We will do this by using a while loop to keep generating the output of this
    polynomial until it is no longer prime:
 
    ```python
    >>> n = 0
-   >>> while isprime(polynomial(n)):
+   >>> while isprime(polynomial(n)):  # Keep checking values until a composite
    ...    n += 1
    >>> n
    80
 
    ```
 
-   We see that for natural numbers \\(n\\) from 0 to 80 give primes in our
-   polynomial.
+   We see that for natural numbers \\(n\\) from 0 to 80, the quadratic gives
+   primes in our polynomial.
 
    ```python
    >>> p79 = polynomial(79)
@@ -352,4 +356,4 @@ These questions aim to show you the basic building blocks of programming
 
 11. Use SymPy to write the first \\(10^6\\) prime numbers to file. Compare this
     file to [primes.csv]({{site.baseurl}}/assets/data/primes.csv) (not by hand!)
-    and check that it's the same.
+    and check that it is the same.

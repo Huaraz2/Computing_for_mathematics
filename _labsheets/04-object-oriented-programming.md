@@ -7,7 +7,7 @@ This lab sheet introduces object oriented programming. We have been using
 object oriented programming throughout the previous lab sheets. Here we will
 learn how to create our own objects (what this means become clear).
 
-# Basics
+**Building blocks**
 
 These questions aim to show you the basic building blocks of programming
 
