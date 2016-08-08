@@ -3,7 +3,11 @@ layout: post
 title:  "Lab sheet 01: Variables, Conditional Statements and Loops"
 ---
 
-General description.
+This first lab sheet will introduce you to programming. You are expected to work
+through all the exercises marked as **Tickable**. There are other exercises that
+aim to push your understanding further. Finally at the end of the sheet there
+are links to other resources and tutorials that you might find
+helpful and/or interesting.
 
 # Installing and running Python
 
@@ -41,13 +45,14 @@ To install it on your personal machine follow these steps:
 3. Run the installer.
 
 We will use a Jupyter notebook which runs in your browser. To open a local
-server find the Continuum navigator and click on Jupyter.
+server find the Continuum navigator and click on Jupyter. You do not need to be
+connected to the internet to use this.
 
 These lab sheets will include code snippets. They show what code you should
 write but also the output you should see. Try the following:
 
 ```python
->>> print("Hello world")  # Code written
+>>> print("Hello world")  # Code you should write and below is the output
 Hello world
 
 ```
@@ -96,6 +101,18 @@ These questions aim to show you the basic building blocks of programming
    - Exponentiation: `**`
    - Modulo division: `%`
 
+   We can check the type of our variables:
+
+   ```python
+   >>> type(5)  # An integer
+   <class 'int'>
+   >>> type(5.4)  # A 'float'
+   <class 'float'>
+
+   ```
+
+   Experiment with manipulating numeric variables.
+
 2. **TICKABLE** Creating character variables.
 
    Another type of variable used is called a character variable. **In
@@ -105,22 +122,8 @@ These questions aim to show you the basic building blocks of programming
    >>> firstname = "Vince"
    >>> print(firstname)
    Vince
-
-   ```
-
-   There are various things that we can do with character variables:
-
-   ```python
-   >>> len(firstname)  # How many characters are in the variable
-   5
-   >>> firstname[0]  # We can point at individual characters, 0 is the first
-   'V'
-   >>> firstname[4]
-   'e'
-   >>> firstname[-1]  # We can use negative number to start counting from the end
-   'e'
-   >>> firstname[0:4]  # We can 'slice' strings
-   'Vinc'
+   >>> print(type(firstname))  # Checking the type
+   <class 'str'>
 
    ```
 
@@ -133,6 +136,8 @@ These questions aim to show you the basic building blocks of programming
    'Vince Knight'
 
    ```
+
+   Experiment by creating your own strings variables.
 
 3. **Tickable** Boolean variables and if statements.
 
@@ -192,6 +197,7 @@ These questions aim to show you the basic building blocks of programming
    3&\text{ otherwise }\\
    \end{cases}$$
 
+   Experiment by changing the function \\(f\\) and modifying the code.
 
 4. **Tickable** For and while loops.
 
@@ -222,6 +228,9 @@ These questions aim to show you the basic building blocks of programming
    55
 
    ```
+
+   Experiment by summing (or perhaps multiplying?) over a different list of
+   items.
 
 5. **Worked example**
 
@@ -294,3 +303,26 @@ These questions aim to show you the basic building blocks of programming
 
     approaches \\(\sqrt{K}\\) as \\(n\\) increases. Write some code to
     verify this to any given level of precision.
+
+
+# Further resources
+
+- [The official Python introduction
+  tutorial](https://docs.python.org/3/tutorial/introduction.html)
+- [A non programmers tutorial for
+  Python](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3):
+    - [Variables](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Hello,_World).
+    - [Debugging](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Debugging).
+    - [Boolean
+      variables](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Boolean_Expressions).
+    - [If
+      statements](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Decisions).
+    - [For](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/For_Loops)
+      and
+      [while](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Count_to_10)
+      loops.
+- [Learn X in Y minutes for Python3](https://learnxinyminutes.com/docs/python3/)
+- [A good youtube
+  playlist](https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
+- [Automating the boring stuff: a nice
+  book](https://automatetheboringstuff.com/)

@@ -140,7 +140,7 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-   Finally, a quick way to get a list of integers is the `range` command:
+   A quick way to get a list of integers is the `range` command:
 
    ```python
    >>> for k in range(10):
@@ -155,6 +155,25 @@ These questions aim to show you the basic building blocks of programming
    7
    8
    9
+
+   ```
+
+   Strings (see in in the previous lab sheet) and lists are similar in that they
+   are 'containers' for items. A lot of the manipulation that works with lists
+   also works with strings:
+
+   ```python
+   >>> firstname = "Vince"
+   >>> len(firstname)  # How many characters are in the variable
+   5
+   >>> firstname[0]  # We can point at individual characters, 0 is the first
+   'V'
+   >>> firstname[4]
+   'e'
+   >>> firstname[-1]  # We can use negative number to start counting from the end
+   'e'
+   >>> firstname[0:4]  # We can 'slice' strings
+   'Vinc'
 
    ```
 
