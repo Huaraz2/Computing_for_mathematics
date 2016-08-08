@@ -3,6 +3,9 @@ layout: post
 title:  "Lab Sheet 07: Symbolic Calculus"
 ---
 
+In this lab sheet we will see how to carry out basic aspects of Calculus
+(limits, differentiation and integration) with Python.
+
 **Building blocks**
 
 1. **Tickable** Calculating limits.
