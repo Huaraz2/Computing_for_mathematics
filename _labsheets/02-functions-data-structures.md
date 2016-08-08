@@ -3,11 +3,10 @@ layout: post
 title:  "Lab Sheet 02: Functions and Data Structures"
 ---
 
-General description.
+This lab sheet will move in to understanding how to write functions (very
+similar to mathematical functions) and lists (a way of holding data).
 
-# Basics
-
-These questions aim to show you the basic building blocks of programming
+**Building blocks**
 
 1. **Tickable** Writing simple functions.
 
@@ -32,6 +31,8 @@ These questions aim to show you the basic building blocks of programming
    It is good practice to break down code in to smaller functions that make
    it easier to read.
 
+   Experiment with changing what the `say_hi` function says.
+
 2. **Tickable** Functions with variables.
 
    It is more useful to include variables in our functions (in the exact same
@@ -51,9 +52,11 @@ These questions aim to show you the basic building blocks of programming
 
    ```python
    >>> def f(n):
-   ...     """This is called a doc string. We use it to describe what a function
-   ...     does. For example here we would write: This function returns f(n) as
-   ...     described above."""
+   ...     """
+   ...     This is text in between triple quoatation marks is a doc string.
+   ...     We use it to describe what a function does. For example here we would
+   ...     write: This function returns f(n) as described above.
+   ...     """
    ...     if n <= 5:
    ...        return 1
    ...     elif n % 2 == 0:  # Otherwise if (else if)
@@ -62,6 +65,7 @@ These questions aim to show you the basic building blocks of programming
    ...        return 3
    >>> f(11)
    3
+   ```
 
    We can also have functions with more than 1 variable:
 
@@ -89,6 +93,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   Experiment by creating your own function.
+
 3. **Tickable** Lists
 
    Another type of variable in Python (we have already seen numeric and
@@ -101,7 +107,6 @@ These questions aim to show you the basic building blocks of programming
    >>> favourite_numbers = [9, 12, 13, 7]  # Defining a list
    >>> favourite_numbers
    [9, 12, 13, 7]
-
    >>> type(favourite_numbers)
    <class 'list'>
 
@@ -177,7 +182,9 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
-4. **T** List comprehension
+   Experiment by creating lists and manipulating them.
+
+4. **Tickable** List comprehension
 
    We can use lists to easily repeat actions using `for` loops. So here is how
    to create a new list with the squares of the elements in favourite numbers:
@@ -213,6 +220,8 @@ These questions aim to show you the basic building blocks of programming
 
    ```
 
+   Experiment by modifying this code to create a different list.
+
 5. **Worked example**
 
    The Fibonacci numbers are defined by the following mathematical formula:
@@ -229,7 +238,15 @@ These questions aim to show you the basic building blocks of programming
 
    $$\sum_{i=0}^n f_i = f_{n + 2} - 1$$
 
-   Let us first write a Python function for the above:
+   As an example with \\(n=3\\) we have: \\(f_0=f_1=1, f_2=2, f_3=3\\) and
+   \\(f_5=8\\). We indeed have:
+
+   $$
+   \sum_{i=0}^nf_i = 1 + 1 + 2 + 3 = 7 = 8 - 1 = f_{3 + 2} - 1
+   $$
+
+   We are going to automate checking the formula using Python.
+   Let us first write a function for the Fibonacci sequence itself:
 
    ```python
    >>> def fibonacci(n):
@@ -323,3 +340,11 @@ These questions aim to show you the basic building blocks of programming
 10. A data type that we have not considered are dictionaries. These are a
     specific type of what is generally called a 'hash table'. Find information
     about dictionaries and experiment with them.
+
+# Further resources
+
+- [A non programmers tutorial for
+  Python:
+  Functions](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3/Defining_Functions):
+- [A nice tutorial from The Python
+  Course](http://www.python-course.eu/python3_functions.php)

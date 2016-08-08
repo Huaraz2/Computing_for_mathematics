@@ -57,7 +57,7 @@ Hello world
 
 ```
 
-**Basics**
+**Building blocks**
 
 These questions aim to show you the basic building blocks of programming
 
@@ -303,7 +303,6 @@ These questions aim to show you the basic building blocks of programming
 
     approaches \\(\sqrt{K}\\) as \\(n\\) increases. Write some code to
     verify this to any given level of precision.
-
 
 # Further resources
 
