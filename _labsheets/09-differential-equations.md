@@ -3,8 +3,13 @@ layout: post
 title:  "Lab Sheet 09: Differential Equations"
 ---
 
-1. **Tickable** Solving differential equations. We can use SymPy to solve
-   differential equations. For example:
+The final topic that we will consider is the study of differential equations.
+
+**Building blocks**
+
+1. **Tickable** Solving differential equations.
+
+   We can use SymPy to solve differential equations. For example:
 
    $$\frac{dy}{dx}=y$$
 
@@ -44,6 +49,9 @@ title:  "Lab Sheet 09: Differential Equations"
 
    ```
 
+   **Experiment with solving a modified version of the differential equation
+   considered here.**
+
 2. **Tickable** Higher order differential equations.
 
    We can also solve higher order differential equations. For example, the
@@ -58,6 +66,9 @@ title:  "Lab Sheet 09: Differential Equations"
    Eq(x(t), C1*exp(t*(-c - sqrt(c**2 - 4*k*m))/(2*m)) + C2*exp(t*(-c + sqrt(c**2 - 4*k*m))/(2*m)))
 
    ```
+
+   **Experiment with solving a modified version of the differential equation
+   considered here.**
 
 3. **Tickable** Systems of differential equations.
 
@@ -88,6 +99,9 @@ title:  "Lab Sheet 09: Differential Equations"
    y(t)&=-C_1e^{-t}-C_2e^{t} + 1\\
    \end{align}
    $$
+
+   **Experiment with solving a modified version of the differential equations
+   considered here.**
 
 4. **Worked example**: Solving and visualising the solution of a differential
    equation.

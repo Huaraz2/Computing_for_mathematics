@@ -237,12 +237,14 @@ In this lab sheet we will learn how to use Python to study linear algebra.
    \\(i\\), then the above corresponds to:
 
    $$
-   x_1 + x_2 = 1\\
-   x_2 + x_3 = 2\\
-   x_3 + x_4 = 3\\
-   \dots\\
-   x_{N-1} + x_{N} = N-1\\
-   x_{N} + x_{1} = N\\
+   \begin{align}
+   x_1 + x_2 &= 1\\
+   x_2 + x_3 &= 2\\
+   x_3 + x_4 &= 3\\
+   \dots&\\
+   x_{N-1} + x_{N} &= N-1\\
+   x_{N} + x_{1} &= N\\
+   \end{align}
    $$
 
    Let us build the matrix that corresponds to this linear system. First the
@@ -250,11 +252,10 @@ In this lab sheet we will learn how to use Python to study linear algebra.
 
    ```python
    >>> N = 5
-   >>> A = [[0 for col in range(N)] for row in range(N)]  # A 2d list of 0
+   >>> A = np.array([[0 for col in range(N)] for row in range(N)])  # A 2d list of 0
    >>> for deal in range(N):  # Putting the 1s in the right position
    ...     A[deal][deal] = 1
    ...     A[deal][(deal + 1) % N] = 1
-   >>> A = np.array(A)
    >>> A
    array([[1, 1, 0, 0, 0],
           [0, 1, 1, 0, 0],
